@@ -3,55 +3,71 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-rgb: 255, 255, 255;
-    --primary-color: 111, 29, 176;
-    --secondary-color: 255, 89, 94;
-    --accent-color: 255, 202, 58;
-  }
-  
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --primary-color: 111, 29, 176;
+  --secondary-color: 255, 89, 94;
+  --accent-color: 255, 202, 58;
+}
+
 @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-rgb: 17, 17, 17;
-    }
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 17, 17, 17;
+  }
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: rgb(var(--background-rgb));
-    font-family: var(--font-inter);
-  }
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: var(--font-inter);
+}
 
 h1, h2, h3, h4, h5, h6 {
-font-family: var(--font-poppins);
+  font-family: var(--font-poppins);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(var(--primary-color), 0.9), rgba(var(--secondary-color), 0.8));
+}
+
+.section-heading {
+  @apply text-3xl md:text-4xl font-bold mb-6 text-center relative;
+}
+
+.section-heading::after {
+  content: '';
+  @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-purple-600 rounded-full;
 }
 
 .event-card {
-    @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-2;
+  @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-2;
 }
 
 .gallery-item {
-    @apply relative overflow-hidden rounded-lg cursor-pointer;
+  @apply relative overflow-hidden rounded-lg cursor-pointer;
 }
 
 .gallery-item img {
-    @apply transition-transform duration-500 hover:scale-110;
+  @apply transition-transform duration-500 hover:scale-110;
 }
 
 .member-card {
-    @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl;
+  @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl;
 }
 
 .contact-input {
-    @apply w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white;
+  @apply w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white;
 }
 
 .btn-primary {
-    @apply px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50;
+  @apply px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-transparent border-2 border-purple-600 text-purple-600 dark:text-purple-400 font-medium rounded-md hover:bg-purple-600 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50;
 }
 
 .social-icon {
-    @apply w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 transition-colors duration-300;
+  @apply w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 transition-colors duration-300;
 }
-  
