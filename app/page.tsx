@@ -13,6 +13,7 @@ import SliderCSS from './components/layout/SliderCSS';
 export default function Home() {
   const [windowWidth, setWindowWidth] = useState(0);
   const [isClient, setIsClient] = useState(false);
+  const [activeFilter, setActiveFilter] = useState<string | null>(null);
 
   useEffect(() => {
     // Mark as client-side
@@ -36,8 +37,8 @@ export default function Home() {
       
       <HeroSection />
       <AboutSection />
-      <EventsSection />
-      <GallerySection />
+      < EventsSection />
+      <GallerySection activeFilter={activeFilter ?? ''} setActiveFilter={setActiveFilter} />
       <TeamSection windowWidth={windowWidth} isClient={isClient} />
       <JoinUsSection />
       <ContactSection />
