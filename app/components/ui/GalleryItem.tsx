@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { GalleryItem as GalleryItemType } from '../../data/gallery';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import { Event } from '../../data/events';
