@@ -1,12 +1,15 @@
-import Image from 'next/image';
+import { useState } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
+import AnimatedSection from '../layout/AnimatedSection';
+import GalleryItem from '../ui/GalleryItem';
+import { galleryItems } from '../../data/gallery';
 
 const GallerySection = () => {
   return (
-    <section>
+    <AnimatedSection id="gallery">
         
-    </section>
+    </AnimatedSection>
   );
 };
 

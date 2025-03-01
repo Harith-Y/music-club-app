@@ -1,12 +1,14 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
+import AnimatedSection from '../layout/AnimatedSection';
+import EventCard from '../ui/EventCard';
+import { events } from '../../data/events';
 
 const EventsSection = () => {
   return (
-    <section>
+    <AnimatedSection id="events">
         
-    </section>
+    </AnimatedSection>
   );
 };
 

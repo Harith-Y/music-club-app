@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+
+import AnimatedSection from '../layout/AnimatedSection';
 
 const AboutSection = () => {
   return (
-    <section>
+    <AnimatedSection id="about">
         
-    </section>
+    </AnimatedSection>
   );
 };
 
