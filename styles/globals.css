@@ -23,7 +23,35 @@ body {
     font-family: var(--font-inter);
   }
 
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--font-poppins);
+}
+
+.event-card {
+    @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-2;
+}
+
+.gallery-item {
+    @apply relative overflow-hidden rounded-lg cursor-pointer;
+}
+
+.gallery-item img {
+    @apply transition-transform duration-500 hover:scale-110;
+}
+
+.member-card {
+    @apply bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl;
+}
+
+.contact-input {
+    @apply w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white;
+}
+
+.btn-primary {
+    @apply px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50;
+}
+
 .social-icon {
     @apply w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 transition-colors duration-300;
-  }
+}
   
