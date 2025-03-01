@@ -1,17 +1,21 @@
-import { useInView } from 'react-intersection-observer';
+'use client';
+
+import { ReactNode } from 'react';
 import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 interface AnimatedSectionProps {
-  children: React.ReactNode;
+  children: ReactNode;
   id: string;
 }
 
+// Animation variants
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
 };
 
-const AnimatedSection = ({ children, id }: AnimatedSectionProps) => {
+export default function AnimatedSection({ children, id }: AnimatedSectionProps) {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -29,6 +33,4 @@ const AnimatedSection = ({ children, id }: AnimatedSectionProps) => {
       {children}
     </motion.section>
   );
-};
-
-export default AnimatedSection;
+}
