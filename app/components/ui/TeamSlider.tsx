@@ -11,9 +11,16 @@ interface TeamSliderProps {
   members: TeamMember[];
   windowWidth: number;
   autoplaySpeed?: number;
+  titleColor?: string;
 }
 
-const TeamSlider = ({ title, members, windowWidth, autoplaySpeed = 3000 }: TeamSliderProps) => {
+const TeamSlider = ({ 
+  title, 
+  members, 
+  windowWidth, 
+  autoplaySpeed = 3000,
+  titleColor = 'text-purple-600 dark:text-purple-400'
+}: TeamSliderProps) => {
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -44,7 +51,7 @@ const TeamSlider = ({ title, members, windowWidth, autoplaySpeed = 3000 }: TeamS
 
   return (
     <div className="mt-16">
-      <h3 className="text-2xl font-bold mb-6 text-center text-purple-600 dark:text-purple-400">{title}</h3>
+      <h3 className={`text-2xl font-bold mb-6 text-center ${titleColor}`}>{title}</h3>
       <div className="px-6 md:px-12">
         <Slider {...sliderSettings}>
           {members.map((member) => (

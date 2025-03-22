@@ -7,6 +7,7 @@ import { useInView } from 'react-intersection-observer';
 interface AnimatedSectionProps {
   children: ReactNode;
   id: string;
+  className?: string;
 }
 
 // Animation variants
@@ -15,7 +16,7 @@ const fadeIn = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
 };
 
-export default function AnimatedSection({ children, id }: AnimatedSectionProps) {
+export default function AnimatedSection({ children, id, className = '' }: AnimatedSectionProps) {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -28,7 +29,7 @@ export default function AnimatedSection({ children, id }: AnimatedSectionProps) 
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={fadeIn}
-      className="py-16 md:py-24"
+      className={`py-16 md:py-24 ${className}`}
     >
       {children}
     </motion.section>
