@@ -6,9 +6,42 @@ import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import EventCard from '../ui/EventCard';
-import { events } from '../../data/events';
+import { Event } from '../../data/events';
 
-const EventsSection = () => {
+interface EventsSectionProps {
+  events?: Event[];
+  title?: string;
+  description?: string;
+}
+
+const EventsSection = ({
+  events = [],
+  title = 'Upcoming Events',
+  description = 'Join us for exciting musical experiences and workshops',
+}: EventsSectionProps) => {
+  if (!events || events.length === 0) {
+    return (
+      <section className="py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400">
+              {title}
+            </h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              {description}
+            </p>
+            <p className="text-gray-500 mt-4">No events to display at the moment.</p>
+          </motion.div>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <AnimatedSection id="events" className="bg-gradient-to-b from-gray-800 to-gray-900 py-20">
       <div className="container mx-auto px-4 md:px-6">
@@ -20,10 +53,10 @@ const EventsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400">
-            Upcoming Events
+            {title}
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Join us for exciting musical performances, workshops, and jam sessions throughout the year
+            {description}
           </p>
         </motion.div>
 
