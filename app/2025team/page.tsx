@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import TeamSection from '../components/sections/TeamSection';
 import SliderCSS from '../components/layout/SliderCSS';
+import { coreMembers2025, coordinators2025, crew2025, mentors2025 } from '../data/team2025';
 
 export default function Team2025() {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -23,7 +24,14 @@ export default function Team2025() {
   return (
     <main className="overflow-hidden">
       {isClient && <SliderCSS />}
-      <TeamSection windowWidth={windowWidth} isClient={isClient} />
+      <TeamSection 
+        windowWidth={windowWidth} 
+        isClient={isClient}
+        coreMembers={coreMembers2025}
+        coordinators={coordinators2025}
+        crew={crew2025}
+        mentors={mentors2025}
+      />
     </main>
   );
 } 

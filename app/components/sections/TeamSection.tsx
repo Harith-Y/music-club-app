@@ -4,14 +4,25 @@ import { motion } from 'framer-motion';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import MemberCard from '../../components/ui/MemberCard';
 import TeamSlider from '../../components/ui/TeamSlider';
-import { coreMembers, coordinators, crew, mentors } from '../../data/team';
+import { TeamMember } from '../../data/team2024';
 
 interface TeamSectionProps {
   windowWidth: number;
   isClient: boolean;
+  coreMembers: TeamMember[];
+  coordinators: TeamMember[];
+  crew: TeamMember[];
+  mentors: TeamMember[];
 }
 
-const TeamSection = ({ windowWidth, isClient }: TeamSectionProps) => {
+const TeamSection = ({ 
+  windowWidth, 
+  isClient,
+  coreMembers,
+  coordinators,
+  crew,
+  mentors
+}: TeamSectionProps) => {
   return (
     <AnimatedSection id="team" className="bg-gradient-to-b from-gray-800 to-gray-900 py-20">
       <div className="container mx-auto px-4 md:px-6">
