@@ -5,7 +5,6 @@ import HeroSection from './components/sections/HeroSection';
 import AboutSection from './components/sections/AboutSection';
 import EventsSection from './components/sections/EventsSection';
 import GallerySection from './components/sections/GallerySection';
-import TeamSection from './components/sections/TeamSection';
 import JoinUsSection from './components/sections/JoinUsSection';
 import ContactSection from './components/sections/ContactSection';
 import SliderCSS from './components/layout/SliderCSS';
@@ -42,7 +41,6 @@ export default function Home() {
         activeFilter={activeGalleryFilter} 
         setActiveFilter={setActiveGalleryFilter} 
       />
-      <TeamSection windowWidth={windowWidth} isClient={isClient} />
       <JoinUsSection />
       <ContactSection />
     </main>
