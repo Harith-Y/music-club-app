@@ -12,18 +12,18 @@ export interface TeamMember {
 }
 
 export const coreMembers2024: TeamMember[] = [
-  { id: 1, name: 'Nivedh Biju', role: 'Pianist', image: '/cores/Nivedh.png', bio: 'Classical Pianist with many years of experience.' },
-  { id: 2, name: 'Kshitij', role: 'Guitarist', image: '/cores/Kshitij.jpg', bio: 'Guitarist and a Drummer with a passion for fusion.' },
-  { id: 3, name: 'Rikitha Ravi', role: 'Vocalist', image: '/cores/Rikitha.jpg', bio: 'Vocalist specializing in Carnatic music.' },
+  { id: 1, name: 'Nivedh Biju', role: 'Pianist', image: '/crew/Nivedh.png', bio: 'Classical Pianist with many years of experience.' },
+  { id: 2, name: 'Kshitij Singh', role: 'Guitarist', image: '/crew/Kshitij.jpg', bio: 'Guitarist and a Drummer with a passion for fusion.' },
+  { id: 3, name: 'Rikitha Ravi', role: 'Vocalist', image: '/crew/Rikitha.jpg', bio: 'Vocalist specializing in Carnatic music.' },
 ];
 
 export const coordinators2024: TeamMember[] = [
-  { id: 1, name: 'DJ Sharon', role: 'Coordinator', image: '/coordinators/DJ.jpg', bio: 'Pianist, Beatboxer, DAW Expert and Professional Music Producer.' },
-  { id: 2, name: 'Dikshant Ubale', role: 'Coordinator', image: '/coordinators/Dikshant.jpg', bio: 'Drummer and Event Management Expert.' },
-  { id: 3, name: 'Harith Y', role: 'Coordinator', image: '/coordinators/Harith.jpg', bio: 'Classical Pianist, Music Composer and Video Editor.' },
-  { id: 4, name: 'Meera K', role: 'Coordinator', image: '/coordinators/MeeraK.jpg', bio: 'Classical Vocalist and Social media enthusiast.' },
-  { id: 5, name: 'Meera R', role: 'Coordinator', image: '/coordinators/MeeraR.jpg', bio: 'Professional Vocalist and Graphic designer.' },
-  { id: 6, name: 'Shriya Y', role: 'Coordinator', image: '/coordinators/Shriya.jpg', bio: 'Vocalist, Songwriter and Experienced Guitarist.' },
+  { id: 1, name: 'DJ Sharon', role: 'Coordinator', image: '/crew/DJ.jpg', bio: 'Pianist, Beatboxer, DAW Expert and Professional Music Producer.' },
+  { id: 2, name: 'Dikshant Ubale', role: 'Coordinator', image: '/crew/Dikshant.jpg', bio: 'Drummer and Event Management Expert.' },
+  { id: 3, name: 'Harith Y', role: 'Coordinator', image: '/crew/Harith.jpg', bio: 'Classical Pianist, Music Composer and Video Editor.' },
+  { id: 4, name: 'Meera K', role: 'Coordinator', image: '/crew/MeeraK.jpg', bio: 'Classical Vocalist and Social media enthusiast.' },
+  { id: 5, name: 'Meera R', role: 'Coordinator', image: '/crew/MeeraR.jpg', bio: 'Professional Vocalist and Graphic designer.' },
+  { id: 6, name: 'Shriya Y', role: 'Coordinator', image: '/crew/Shriya.jpg', bio: 'Vocalist, Songwriter and Experienced Guitarist.' },
 ];
 
 export const crew2024: TeamMember[] = [
@@ -36,7 +36,7 @@ export const crew2024: TeamMember[] = [
 ];
 
 export const mentors2024: TeamMember[] = [
-  { id: 1, name: 'Hilton', role: 'Former Club Core', image: '/mentors/Hilton.png', bio: 'Vocalist trained in Carnatic Music.' },
-  { id: 2, name: 'Vishnu', role: 'Former Club Core', image: '/mentors/Vishnu.png', bio: 'Talented Pianist.' },
-  { id: 3, name: 'Anmol', role: 'Former Club Core', image: '/mentors/Anmol.png', bio: 'Professional Guitarist.' },
+  { id: 1, name: 'Hilton', role: 'Former Club Core', image: '/crew/Hilton.png', bio: 'Vocalist trained in Carnatic Music.' },
+  { id: 2, name: 'Vishnu', role: 'Former Club Core', image: '/crew/Vishnu.png', bio: 'Talented Pianist.' },
+  { id: 3, name: 'Anmol', role: 'Former Club Core', image: '/crew/Anmol.png', bio: 'Professional Guitarist.' },
 ]; 
