@@ -11,7 +11,7 @@ export default function EventsPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
-      <AnimatedSection className="py-20">
+      <AnimatedSection id="events-page" className="py-20">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
