@@ -31,6 +31,7 @@ export default function Team2025() {
         coordinators={coordinators2025}
         crew={crew2025}
         mentors={mentors2025}
+        mentorsAsCarousel={true}
       />
     </main>
   );

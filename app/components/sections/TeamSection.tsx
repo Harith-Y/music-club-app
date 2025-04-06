@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import MemberCard from '../../components/ui/MemberCard';
 import TeamSlider from '../../components/ui/TeamSlider';
+import VerticalTeamSlider from '../../components/ui/VerticalTeamSlider';
 import { TeamMember } from '../../data/team2024';
 
 interface TeamSectionProps {
@@ -13,6 +14,7 @@ interface TeamSectionProps {
   coordinators: TeamMember[];
   crew: TeamMember[];
   mentors: TeamMember[];
+  mentorsAsCarousel?: boolean;
 }
 
 const TeamSection = ({ 
@@ -21,7 +23,8 @@ const TeamSection = ({
   coreMembers,
   coordinators,
   crew,
-  mentors
+  mentors,
+  mentorsAsCarousel = false
 }: TeamSectionProps) => {
   return (
     <AnimatedSection id="team" className="bg-gradient-to-b from-gray-800 to-gray-900 py-20">
@@ -104,27 +107,43 @@ const TeamSection = ({
         )}
         
         {/* Mentors - Last Row */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-        >
-          <h3 className="text-2xl font-bold mb-8 text-center text-primary-400">Mentors</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {mentors.map((member, index) => (
-              <motion.div
-                key={member.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                <MemberCard member={member} />
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+        {isClient && mentorsAsCarousel ? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="mb-16"
+          >
+            <VerticalTeamSlider 
+              title="Mentors" 
+              members={mentors}
+              titleColor="text-primary-400"
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
+            <h3 className="text-2xl font-bold mb-8 text-center text-primary-400">Mentors</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {mentors.map((member, index) => (
+                <motion.div
+                  key={member.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <MemberCard member={member} />
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        )}
 
         {/* Decorative elements */}
         <div className="absolute top-20 left-10 w-40 h-40 bg-primary-500/20 rounded-full blur-3xl animate-float" />
