@@ -20,7 +20,7 @@ export interface TeamMember {
   export const coordinators: TeamMember[] = [
     { id: 1, name: 'DJ Sharon', role: 'Coordinator', image: '/coordinators/DJ.jpg', bio: 'Pianist, Beatboxer, DAW Expert and Professional Music Producer.' },
     { id: 2, name: 'Dikshant Ubale', role: 'Coordinator', image: '/coordinators/Dikshant.jpg', bio: 'Drummer and Event Management Expert.' },
-    { id: 3, name: 'Harith Y', role: 'Coordinator', image: '/coordinators/Harith.jpg', bio: 'Classical Pianist with 8 years of experience, Music Composer and Video Editor.' },
+    { id: 3, name: 'Harith Y', role: 'Coordinator', image: '/coordinators/Harith.jpg', bio: 'Classical Pianist, Music Composer and Video Editor.' },
     { id: 4, name: 'Meera K', role: 'Coordinator', image: '/coordinators/MeeraK.jpg', bio: 'Classical Vocalist and Social media enthusiast.' },
     { id: 5, name: 'Meera R', role: 'Coordinator', image: '/coordinators/MeeraR.jpg', bio: 'Professional Vocalist and Graphic designer.' },
     { id: 6, name: 'Shriya Y', role: 'Coordinator', image: '/coordinators/Shriya.jpg', bio: 'Vocalist, Songwriter and Experienced Guitarist.' },
