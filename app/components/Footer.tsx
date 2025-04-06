@@ -1,7 +1,13 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 
 const Footer = () => {
+  const pathname = usePathname();
+  const isTeamPage = pathname === '/2024team' || pathname === '/2025team';
+
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-6">
       <div className="container mx-auto px-4 md:px-6">
@@ -38,27 +44,36 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link 
+                  href={isTeamPage ? "/#about" : "#about"} 
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#events" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link href="/events" className="text-gray-300 hover:text-white transition-colors duration-300">
                   Events
                 </Link>
               </li>
               <li>
-                <Link href="#gallery" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link 
+                  href={isTeamPage ? "/#gallery" : "#gallery"} 
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="#team" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link href="/2025team" className="text-gray-300 hover:text-white transition-colors duration-300">
                   Our Team
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link 
+                  href={isTeamPage ? "/#contact" : "#contact"} 
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
                   Contact
                 </Link>
               </li>
@@ -79,12 +94,6 @@ const Footer = () => {
                 <FaEnvelope className="text-purple-400 flex-shrink-0" />
                 <a href="mailto:musicclubiiitdm@gmail.com" className="text-gray-300 hover:text-white transition-colors duration-300">
                   musicclubiiitdm@gmail.com
-                </a>
-              </li>
-              <li className="flex items-center space-x-3">
-                <FaPhone className="text-purple-400 flex-shrink-0" />
-                <a href="tel:+919345013916" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  +91 93450 13916
                 </a>
               </li>
             </ul>

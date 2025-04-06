@@ -21,7 +21,7 @@ const JoinUsSection = () => {
             <Link href="#contact" className="px-8 py-3 bg-white text-purple-600 font-medium rounded-md hover:bg-gray-100 transition-colors duration-300">
               Join Now
             </Link>
-            <Link href="#events" className="px-8 py-3 bg-transparent border-2 border-white text-white font-medium rounded-md hover:bg-white hover:text-purple-600 transition-colors duration-300">
+            <Link href="events" className="px-8 py-3 bg-transparent border-2 border-white text-white font-medium rounded-md hover:bg-white hover:text-purple-600 transition-colors duration-300">
               Explore Events
             </Link>
           </div>
