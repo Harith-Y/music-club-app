@@ -18,7 +18,7 @@ export const coreMembers2024: TeamMember[] = [
 ];
 
 export const coordinators2024: TeamMember[] = [
-  { id: 1, name: 'DJ Sharon', role: 'Coordinator', image: '/crew/DJ.jpg', bio: 'Pianist, Beatboxer, DAW Expert and Professional Music Producer.' },
+  { id: 1, name: 'DJ Sharon', role: 'Coordinator', image: '/crew/DJ.jpg', bio: 'Beatboxer, Mixer and Professional Music Producer.' },
   { id: 2, name: 'Dikshant Ubale', role: 'Coordinator', image: '/crew/Dikshant.jpg', bio: 'Drummer and Event Management Expert.' },
   { id: 3, name: 'Harith Y', role: 'Coordinator', image: '/crew/Harith.jpg', bio: 'Classical Pianist, Music Composer and Video Editor.' },
   { id: 4, name: 'Meera K', role: 'Coordinator', image: '/crew/MeeraK.jpg', bio: 'Classical Vocalist and Social media enthusiast.' },
