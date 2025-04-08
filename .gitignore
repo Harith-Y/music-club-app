@@ -35,6 +35,5 @@ yarn-error.log*
 next-env.d.ts
 
 # Firebase
-functions/lib/
-functions/node_modules/
+/functions/
 *.runtimeconfig.json
