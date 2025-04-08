@@ -3,8 +3,59 @@
 import { FaMapMarkerAlt, FaEnvelope, FaUsers, FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import SocialIcon from '../../components/ui/SocialIcon';
+import { useState } from 'react';
 
 const ContactSection = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+    setErrorMessage('');
+
+    try {
+      const response = await fetch('https://us-central1-music-club-app-802a6.cloudfunctions.net/submitContactForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
+      setStatus('success');
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      setStatus('error');
+      setErrorMessage(error instanceof Error ? error.message : 'An error occurred');
+    }
+  };
+
   return (
     <AnimatedSection id="contact">
       <div className="container mx-auto px-4 md:px-6">
@@ -48,35 +99,87 @@ const ContactSection = () => {
           </div>
           
           <div>
-            <form className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+            <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
+              {status === 'success' && (
+                <div className="mb-4 p-4 bg-green-100 text-green-700 rounded">
+                  Message sent successfully! We'll get back to you soon.
+                </div>
+              )}
+              {status === 'error' && (
+                <div className="mb-4 p-4 bg-red-100 text-red-700 rounded">
+                  {errorMessage}
+                </div>
+              )}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Your Name
                   </label>
-                  <input type="text" id="name" className="contact-input" placeholder="John Doe" />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="contact-input"
+                    placeholder="John Doe"
+                    required
+                  />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Your Email
                   </label>
-                  <input type="email" id="email" className="contact-input" placeholder="john@example.com" />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="contact-input"
+                    placeholder="john@example.com"
+                    required
+                  />
                 </div>
               </div>
               <div className="mb-6">
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                   Subject
                 </label>
-                <input type="text" id="subject" className="contact-input" placeholder="How can we help you?" />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
+                  className="contact-input"
+                  placeholder="How can we help you?"
+                  required
+                />
               </div>
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                   Message
                 </label>
-                <textarea id="message" rows={4} className="contact-input" placeholder="Your message here..."></textarea>
+                <textarea
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  rows={4}
+                  className="contact-input"
+                  placeholder="Your message here..."
+                  required
+                ></textarea>
               </div>
-              <button type="submit" className="btn-primary w-full">Send Message</button>
+              <button
+                type="submit"
+                className="btn-primary w-full"
+                disabled={status === 'loading'}
+              >
+                {status === 'loading' ? 'Sending...' : 'Send Message'}
+              </button>
             </form>
           </div>
         </div>
