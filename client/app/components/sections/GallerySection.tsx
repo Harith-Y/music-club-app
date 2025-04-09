@@ -106,7 +106,7 @@ const GallerySection = ({
           className="text-center mt-12"
         >
           <Link 
-            href="#" 
+            href="/gallery" 
             className="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-semibold hover:from-primary-700 hover:to-secondary-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             View Full Gallery
