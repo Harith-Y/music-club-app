@@ -29,7 +29,7 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: pathname === '/' ? '#about' : '/#about' },
     { name: 'Events', href: pathname === '/' ? 'events' : '/events' },
-    { name: 'Gallery', href: pathname === '/' ? '#gallery' : '/#gallery' },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: pathname === '/' ? '#contact' : '/#contact' },
   ];
 

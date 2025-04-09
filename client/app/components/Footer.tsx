@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href={isTeamPage ? "/#gallery" : "#gallery"} 
+                  href="/gallery" 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Gallery
