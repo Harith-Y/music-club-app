@@ -25,7 +25,7 @@ export const mentors2025: TeamMember[] = [
   { id: 1, name: 'Rikitha Ravi', role: 'Former Club Core', image: '/crew/Rikitha.jpg', bio: 'Vocalist trained in Carnatic Music.' },
   { id: 2, name: 'Nivedh Biju', role: 'Former Club Core', image: '/crew/Nivedh.png', bio: 'Talented Pianist.' },
   { id: 3, name: 'Kshitij Singh', role: 'Former Club Core', image: '/crew/Kshitij.jpg', bio: 'Professional Guitarist.' },
-  { id: 4, name: 'David J Sharon', role: 'Former Club Coordinator', image: '/crew/DJ.jpg', bio: 'Brain of the Club' },
+  { id: 4, name: 'David J Sharon', role: 'Former Club Coordinator', image: '/crew/DJ.jpg', bio: 'Beatboxer, Mixer and Professional Music Producer.' },
   { id: 5, name: 'Meera R', role: 'Former Club Coordinator', image: '/crew/MeeraR.jpg', bio: 'Graphic Designer and a talented vocalist.' },
   { id: 6, name: 'Meera K', role: 'Former Club Coordinator', image: '/crew/MeeraK.jpg', bio: 'Harmonizing expert and an amazing vocalist.' },
 ]; 
