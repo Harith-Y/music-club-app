@@ -27,7 +27,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: '/events/OpenMicMarch11.jpg',
       registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9"
     },
     {
@@ -37,7 +37,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "Learn the basics of music production and digital audio workstations.",
-      image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: '/events/OpenMicMarch5.jpg',
       registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37"
     },
     {
@@ -47,7 +47,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members along with stories, poems, shayaris, raps and more.",
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: '/events/OpenMicFebruary2.jpg',
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7"
     },
     {
@@ -57,7 +57,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: '/events/OpenMicNovember9.jpg',
       registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA"
     },
 

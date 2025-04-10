@@ -18,7 +18,7 @@ const EventCard = ({ event }: EventCardProps) => {
       transition={{ duration: 0.5 }}
       className="bg-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
     >
-      <div className="aspect-video relative">
+      <div className="aspect-square relative">
         <Image
           src={event.image}
           alt={event.title}
