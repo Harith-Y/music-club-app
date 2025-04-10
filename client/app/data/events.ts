@@ -17,8 +17,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: '/events/UnofficialOpenMicApril5.jpg',
-      registrationLink: "#"
+      image: '/events/UnofficialOpenMicApril5.jpg'
     },
     {
       id: 5,
