@@ -11,7 +11,17 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 1,
+      id: 6,
+      title: "Unofficial Open Mic Night",
+      date: "April 5, 2025",
+      time: "8:00 PM",
+      location: "Music Room",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/UnofficialOpenMicApril5.jpg',
+      registrationLink: "#"
+    },
+    {
+      id: 5,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -21,7 +31,7 @@ export interface Event {
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8"
     },
     {
-      id: 2,
+      id: 4,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -41,7 +51,7 @@ export interface Event {
       registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37"
     },
     {
-      id: 4,
+      id: 2,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -51,7 +61,7 @@ export interface Event {
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7"
     },
     {
-      id: 5,
+      id: 1,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -71,7 +81,7 @@ export interface Event {
       time: "6:00 PM",
       location: "H05",
       description: "Our annual winter concert featuring performances from all sections.",
-      image: "/events/winter-concert.jpg"
+      image: "https://images.unsplash.com/photo-1620642477222-7aef692dd0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBjb25jZXJ0fGVufDB8MnwwfHx8MA%3D%3D"
     },
     {
       id: 5,
@@ -80,7 +90,7 @@ export interface Event {
       time: "7:00 PM",
       location: "Cafeteria",
       description: "An evening of smooth jazz and improvisation.",
-      image: "/events/jazz-night.jpg"
+      image: "https://images.unsplash.com/photo-1621841019942-2a8c701ebc30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGphenolMjBuaWdodHxlbnwwfDJ8MHx8fDA%3D"
     },
     {
       id: 6,
@@ -89,6 +99,6 @@ export interface Event {
       time: "4:00 PM",
       location: "Music Room",
       description: "Learn the fundamentals of music theory and composition.",
-      image: "/events/music-theory.jpg"
+      image: "https://images.unsplash.com/photo-1564019998-ac86b13fdadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjB3b3Jrc2hvcHN8ZW58MHwyfDB8fHww"
     }
   ];
