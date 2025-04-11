@@ -11,7 +11,7 @@ export default function BandCard({ band }: BandCardProps) {
       <div className="flex flex-col md:flex-row gap-8">
         {/* Left side - Band members grid */}
         <div className="md:w-1/2">
-          <div className="grid grid-cols-3 gap-2 aspect-[4/3]">
+          <div className="grid grid-cols-3 gap-2 aspect-square">
             {band.members.map((member) => (
               <div key={member.id} className="relative w-full h-full">
                 <Image
