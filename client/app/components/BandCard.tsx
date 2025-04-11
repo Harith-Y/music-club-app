@@ -13,14 +13,21 @@ export default function BandCard({ band }: BandCardProps) {
         <div className="md:w-1/2">
           <div className="grid grid-cols-3 gap-2">
             {band.members.map((member) => (
-              <div key={member.id} className="relative aspect-square w-full">
+              <div key={member.id} className="relative aspect-square w-full group overflow-hidden">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover rounded-sm"
+                  className="object-cover rounded-sm transition-transform duration-300 group-hover:scale-110"
                   sizes="(max-width: 768px) 33vw, 16vw"
                 />
+                {/* Overlay with member info */}
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-2 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                    <p className="font-medium text-sm truncate w-full">{member.name}</p>
+                    <p className="text-xs text-gray-300 truncate w-full">{member.instrument}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

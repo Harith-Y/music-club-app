@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube, FaTree, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 
 const Footer = () => {
   const pathname = usePathname();
@@ -28,8 +28,8 @@ const Footer = () => {
               <a href="https://www.youtube.com/@iiitdmmusicclub2549" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaYoutube />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaTwitter />
+              <a href="https://linktr.ee/MusicClub_IIITDM?utm_source=linktree_profile_share&ltsid=d461bcd1-4e64-411f-80cc-5675753c94b5" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaTree />
               </a>
             </div>
           </div>
