@@ -45,7 +45,7 @@ export const bands: Band[] = [
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Drums", image: "/crew/Abhishek.jpg" },
-      { id: 2, name: "David J Sharon", instrument: "Mixer", image: "/crew/David.jpg" },
+      { id: 2, name: "David J Sharon", instrument: "Mixer", image: "/crew/David.png" },
       { id: 3, name: "Gladwin John", instrument: "Lead Vocals", image: "/crew/John.jpg" },
       { id: 4, name: "Harith Y", instrument: "Lead Keyboard", image: "/crew/Harith2.jpg" },
       { id: 5, name: "Meera R", instrument: "Lead Vocals", image: "/crew/MeeraR2.jpg" },
