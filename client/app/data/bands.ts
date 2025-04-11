@@ -44,7 +44,7 @@ export const bands: Band[] = [
     name: "Soul Rock",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
     members: [
-      { id: 1, name: "Abhishek", instrument: "Drums", image: "/crew/Abhishek.jpg" },
+      { id: 1, name: "Abhishek", instrument: "Drums", image: "/crew/AbhishekKumar.jpg" },
       { id: 2, name: "David J Sharon", instrument: "Mixer", image: "/crew/David.png" },
       { id: 3, name: "Gladwin John", instrument: "Lead Vocals", image: "/crew/John.jpg" },
       { id: 4, name: "Harith Y", instrument: "Lead Keyboard", image: "/crew/Harith2.jpg" },
@@ -53,6 +53,19 @@ export const bands: Band[] = [
       { id: 7, name: "Priyank Jain", instrument: "Rhythm Guitar", image: "/crew/Priyank.jpg" },
       { id: 8, name: "Shriya Y", instrument: "Harmonizing Vocals", image: "/crew/Shriya2.jpg" },
       { id: 9, name: "Tarun", instrument: "Rhythm Keyboard", image: "/crew/Tarun2.jpg" }
+    ]
+  },
+  {
+    id: 4,
+    name: "Dream Pie",
+    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    members: [
+      { id: 1, name: "Adi Khera", instrument: "Rhythm Guitar", image: "/crew/Adi.jpg" },
+      { id: 2, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
+      { id: 3, name: "Dikshant", instrument: "Drums", image: "/crew/Dikshant.jpg" },
+      { id: 4, name: "Omkar Anand", instrument: "Lead Guitar", image: "/crew/Omkar.jpg" },
+      { id: 5, name: "Rohan Joshi", instrument: "Keyboard/Lead Vocals", image: "/crew/Rohan.jpg" },
+      { id: 6, name: "Shirish Giroti", instrument: "Lead Vocals", image: "/crew/Shirish.jpg" },
     ]
   }
 ]; 
