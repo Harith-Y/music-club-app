@@ -70,7 +70,7 @@ const ContactSection = () => {
             <div className="space-y-4 mb-8">
               {[
                 { icon: <FaMapMarkerAlt size={20} />, title: 'Address', content: 'Music Room (D1 PEMS Block), IIITDM Kancheepuram, Vandalur-Kelambakkam Road, Chennai - 600127, Tamil Nadu, India' },
-                { icon: <FaEnvelope size={20} />, title: 'Email', content: <a href="mailto:musicclub@iiitdm.ac.in" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">musicclub.iiitdm@gmail.com</a> },
+                { icon: <FaEnvelope size={20} />, title: 'Email', content: <a href="mailto:musicclub.iiitdm@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">musicclub.iiitdm@gmail.com</a> },
                 { icon: <FaUsers size={20} />, title: 'Club Hours', content: 'Monday - Friday: 6:00 PM - 11:00 PM\nSaturday & Sunday: 9:00 AM - 11:00 PM' },
               ].map((item, index) => (
                 <div key={index} className="flex items-start space-x-4">
