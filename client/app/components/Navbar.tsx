@@ -69,6 +69,12 @@ const Navbar = () => {
                 className="absolute top-full left-0 mt-2 w-40 bg-gray-800 rounded-lg shadow-xl py-2"
               >
                 <Link
+                  href="/bands"
+                  className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
+                >
+                  Internal Bands
+                </Link>
+                <Link
                   href="/2024team"
                   className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
                 >
@@ -118,6 +124,12 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="py-2">
+              <Link
+                href="/bands"
+                className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+              >
+                Internal Bands
+              </Link>
               <Link
                 href="/2024team"
                 className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
