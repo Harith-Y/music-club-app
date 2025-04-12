@@ -53,7 +53,7 @@ export const submitContactForm = functions.https.onRequest(async (req, res) => {
 
     const mailOptions = {
       from: `"Music Club Contact Form" <${functions.config().gmail.user}>`,
-      to: 'musicclub.iiitdm@gmail.com', // Your club's email
+      to: functions.config().contact.destination_email || 'musicclub.iiitdm@gmail.com', // Your club's email
       subject: `Contact Form: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>

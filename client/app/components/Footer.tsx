@@ -22,13 +22,13 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaFacebook />
               </a>
-              <a href="https://www.instagram.com/musicclub.iiitdm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <a href="https://www.instagram.com/musicclub.iiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaInstagram />
               </a>
               <a href="https://www.youtube.com/@iiitdmmusicclub2549" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaYoutube />
               </a>
-              <a href="https://linktr.ee/MusicClub_IIITDM?utm_source=linktree_profile_share&ltsid=d461bcd1-4e64-411f-80cc-5675753c94b5" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <a href="https://linktr.ee/MusicClub_IIITDM" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaTree />
               </a>
             </div>
