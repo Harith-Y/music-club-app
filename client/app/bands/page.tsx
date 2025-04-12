@@ -1,3 +1,5 @@
+'use client';
+
 import { bands } from '../data/bands';
 import BandCard from '../components/BandCard';
 
