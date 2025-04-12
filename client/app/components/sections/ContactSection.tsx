@@ -1,6 +1,6 @@
 'use client';
 
-import { FaMapMarkerAlt, FaEnvelope, FaUsers, FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaUsers, FaFacebook, FaInstagram, FaYoutube, FaTree } from 'react-icons/fa';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import SocialIcon from '../../components/ui/SocialIcon';
 import { useState } from 'react';
@@ -71,7 +71,7 @@ const ContactSection = () => {
               {[
                 { icon: <FaMapMarkerAlt size={20} />, title: 'Address', content: 'Music Room (D1 PEMS Block), IIITDM Kancheepuram, Vandalur-Kelambakkam Road, Chennai - 600127, Tamil Nadu, India' },
                 { icon: <FaEnvelope size={20} />, title: 'Email', content: <a href="mailto:musicclub.iiitdm@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">musicclub.iiitdm@gmail.com</a> },
-                { icon: <FaUsers size={20} />, title: 'Club Hours', content: 'Monday - Friday: 6:00 PM - 11:00 PM\nSaturday & Sunday: 9:00 AM - 11:00 PM' },
+                { icon: <FaUsers size={20} />, title: 'Club Hours', content: <span>Monday - Friday: 6:00 PM - 11:00 PM<br />Saturday & Sunday: 9:00 AM - 11:00 PM</span> },
               ].map((item, index) => (
                 <div key={index} className="flex items-start space-x-4">
                   <div className="bg-purple-100 dark:bg-purple-900 p-3 rounded-full text-purple-600 dark:text-purple-300">
@@ -91,7 +91,7 @@ const ContactSection = () => {
                 { href: 'https://facebook.com', icon: <FaFacebook /> },
                 { href: 'https://www.instagram.com/musicclub.iiitdm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', icon: <FaInstagram /> },
                 { href: 'https://www.youtube.com/@iiitdmmusicclub2549', icon: <FaYoutube /> },
-                { href: 'https://twitter.com', icon: <FaTwitter /> },
+                { href: 'https://linktr.ee/MusicClub_IIITDM', icon: <FaTree /> },
               ].map((social, index) => (
                 <SocialIcon key={index} href={social.href}>{social.icon}</SocialIcon>
               ))}
