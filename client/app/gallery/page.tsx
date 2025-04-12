@@ -11,7 +11,10 @@ export default function GalleryPage() {
       <div className="pt-20">
         <GallerySection 
           activeFilter={activeFilter} 
-          setActiveFilter={setActiveFilter} 
+          setActiveFilter={setActiveFilter}
+          showViewFullButton={false}
+          showAllImages={true}
+          showFilters={true}
         />
       </div>
     </main>
