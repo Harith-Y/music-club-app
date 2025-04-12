@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FaMusic, FaBars, FaTimes } from 'react-icons/fa';
+import Image from 'next/image';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
@@ -38,7 +39,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center space-x-2">
-            <FaMusic className="text-primary-400 text-2xl" />
+            <Image
+              src="/logo/logo.png"
+              alt="Music Club Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10"
+            />
             <span className="text-xl font-bold text-white">Music Club</span>
           </Link>
 
