@@ -1,6 +1,6 @@
 'use client';
 
-import { FaMapMarkerAlt, FaEnvelope, FaUsers, FaFacebook, FaInstagram, FaYoutube, FaTree } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaUsers, FaInstagram, FaYoutube, FaTree } from 'react-icons/fa';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import SocialIcon from '../../components/ui/SocialIcon';
 import { useState } from 'react';
@@ -88,7 +88,6 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               {[
-                { href: 'https://facebook.com', icon: <FaFacebook /> },
                 { href: 'https://www.instagram.com/musicclub.iiitdm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', icon: <FaInstagram /> },
                 { href: 'https://www.youtube.com/@iiitdmmusicclub2549', icon: <FaYoutube /> },
                 { href: 'https://linktr.ee/MusicClub_IIITDM', icon: <FaTree /> },

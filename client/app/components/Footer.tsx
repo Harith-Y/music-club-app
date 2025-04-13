@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaFacebook, FaInstagram, FaYoutube, FaTree, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaTree, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 
 const Footer = () => {
   const pathname = usePathname();
@@ -19,9 +19,6 @@ const Footer = () => {
               The official Music Club of IIITDM Kancheepuram, dedicated to nurturing musical talent and creating memorable experiences through music.
             </p>
             <div className="flex space-x-3">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaFacebook />
-              </a>
               <a href="https://www.instagram.com/musicclub.iiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaInstagram />
               </a>
