@@ -11,7 +11,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 6,
+      id: 9,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -20,7 +20,7 @@ export interface Event {
       image: '/events/UnofficialOpenMicApril5.jpg'
     },
     {
-      id: 5,
+      id: 8,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -30,7 +30,17 @@ export interface Event {
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8"
     },
     {
-      id: 4,
+      id: 7,
+      title: "Pixsonic X Voxels",
+      date: "March 30, 2025",
+      time: "1:00 PM",
+      location: "H05",
+      description: "A showcase of experimental sound design and electronic music production.",
+      image: "/events/PixsonicXVoxels.png",
+      registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7"
+    },
+    {
+      id: 6,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -40,7 +50,7 @@ export interface Event {
       registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9"
     },
     {
-      id: 3,
+      id: 5,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -50,7 +60,7 @@ export interface Event {
       registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37"
     },
     {
-      id: 2,
+      id: 4,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -60,7 +70,7 @@ export interface Event {
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7"
     },
     {
-      id: 1,
+      id: 3,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -68,6 +78,26 @@ export interface Event {
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicNovember9.jpg',
       registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA"
+    },
+    {
+      id: 2,
+      title: "Spooky Symphonies",
+      date: "October 19, 2025",
+      time: "6:00 PM",
+      location: "Open Air Theatre",
+      description: "A showcase of experimental sound design and electronic music production.",
+      image: "/events/SpookySymphonies.jpg",
+      registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9"
+    },
+    {
+      id: 1,
+      title: "Open Mic Night",
+      date: "August 31, 2024",
+      time: "8:00 PM",
+      location: "Music Room",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/OpenMicAugust31.jpg',
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg"
     },
 
   ];
