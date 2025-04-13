@@ -210,7 +210,7 @@ This project is licensed - see the [LICENSE.md](LICENSE.md) file for details.
 
 For any queries or support, please reach out to:
 - Email: [musicclub.iiitdm@gmail.com](mailto:musicclub.iiitdm@gmail.com)
-- Website: [https://music-club-app.vercel.app](https://music-club-app.vercel.app)
+- Website: [https://music-club-iiitdm.vercel.app](https://music-club-iiitdm.vercel.app)
 
 ---
 
