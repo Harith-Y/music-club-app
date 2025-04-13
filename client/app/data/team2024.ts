@@ -36,7 +36,7 @@ export const crew2024: TeamMember[] = [
 ];
 
 export const mentors2024: TeamMember[] = [
-  { id: 1, name: 'Hilton', role: 'Former Club Core', image: '/crew/Hilton.png', bio: 'Vocalist trained in Carnatic Music.' },
+  { id: 1, name: 'Hilton', role: 'Former Club Core', image: '/crew/Hilton.jpg', bio: 'Vocalist trained in Carnatic Music.' },
   { id: 2, name: 'Vishnu', role: 'Former Club Core', image: '/crew/Vishnu.jpg', bio: 'Talented Pianist.' },
   { id: 3, name: 'Anmol', role: 'Former Club Core', image: '/crew/Anmol.jpg', bio: 'Professional Guitarist.' },
 ]; 
