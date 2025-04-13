@@ -70,7 +70,7 @@ export const bands: Band[] = [
   },
   {
     id: 5,
-    name: "Abhishek's Band",
+    name: "Paradise",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
