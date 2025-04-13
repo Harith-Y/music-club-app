@@ -44,7 +44,7 @@ const Navbar = () => {
               alt="Cultural Logo"
               width={40}
               height={40}
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
             <Image
               src="/logo/MusicClub.png"
