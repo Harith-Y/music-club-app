@@ -1,8 +1,14 @@
-# Music Club - IIITDM Kancheepuram
+# 🎵 Music Club - IIITDM Kancheepuram
 
-This is the official website for the Music Club of IIITDM Kancheepuram, built with [Next.js](https://nextjs.org/) and modern web technologies.
+[![Next.js](https://img.shields.io/badge/Next.js-13+-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-11.6-orange?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-## Features
+The official website for the Music Club of IIITDM Kancheepuram, built with modern web technologies to showcase club activities, events, and member information.
+
+## 🚀 Features
 
 ### Core Features
 - 🎵 **Interactive Homepage** with animated sections and modern UI
@@ -45,74 +51,167 @@ This is the official website for the Music Club of IIITDM Kancheepuram, built wi
    - Team member profiles
    - Role-based organization
 
-### Technical Features
-- 🔥 **Next.js 13+** with App Router
-- 🎨 **Tailwind CSS** for styling
-- ✨ **Framer Motion** for animations
-- 📧 **Contact Form** with Firebase Functions backend
-- 🔒 **Form Validation** and error handling
-- 🌐 **SEO Optimization** with Next.js metadata
-- 🚀 **Performance Optimized** with image optimization
-- 🔄 **Real-time Updates** for events and content
+## 🛠️ Technical Stack
 
-## Getting Started
+### Frontend
+- **Framework**: Next.js 13+ with App Router
+- **UI Library**: React 18
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Carousel**: React Slick
+- **Type Safety**: TypeScript
 
-First, run the development server:
+### Backend
+- **Serverless Functions**: Firebase Functions
+- **Authentication**: Firebase Admin SDK
+- **Email Service**: Nodemailer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 music-club-app/
-├── client/                 # Next.js frontend
-│   ├── app/               # App router pages
-│   ├── components/        # React components
-│   ├── styles/           # Global styles
-│   └── public/           # Static assets
-├── server/               # Firebase Functions backend
-│   └── src/             # Server-side code
-└── README.md            # Project documentation
+├── client/                      # Next.js frontend application
+│   ├── app/                    # App router pages and layouts
+│   │   ├── (routes)/          # Route groups
+│   │   │   ├── about/        # About page
+│   │   │   ├── contact/      # Contact page
+│   │   │   ├── events/       # Events page
+│   │   │   ├── gallery/      # Gallery page
+│   │   │   └── team/         # Team pages
+│   │   ├── layout.tsx        # Root layout
+│   │   └── page.tsx          # Home page
+│   ├── components/           # Reusable React components
+│   │   ├── common/          # Shared components
+│   │   ├── layout/          # Layout components
+│   │   └── sections/        # Page sections
+│   ├── styles/              # Global styles and Tailwind config
+│   ├── public/              # Static assets
+│   │   ├── images/         # Image assets
+│   │   └── icons/          # Icon assets
+│   └── types/              # TypeScript type definitions
+│
+├── server/                  # Firebase Functions backend
+│   ├── src/                # Source code
+│   │   ├── functions/      # Cloud functions
+│   │   │   ├── contact/    # Contact form handler
+│   │   │   └── events/     # Events management
+│   │   └── utils/          # Utility functions
+│   └── lib/                # Compiled JavaScript
+│
+├── .env.local              # Client environment variables
+├── .env                    # Server environment variables
+├── firebase.json           # Firebase configuration
+├── next.config.js          # Next.js configuration
+├── package.json            # Root package.json
+└── README.md               # Project documentation
 ```
 
-## Dependencies
+## 📦 Installation
 
-### Frontend
-- Next.js 13+
-- React 18
-- Tailwind CSS
-- Framer Motion
-- React Icons
-- React Slick
+1. Clone the repository:
+```bash
+git clone https://github.com/Harith-Y/music-club-app.git
+cd music-club-app
+```
 
-### Backend
-- Firebase Functions
-- Firebase Admin SDK
-- Nodemailer
+2. Install dependencies for both client and server:
+```bash
+# Install client dependencies
+cd client
+npm install
 
-## Learn More
+# Install server dependencies
+cd ../server
+npm install
+```
 
-To learn more about the technologies used in this project:
+3. Set up environment variables:
+   - Create a `.env.local` file in the client directory
+   - Create a `.env` file in the server directory
+   - Add the required environment variables (see `.env.example` files)
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Framer Motion Documentation](https://www.framer.com/motion/)
-- [Firebase Functions Documentation](https://firebase.google.com/docs/functions)
+4. Start the development servers:
+```bash
+# Start client development server
+cd client
+npm run dev
 
-## Deployment
+# Start server emulator (in a separate terminal)
+cd server
+npm run serve
+```
 
-The application is deployed on Vercel for the frontend and Firebase for the backend functions. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔧 Configuration
 
-## Contributing
+### Environment Variables
+Client-side variables:
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Server-side variables:
+```
+FIREBASE_PROJECT_ID=
+FIREBASE_PRIVATE_KEY=
+FIREBASE_CLIENT_EMAIL=
+```
+
+## 📚 API Documentation
+
+### Contact Form API
+Endpoint: `/api/contact`
+Method: POST
+Body:
+```json
+{
+  "name": "string",
+  "email": "string",
+  "message": "string"
+}
+```
+
+Response:
+```json
+{
+  "success": boolean,
+  "message": "string"
+}
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed - see the [LICENSE.md](LICENSE.md) file for details.
+
+## �� Acknowledgements
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Firebase](https://firebase.google.com/) - Backend services
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
+
+## 📞 Contact
+
+For any queries or support, please reach out to:
+- Email: [musicclub.iiitdm@gmail.com](mailto:musicclub.iiitdm@gmail.com)
+- Website: [https://music-club-app.vercel.app](https://music-club-app.vercel.app)
+
+---
+
+Built with ❤️ by the Music Club Team at IIITDM Kancheepuram
