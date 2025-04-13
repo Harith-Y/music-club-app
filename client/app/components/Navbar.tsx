@@ -40,7 +40,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/logo/logo.png"
+              src="/logo/Culturals.png"
+              alt="Cultural Logo"
+              width={40}
+              height={40}
+              className="h-12 w-auto"
+            />
+            <Image
+              src="/logo/MusicClub.png"
               alt="Music Club Logo"
               width={40}
               height={40}
