@@ -26,7 +26,7 @@ export interface Event {
       time: "6:00 PM",
       location: "Main Stage",
       description: "A showcase of experimental sound design and electronic music production.",
-      image: "/events/artofnoise.png",
+      image: "/events/ArtOfNoise.png",
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8"
     },
     {
