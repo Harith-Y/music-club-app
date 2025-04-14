@@ -7,67 +7,85 @@ export interface Event {
     description: string;
     image: string;
     registrationLink?: string;
+    category: 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops';
   }
   
   export const pastEvents: Event[] = [
     {
-      id: 9,
+      id: 10,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: '/events/UnofficialOpenMicApril5.jpg'
+      image: '/events/UnofficialOpenMicApril5.jpg',
+      category: 'Open Mics'
     },
     {
-      id: 8,
+      id: 9,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
       location: "Main Stage",
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/ArtOfNoise.png",
-      registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8"
+      registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8",
+      category: 'Competitions'
     },
     {
-      id: 7,
+      id: 8,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
       location: "H05",
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/PixsonicXVoxels.png",
-      registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7"
+      registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7",
+      category: 'Competitions'
     },
     {
-      id: 6,
+      id: 7,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicMarch11.jpg',
-      registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9"
+      registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9",
+      category: 'Open Mics'
     },
     {
-      id: 5,
+      id: 6,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "Learn the basics of music production and digital audio workstations.",
       image: '/events/OpenMicMarch5.jpg',
-      registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37"
+      registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37",
+      category: 'Workshops'
     },
     {
-      id: 4,
+      id: 5,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members along with stories, poems, shayaris, raps and more.",
       image: '/events/OpenMicFebruary2.jpg',
-      registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7"
+      registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7",
+      category: 'Open Mics'
+    },
+    {
+      id: 4,
+      title: "Music Reel Challenge",
+      date: "January 1, 2025",
+      time: "All Day",
+      location: "Instagram",
+      description: "Musicians of IIITDM ! Get ready to showcase you talent and be featured on the Music Club Instagram page.",
+      image: '/events/MusicReelChallenge.jpg',
+      registrationLink: "https://forms.gle/P7ft2r92SSeoT31o7",
+      category: 'Competitions'
     },
     {
       id: 3,
@@ -77,7 +95,8 @@ export interface Event {
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicNovember9.jpg',
-      registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA"
+      registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA",
+      category: 'Open Mics'
     },
     {
       id: 2,
@@ -87,7 +106,8 @@ export interface Event {
       location: "Open Air Theatre",
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/SpookySymphonies.jpg",
-      registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9"
+      registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9",
+      category: 'Competitions'
     },
     {
       id: 1,
@@ -97,7 +117,8 @@ export interface Event {
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicAugust31.jpg',
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg"
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
+      category: 'Open Mics'
     },
 
   ];
@@ -110,7 +131,8 @@ export interface Event {
       time: "6:00 PM",
       location: "H05",
       description: "Our annual winter concert featuring performances from all sections.",
-      image: "https://images.unsplash.com/photo-1620642477222-7aef692dd0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBjb25jZXJ0fGVufDB8MnwwfHx8MA%3D%3D"
+      image: "https://images.unsplash.com/photo-1620642477222-7aef692dd0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBjb25jZXJ0fGVufDB8MnwwfHx8MA%3D%3D",
+      category: 'Performances'
     },
     {
       id: 5,
@@ -119,7 +141,8 @@ export interface Event {
       time: "7:00 PM",
       location: "Cafeteria",
       description: "An evening of smooth jazz and improvisation.",
-      image: "https://images.unsplash.com/photo-1621841019942-2a8c701ebc30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGphenolMjBuaWdodHxlbnwwfDJ8MHx8fDA%3D"
+      image: "https://images.unsplash.com/photo-1621841019942-2a8c701ebc30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGphenolMjBuaWdodHxlbnwwfDJ8MHx8fDA%3D",
+      category: 'Open Mics'
     },
     {
       id: 6,
@@ -128,6 +151,7 @@ export interface Event {
       time: "4:00 PM",
       location: "Music Room",
       description: "Learn the fundamentals of music theory and composition.",
-      image: "https://images.unsplash.com/photo-1564019998-ac86b13fdadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjB3b3Jrc2hvcHN8ZW58MHwyfDB8fHww"
+      image: "https://images.unsplash.com/photo-1564019998-ac86b13fdadf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjB3b3Jrc2hvcHN8ZW58MHwyfDB8fHww",
+      category: 'Workshops'
     }
   ];
