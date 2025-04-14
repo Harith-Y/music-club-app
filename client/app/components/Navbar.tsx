@@ -83,7 +83,7 @@ const Navbar = () => {
                 className="absolute top-full left-0 mt-2 w-40 bg-gray-800 rounded-lg shadow-xl py-2"
               >
                 <Link
-                  href="/bands"
+                  href="/internal-bands"
                   className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
                 >
                   Internal Bands
@@ -139,7 +139,7 @@ const Navbar = () => {
             ))}
             <div className="py-2">
               <Link
-                href="/bands"
+                href="/internal-bands"
                 className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
               >
                 Internal Bands

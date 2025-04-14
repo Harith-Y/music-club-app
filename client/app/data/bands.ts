@@ -8,6 +8,7 @@ export interface BandMember {
 export interface Band {
   id: number;
   name: string;
+  image: string;
   description: string;
   members: BandMember[];
 }
@@ -24,7 +25,8 @@ export const bands: Band[] = [
       { id: 4, name: "Priyansu", instrument: "Lead Vocals", image: "/crew/Priyansu.jpg" },
       { id: 5, name: "Varsha", instrument: "Keyboard", image: "/crew/Varsha.jpg" },
       { id: 6, name: "Yashas", instrument: "Drums", image: "/crew/Yashas.jpg" }
-    ]
+    ],
+
   },
   {
     id: 2,
@@ -37,7 +39,8 @@ export const bands: Band[] = [
       { id: 4, name: "Gokul", instrument: "Keyboard", image: "/crew/Gokul.jpg" },
       { id: 5, name: "Shashwat", instrument: "Lead Vocals", image: "/crew/Shashwat.jpg" },
       { id: 6, name: "Shruthi Pullela", instrument: "Electric Guitar/Vocals", image: "/crew/Shruthi.jpg" }
-    ]
+    ],
+
   },
   {
     id: 3,
@@ -53,7 +56,8 @@ export const bands: Band[] = [
       { id: 7, name: "Priyank Jain", instrument: "Rhythm Guitar", image: "/crew/Priyank.jpg" },
       { id: 8, name: "Shriya Y", instrument: "Harmonizing Vocals", image: "/crew/Shriya2.jpg" },
       { id: 9, name: "Tarun", instrument: "Rhythm Keyboard", image: "/crew/Tarun2.jpg" }
-    ]
+    ],
+
   },
   {
     id: 4,
@@ -66,7 +70,8 @@ export const bands: Band[] = [
       { id: 4, name: "Omkar Anand", instrument: "Lead Guitar", image: "/crew/Omkar.jpg" },
       { id: 5, name: "Rohan Joshi", instrument: "Keyboard/Lead Vocals", image: "/crew/Rohan.jpg" },
       { id: 6, name: "Shirish Giroti", instrument: "Lead Vocals", image: "/crew/Shirish.jpg" },
-    ]
+    ],
+
   },
   {
     id: 5,
@@ -79,6 +84,54 @@ export const bands: Band[] = [
       { id: 4, name: "Manoj", instrument: "Lead Keyboard", image: "/crew/Manoj.jpg" },
       { id: 5, name: "Rittik", instrument: "Flute", image: "/crew/Rittik.jpg" },
       { id: 6, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
-    ]
+    ],
+
+  },
+  {
+    id: 6,
+    name: "Decibel Dragons",
+    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    members: [
+      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
+      { id: 2, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya.jpg" },
+      { id: 3, name: "Daniel", instrument: "Rhythm Keyboard", image: "/crew/Daniel.jpg" },
+      { id: 4, name: "Manoj", instrument: "Lead Keyboard", image: "/crew/Manoj.jpg" },
+      { id: 5, name: "Rittik", instrument: "Flute", image: "/crew/Rittik.jpg" },
+      { id: 6, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
+    ],
+
+  }
+];
+
+export const merakiBands: Band[] = [
+  {
+    id: 1,
+    name: "SOULROCK",
+    image: "/bands/band1.png"
+  },
+  {
+    id: 2,
+    name: "DreamPie",
+    image: "/bands/band2.png"
+  },
+  {
+    id: 3,
+    name: "Just for you all",
+    image: "/bands/band3.png"
+  },
+  {
+    id: 4,
+    name: "Rhythm Pulse",
+    image: "/bands/band4.png"
+  },
+  {
+    id: 5,
+    name: "Melody Waves",
+    image: "/bands/band5.png"
+  },
+  {
+    id: 6,
+    name: "Sanchari",
+    image: "/bands/band6.png"
   }
 ]; 
