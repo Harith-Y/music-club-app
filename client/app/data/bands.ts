@@ -8,7 +8,7 @@ export interface BandMember {
 export interface Band {
   id: number;
   name: string;
-  image: string;
+  image?: string;
   description: string;
   members: BandMember[];
 }
