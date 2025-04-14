@@ -14,7 +14,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 13,
+      id: 20,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -24,7 +24,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 12,
+      id: 19,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -35,7 +35,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 12,
+      id: 18,
       title: "Opening Ceremony (Art of Noise)",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -46,7 +46,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
-      id: 11,
+      id: 17,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -57,7 +57,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 10,
+      id: 16,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -68,7 +68,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 9,
+      id: 15,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -79,7 +79,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 8,
+      id: 14,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -90,7 +90,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 7,
+      id: 13,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -101,7 +101,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 6,
+      id: 12,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -112,7 +112,52 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 5,
+      id: 11,
+      title: "Urvasi Urvase X Sheela Ki Jawani (Meraki)",
+      date: "October 20, 2024",
+      time: "10:00 PM",
+      location: "Open Air Theatre",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/Meraki2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/2jMVx2vp-gs'
+    },
+    {
+      id: 10,
+      title: "Chandralekha (Meraki)",
+      date: "October 20, 2024",
+      time: "10:00 PM",
+      location: "Open Air Theatre",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/Meraki2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/RQd9IN4N_xM'
+    },
+    {
+      id: 9,
+      title: "Muskaanein Jhooti Hai (Meraki)",
+      date: "October 20, 2024",
+      time: "10:00 PM",
+      location: "Open Air Theatre",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/Meraki2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/xHauVEB3a48'
+    },
+    {
+      id: 8,
+      title: "Let's Kill Tonight (Meraki)",
+      date: "October 20, 2024",
+      time: "10:00 PM",
+      location: "Open Air Theatre",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/Meraki2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/NhMqICsZZfM'
+    },
+  
+     {
+      id: 7,
       title: "Spooky Symphonies: Battle of Bands Meraki",
       date: "October 31, 2024",
       time: "6:00 PM",
@@ -121,6 +166,28 @@ export interface Event {
       image: '/events/spookysymphonies.png',
       viewBandsLink: '/bands',
       category: 'Competitions'
+    },
+    {
+      id: 6,
+      title: "Kande Pohe (Ganesh Chaturthi)",
+      date: "September 7, 2024",
+      time: "3:00 PM",
+      location: "Ashwatha Hostel",
+      description: "An afternoon of live performances from our talented members.",
+      image: '/events/GaneshChaturthi2024-2.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/NQi_6k_if-g'
+    },
+    {
+      id: 5,
+      title: "Mahaganapathim (Ganesh Chaturthi)",
+      date: "September 7, 2024",
+      time: "3:00 PM",
+      location: "Ashwatha Hostel",
+      description: "An afternoon of live performances from our talented members.",
+      image: '/events/GaneshChaturthi2024-1.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/8aSGtWMdvzw'
     },
     {
       id: 4,
