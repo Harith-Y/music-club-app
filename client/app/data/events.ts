@@ -8,11 +8,12 @@ export interface Event {
     image: string;
     registrationLink?: string;
     category: 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops';
+    youtubeUrl?: string;
   }
   
   export const pastEvents: Event[] = [
     {
-      id: 10,
+      id: 11,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -22,7 +23,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 9,
+      id: 10,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -33,7 +34,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 8,
+      id: 9,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -44,7 +45,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 7,
+      id: 8,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -55,7 +56,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 6,
+      id: 7,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -66,7 +67,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 5,
+      id: 6,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -77,7 +78,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 4,
+      id: 5,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -88,7 +89,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 3,
+      id: 4,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -99,7 +100,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 2,
+      id: 3,
       title: "Spooky Symphonies",
       date: "October 19, 2025",
       time: "6:00 PM",
@@ -110,7 +111,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 1,
+      id: 2,
       title: "Open Mic Night",
       date: "August 31, 2024",
       time: "8:00 PM",
@@ -120,7 +121,17 @@ export interface Event {
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
       category: 'Open Mics'
     },
-
+    {
+      id: 1,
+      title: "Rolling in the Deep (Orientation)",
+      date: "August 16, 2024",
+      time: "10:30 AM",
+      location: "H05",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/Orientation2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/-AlngyopEG0'
+    },
   ];
   
   export const upcomingEvents: Event[] = [
@@ -132,7 +143,8 @@ export interface Event {
       location: "H05",
       description: "Our annual winter concert featuring performances from all sections.",
       image: "https://images.unsplash.com/photo-1620642477222-7aef692dd0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBjb25jZXJ0fGVufDB8MnwwfHx8MA%3D%3D",
-      category: 'Performances'
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
     },
     {
       id: 5,
