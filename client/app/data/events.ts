@@ -13,7 +13,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 11,
+      id: 12,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -23,7 +23,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 10,
+      id: 11,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -34,7 +34,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 9,
+      id: 10,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -45,7 +45,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 8,
+      id: 9,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -56,7 +56,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 7,
+      id: 8,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -67,7 +67,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 6,
+      id: 7,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -78,7 +78,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 5,
+      id: 6,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -89,7 +89,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 4,
+      id: 5,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -100,7 +100,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 3,
+      id: 4,
       title: "Spooky Symphonies",
       date: "October 19, 2025",
       time: "6:00 PM",
@@ -111,7 +111,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 2,
+      id: 3,
       title: "Open Mic Night",
       date: "August 31, 2024",
       time: "8:00 PM",
@@ -122,13 +122,24 @@ export interface Event {
       category: 'Open Mics'
     },
     {
+      id: 2,
+      title: "Jiye Kyun (Orientation)",
+      date: "August 16, 2024",
+      time: "10:30 AM",
+      location: "H05",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/Orientation2024-2.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/e9Fdm7klZwc'
+    },
+    {
       id: 1,
       title: "Rolling in the Deep (Orientation)",
       date: "August 16, 2024",
       time: "10:30 AM",
       location: "H05",
       description: "A wonderful morning of live performances from our talented members.",
-      image: '/events/Orientation2024.jpg',
+      image: '/events/Orientation2024-1.jpg',
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/-AlngyopEG0'
     },
