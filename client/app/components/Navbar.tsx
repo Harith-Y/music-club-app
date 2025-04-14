@@ -126,43 +126,50 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden py-4"
+            className="md:hidden py-4 absolute top-20 left-0 right-0 bg-gray-900/95 backdrop-blur-md shadow-lg z-50"
           >
-            {navLinks.slice(0, 4).map((link) => (
+            <div className="container mx-auto px-4">
+              {navLinks.slice(0, 4).map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.name}
+                </Link>
+              ))}
+              <div className="py-2">
+                <Link
+                  href="/internal-bands"
+                  className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Internal Bands
+                </Link>
+                <Link
+                  href="/2024team"
+                  className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+                  onClick={() => setIsOpen(false)}
+                >
+                  2024 Team
+                </Link>
+                <Link
+                  href="/2025team"
+                  className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+                  onClick={() => setIsOpen(false)}
+                >
+                  2025 Team
+                </Link>
+              </div>
               <Link
-                key={link.name}
-                href={link.href}
+                href={navLinks[4].href}
                 className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
+                onClick={() => setIsOpen(false)}
               >
-                {link.name}
-              </Link>
-            ))}
-            <div className="py-2">
-              <Link
-                href="/internal-bands"
-                className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
-              >
-                Internal Bands
-              </Link>
-              <Link
-                href="/2024team"
-                className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
-              >
-                2024 Team
-              </Link>
-              <Link
-                href="/2025team"
-                className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
-              >
-                2025 Team
+                Contact
               </Link>
             </div>
-            <Link
-              href={navLinks[4].href}
-              className="block py-2 text-gray-300 hover:text-white transition-colors duration-300"
-            >
-              Contact
-            </Link>
           </motion.div>
         )}
       </div>
