@@ -118,7 +118,7 @@ export interface Event {
       time: "5:00 PM",
       location: "H05",
       description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.jpg',
+      image: '/events/CVIP2024.png',
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/vw5Wj1u8rrw'
     },
@@ -129,7 +129,7 @@ export interface Event {
       time: "5:00 PM",
       location: "H05",
       description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.jpg',
+      image: '/events/CVIP2024.png',
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/mZSY_ommAyo'
     },
@@ -140,7 +140,7 @@ export interface Event {
       time: "5:00 PM",
       location: "H05",
       description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.jpg',
+      image: '/events/CVIP2024.png',
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/T66xfsmisgc'
     },
