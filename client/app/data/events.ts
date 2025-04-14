@@ -9,6 +9,7 @@ export interface Event {
     registrationLink?: string;
     category: 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops';
     youtubeUrl?: string;
+    viewBandsLink?: string;
   }
   
   export const pastEvents: Event[] = [
@@ -154,15 +155,16 @@ export interface Event {
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/NhMqICsZZfM'
     },
-    {
+  
+     {
       id: 7,
-      title: "Spooky Symphonies",
-      date: "October 19, 2025",
+      title: "Spooky Symphonies: Battle of Bands Meraki",
+      date: "October 31, 2024",
       time: "6:00 PM",
       location: "Open Air Theatre",
-      description: "A showcase of experimental sound design and electronic music production.",
-      image: "/events/SpookySymphonies.jpg",
-      registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9",
+      description: "An electrifying battle of bands featuring the most talented musicians competing for glory.",
+      image: '/events/spookysymphonies.png',
+      viewBandsLink: '/bands',
       category: 'Competitions'
     },
     {

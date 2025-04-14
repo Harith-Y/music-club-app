@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { FaCalendar, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 import { Event } from '../../data/events';
+import Link from 'next/link';
 
 interface EventCardProps {
   event: Event;
@@ -98,6 +99,13 @@ export default function EventCard({ event }: EventCardProps) {
               >
                 Register Now
               </a>
+            ) : event.viewBandsLink ? (
+              <Link
+                href={event.viewBandsLink}
+                className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+              >
+                View Bands
+              </Link>
             ) : null}
           </div>
         </div>
