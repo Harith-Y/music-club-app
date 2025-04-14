@@ -31,7 +31,7 @@ export const bands: Band[] = [
   {
     id: 2,
     name: "Harmonic Horizon",
-    image: "/bands/band2.png",
+    image: "/bands/band8.png",
     description: "An indie folk ensemble that creates soulful melodies with acoustic instruments. Their music tells stories of life, love, and adventure.",
     members: [
       { id: 1, name: "Abhinay", instrument: "Drums", image: "/crew/Abhinay.jpg" },
@@ -76,7 +76,7 @@ export const bands: Band[] = [
   {
     id: 5,
     name: "Paradise",
-    image: "/bands/band3.png",
+    image: "/bands/band9.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
@@ -89,22 +89,22 @@ export const bands: Band[] = [
   },
   {
     id: 6,
-    name: "Decibel Dragons",
+    name: "Melody Waves",
     image: "/bands/band5.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "A vocal-driven ensemble that creates waves of harmony with their multiple lead vocalists. Their sound is characterized by rich vocal arrangements, supported by dynamic keyboard work and rhythmic guitar patterns.",
     members: [
-      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
-      { id: 2, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya.jpg" },
-      { id: 3, name: "Daniel", instrument: "Rhythm Keyboard", image: "/crew/Daniel.jpg" },
-      { id: 4, name: "Manoj", instrument: "Lead Keyboard", image: "/crew/Manoj.jpg" },
-      { id: 5, name: "Rittik", instrument: "Flute", image: "/crew/Rittik.jpg" },
-      { id: 6, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
-    ],
+      { id: 1, name: "Anushree", instrument: "Lead Vocals", image: "/crew/Anushree.jpg" },
+      { id: 2, name: "Ayushyaa", instrument: "Rhythm Guitar", image: "/crew/Ayushya.jpg" },
+      { id: 3, name: "Dhanya", instrument: "Lead Vocals", image: "/crew/Dhanya.jpg" },
+      { id: 4, name: "Harini", instrument: "Lead Vocals", image: "/crew/Harini.jpg" },
+      { id: 5, name: "Harith", instrument: "Lead/Rhythm Keyboard / Lead Vocals", image: "/crew/Harith3.jpg" },
+      { id: 6, name: "Yashas", instrument: "Drums", image: "/crew/Yashas.jpg" },
+    ]
   },
   {
     id: 7,
     name: "Dosa",
-    image: "/bands/band5.png",
+    image: "/bands/band7.png",
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
     members: [
       { id: 1, name: "Adi Khera", instrument: "Lead/Rhythm Guitar", image: "/crew/Adi.jpg" },
@@ -119,7 +119,7 @@ export const bands: Band[] = [
   {
     id: 8,
     name: "Sanchari",
-    image: "/bands/band5.png",
+    image: "/bands/band6.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
     members: [
       { id: 1, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
