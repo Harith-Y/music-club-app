@@ -14,7 +14,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 20,
+      id: 24,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -24,7 +24,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 19,
+      id: 23,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -35,7 +35,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 18,
+      id: 22,
       title: "Opening Ceremony (Art of Noise)",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -46,7 +46,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
-      id: 17,
+      id: 21,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -57,7 +57,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 16,
+      id: 20,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -68,7 +68,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 15,
+      id: 19,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -79,7 +79,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 14,
+      id: 18,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -90,7 +90,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 13,
+      id: 17,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -99,6 +99,50 @@ export interface Event {
       image: '/events/MusicReelChallenge.jpg',
       registrationLink: "https://forms.gle/P7ft2r92SSeoT31o7",
       category: 'Competitions'
+    },
+    {
+      id: 16,
+      title: "Skyfall (CVIP)",
+      date: "December 19, 2024",
+      time: "5:00 PM",
+      location: "H05",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/CVIP2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/hH1Gp6kmaUQ'
+    },
+    {
+      id: 15,
+      title: "Intehaan (CVIP)",
+      date: "December 19, 2024",
+      time: "5:00 PM",
+      location: "H05",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/CVIP2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/vw5Wj1u8rrw'
+    },
+    {
+      id: 14,
+      title: "The Chain (CVIP)",
+      date: "December 19, 2024",
+      time: "5:00 PM",
+      location: "H05",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/CVIP2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/mZSY_ommAyo'
+    },
+    {
+      id: 13,
+      title: "Dream a Little Dream of Me (CVIP)",
+      date: "December 19, 2024",
+      time: "5:00 PM",
+      location: "H05",
+      description: "An evening of live performances from our talented members.",
+      image: '/events/CVIP2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/T66xfsmisgc'
     },
     {
       id: 12,

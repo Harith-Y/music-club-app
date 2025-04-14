@@ -100,7 +100,42 @@ export const bands: Band[] = [
       { id: 5, name: "Rittik", instrument: "Flute", image: "/crew/Rittik.jpg" },
       { id: 6, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
     ],
-  }
+  },
+  {
+    id: 7,
+    name: "Dosa",
+    image: "/bands/band5.png",
+    description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
+    members: [
+      { id: 1, name: "Adi Khera", instrument: "Lead/Rhythm Guitar", image: "/crew/Adi.jpg" },
+      { id: 2, name: "Dharani", instrument: "Lead Vocals", image: "/crew/Dharani.jpg" },
+      { id: 3, name: "Dikshant", instrument: "Drums", image: "/crew/Dikshant.jpg" },
+      { id: 4, name: "Divyaa", instrument: "Lead Vocals", image: "/crew/Divyaa.jpg" },
+      { id: 5, name: "Gladwin John", instrument: "Lead/Rhythm Keyboard", image: "/crew/John.jpg" },
+      { id: 6, name: "Meera K", instrument: "Harmonizing Vocals", image: "/crew/MeeraK.jpg" },
+      { id: 7, name: "Shriya", instrument: "Harmonizing Vocals", image: "/crew/Shriya.jpg" },
+    ]
+  },
+  {
+    id: 8,
+    name: "Sanchari",
+    image: "/bands/band5.png",
+    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    members: [
+      { id: 1, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
+      { id: 2, name: "Ashish Nathan", instrument: "Rhythm Guitar", image: "/crew/AshishNathan.jpg" },
+      { id: 3, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
+      { id: 4, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
+      { id: 5, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
+      { id: 6, name: "Harith", instrument: "Lead/Rhythm Keyboard", image: "/crew/Harith3.jpg" },
+      { id: 7, name: "Manoj", instrument: "Lead/Rhythm Keyboard", image: "/crew/Manoj.jpg" },
+      { id: 8, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
+      { id: 9, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
+      { id: 10, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
+      { id: 11, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
+      { id: 12, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela.jpg" },
+    ]
+  },
 ];
 
 export const merakiBands: Band[] = [
