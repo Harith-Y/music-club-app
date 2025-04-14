@@ -26,12 +26,23 @@ export interface Event {
       id: 12,
       title: "Art of Noise",
       date: "March 30, 2025",
-      time: "6:00 PM",
+      time: "6:30 PM",
       location: "Main Stage",
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/ArtOfNoise.png",
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8",
       category: 'Competitions'
+    },
+    {
+      id: 12,
+      title: "Opening Ceremony (Art of Noise)",
+      date: "March 30, 2025",
+      time: "6:00 PM",
+      location: "Main Stage",
+      description: "A showcase of experimental sound design and electronic music production.",
+      image: "/events/OpeningArtOfNoise.jpg",
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
       id: 11,

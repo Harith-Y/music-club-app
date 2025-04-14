@@ -39,7 +39,7 @@ export default function EventCard({ event }: EventCardProps) {
         transition={{ duration: 0.5 }}
         className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
       >
-        <div className="relative h-48 w-full">
+        <div className="relative aspect-square w-full">
           <Image
             src={event.image}
             alt={event.title}
