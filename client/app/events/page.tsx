@@ -63,22 +63,20 @@ export default function EventsPage() {
           </div>
 
           {/* Category Filter */}
-          <div className="flex justify-center mb-12">
-            <div className="inline-flex rounded-lg bg-gray-800 p-1">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-4 py-2 rounded-lg transition-colors duration-300 ${
-                    selectedCategory === category
-                      ? 'bg-primary-600 text-white'
-                      : 'text-gray-400 hover:text-white'
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setSelectedCategory(category)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+                  selectedCategory === category
+                    ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white shadow-lg'
+                    : 'bg-gray-800 text-gray-400 hover:text-white hover:bg-gray-700'
+                }`}
+              >
+                {category}
+              </button>
+            ))}
           </div>
 
           {/* Events Grid */}
