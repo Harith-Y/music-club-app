@@ -119,11 +119,12 @@ export const bands: Band[] = [
       { id: 4, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
       { id: 5, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
       { id: 6, name: "Harith", instrument: "Lead/Rhythm Keyboard", image: "/crew/Harith3.jpg" },
-      { id: 7, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
-      { id: 8, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
-      { id: 9, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
-      { id: 10, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
-      { id: 11, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela.jpg" },
+      { id: 7, name: "Manoj", instrument: "Lead/Rhythm Keyboard", image: "/crew/Manoj.jpg" },
+      { id: 8, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
+      { id: 9, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
+      { id: 10, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
+      { id: 11, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
+      { id: 12, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela.jpg" },
     ]
   },
 ]; 
