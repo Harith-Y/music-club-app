@@ -13,7 +13,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 12,
+      id: 13,
       title: "Unofficial Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -23,7 +23,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 11,
+      id: 12,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -34,7 +34,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 10,
+      id: 11,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -45,7 +45,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 9,
+      id: 10,
       title: "Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -56,7 +56,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 8,
+      id: 9,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -67,7 +67,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 7,
+      id: 8,
       title: "Open Stage Night",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -78,7 +78,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 6,
+      id: 7,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -89,7 +89,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 5,
+      id: 6,
       title: "Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -100,7 +100,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 4,
+      id: 5,
       title: "Spooky Symphonies",
       date: "October 19, 2025",
       time: "6:00 PM",
@@ -111,7 +111,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 3,
+      id: 4,
       title: "Open Mic Night",
       date: "August 31, 2024",
       time: "8:00 PM",
@@ -120,6 +120,17 @@ export interface Event {
       image: '/events/OpenMicAugust31.jpg',
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
       category: 'Open Mics'
+    },
+    {
+      id: 3,
+      title: "Bulleya (Orientation)",
+      date: "August 16, 2024",
+      time: "10:30 AM",
+      location: "H05",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/Orientation2024-3.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/K36PvD_09bk'
     },
     {
       id: 2,
