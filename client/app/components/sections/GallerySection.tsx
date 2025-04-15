@@ -20,6 +20,7 @@ const filterButtons = [
   { id: 'performances', label: 'Performances' },
   { id: 'workshops', label: 'Workshops' },
   { id: 'jams', label: 'Jam Sessions' },
+  { id: 'team', label: 'The Team Pictures' },
 ];
 
 const GallerySection = ({ 
