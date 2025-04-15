@@ -108,7 +108,7 @@ export const bands: Band[] = [
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
     members: [
       { id: 1, name: "Adi Khera", instrument: "Lead/Rhythm Guitar", image: "/crew/Adi.jpg" },
-      { id: 2, name: "Dharani", instrument: "Lead Vocals", image: "/crew/Dharani.jpg" },
+      { id: 2, name: "Dharani", instrument: "Lead Vocals", image: "/crew/Dharani.png" },
       { id: 3, name: "Dikshant", instrument: "Drums", image: "/crew/Dikshant.jpg" },
       { id: 4, name: "Divyaa", instrument: "Lead Vocals", image: "/crew/Divyaa.jpg" },
       { id: 5, name: "Gladwin John", instrument: "Lead/Rhythm Keyboard", image: "/crew/John.jpg" },
