@@ -36,7 +36,7 @@ export default function InternalBandsPage() {
                 <div className="flex flex-col md:flex-row">
                   {/* Left side - Member photos grid */}
                   <div className="w-full md:w-1/2 flex items-center justify-center p-8">
-                    <div className={`grid ${band.members.length <= 6 ? 'grid-cols-3' : 'grid-cols-3'} gap-0 rounded-lg overflow-hidden w-full max-w-md`}>
+                    <div className={`grid ${band.members.length <= 6 ? 'grid-cols-3' : 'grid-cols-3'} gap-2 p-4 rounded-lg overflow-hidden w-full max-w-md`}>
                       {band.members.map((member) => (
                         <div key={member.id} className="aspect-square relative overflow-hidden group">
                           <Image
