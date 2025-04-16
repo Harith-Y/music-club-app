@@ -97,7 +97,7 @@ export const bands: Band[] = [
       { id: 2, name: "Ayushyaa", instrument: "Rhythm Guitar", image: "/crew/Ayushya.jpg" },
       { id: 3, name: "Dhanya", instrument: "Lead Vocals", image: "/crew/Dhanya.jpg" },
       { id: 4, name: "Harini", instrument: "Lead Vocals", image: "/crew/Harini.jpg" },
-      { id: 5, name: "Harith", instrument: "Lead/Rhythm Keyboard / Lead Vocals", image: "/crew/Harith3.jpg" },
+      { id: 5, name: "Harith", instrument: "Keyboard/Lead Vocals", image: "/crew/Harith3.jpg" },
       { id: 6, name: "Yashas", instrument: "Drums", image: "/crew/Yashas.jpg" },
     ]
   },
@@ -107,11 +107,11 @@ export const bands: Band[] = [
     image: "/bands/band7.png",
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
     members: [
-      { id: 1, name: "Adi Khera", instrument: "Lead/Rhythm Guitar", image: "/crew/Adi.jpg" },
+      { id: 1, name: "Adi Khera", instrument: "Guitar", image: "/crew/Adi.jpg" },
       { id: 2, name: "Dharani", instrument: "Lead Vocals", image: "/crew/Dharani.png" },
       { id: 3, name: "Dikshant", instrument: "Drums", image: "/crew/Dikshant.jpg" },
       { id: 4, name: "Divyaa", instrument: "Lead Vocals", image: "/crew/Divyaa.jpg" },
-      { id: 5, name: "Gladwin John", instrument: "Lead/Rhythm Keyboard", image: "/crew/John.jpg" },
+      { id: 5, name: "Gladwin John", instrument: "Keyboard", image: "/crew/John.jpg" },
       { id: 6, name: "Meera K", instrument: "Harmonizing Vocals", image: "/crew/MeeraK.jpg" },
       { id: 7, name: "Shriya", instrument: "Harmonizing Vocals", image: "/crew/Shriya.jpg" },
     ]
@@ -127,8 +127,8 @@ export const bands: Band[] = [
       { id: 3, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
       { id: 4, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
       { id: 5, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
-      { id: 6, name: "Harith", instrument: "Lead/Rhythm Keyboard", image: "/crew/Harith3.jpg" },
-      { id: 7, name: "Manoj", instrument: "Lead/Rhythm Keyboard", image: "/crew/Manoj.jpg" },
+      { id: 6, name: "Harith", instrument: "Keyboard", image: "/crew/Harith3.jpg" },
+      { id: 7, name: "Manoj", instrument: "Keyboard", image: "/crew/Manoj.jpg" },
       { id: 8, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
       { id: 9, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
       { id: 10, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
