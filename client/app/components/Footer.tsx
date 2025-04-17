@@ -99,6 +99,14 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-6 mt-6 text-center text-gray-400 text-sm">
           <p>&copy; {new Date().getFullYear()} Music Club IIITDM Kancheepuram. All rights reserved.</p>
+          <div className="mt-2 space-x-4">
+            <Link href="/legal/terms" className="text-gray-400 hover:text-white transition-colors duration-300">
+              Terms of Service
+            </Link>
+            <Link href="/legal/privacy" className="text-gray-400 hover:text-white transition-colors duration-300">
+              Privacy Policy
+            </Link>
+          </div>
           <p className="mt-2">
             Designed with <span className="text-red-500">♥</span> by Music Club Web Team
           </p>
