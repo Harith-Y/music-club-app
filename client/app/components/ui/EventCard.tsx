@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { FaCalendar, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 import { Event } from '../../data/events';
 import Link from 'next/link';
+import LazyYoutubeEmbed from './LazyYoutubeEmbed';
 
 interface EventCardProps {
   event: Event;
@@ -137,16 +138,9 @@ export default function EventCard({ event }: EventCardProps) {
                 </svg>
               </button>
               <div className="relative w-full" style={{ 
-                paddingTop: isMobile ? '75%' : '56.25%',
                 maxHeight: isMobile ? '80vh' : '90vh'
               }}>
-                <iframe
-                  src={event.youtubeUrl}
-                  title={event.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="absolute top-0 left-0 w-full h-full"
-                />
+                <LazyYoutubeEmbed youtubeUrl={event.youtubeUrl} title={event.title} />
               </div>
             </motion.div>
           </motion.div>
