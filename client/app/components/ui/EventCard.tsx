@@ -140,7 +140,9 @@ export default function EventCard({ event }: EventCardProps) {
               <div className="relative w-full" style={{ 
                 maxHeight: isMobile ? '80vh' : '90vh'
               }}>
-                <LazyYoutubeEmbed youtubeUrl={event.youtubeUrl} title={event.title} />
+                {event.youtubeUrl && (
+                  <LazyYoutubeEmbed youtubeUrl={event.youtubeUrl} title={event.title} />
+                )}
               </div>
             </motion.div>
           </motion.div>
