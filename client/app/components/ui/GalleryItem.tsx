@@ -18,7 +18,8 @@ const getCategoryDisplayName = (category: string): string => {
     'jams': 'Jam Sessions',
     'workshops': 'Workshops',
     'team': 'Team',
-    'covers': 'Covers'
+    'covers': 'Covers',
+    'competitions': 'Competitions'
   };
   return categoryMap[category] || category;
 };
