@@ -24,10 +24,13 @@ const getCategoryDisplayName = (category: string): string => {
 
 const GalleryItem = ({ item }: GalleryItemProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isContentVisible, setIsContentVisible] = useState(false);
 
   const handleClick = () => {
     if (item.type === 'video') {
       setIsModalOpen(true);
+    } else {
+      setIsContentVisible(!isContentVisible);
     }
   };
 
@@ -39,7 +42,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
         onClick={handleClick}
       >
         <div className="relative h-64 w-full overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
           <Image
             src={item.image}
             alt={item.title}
@@ -50,7 +53,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
           
           {/* Video Play Button Overlay */}
           {item.type === 'video' && (
-            <div className="absolute inset-0 flex items-center justify-center z-20">
+            <div className="absolute inset-0 flex items-center justify-center z-[3]">
               <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                 <FaPlay className="w-6 h-6 text-white" />
               </div>
@@ -60,11 +63,13 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
           {/* Overlay content */}
           <motion.div
             initial={{ opacity: 0 }}
+            animate={{ opacity: isContentVisible ? 1 : 0 }}
             whileHover={{ opacity: 1 }}
-            className="absolute inset-0 z-20 flex flex-col items-center justify-center p-6 text-white"
+            className="absolute inset-0 z-[2] flex flex-col items-center justify-center p-6 text-white bg-black/60"
           >
             <motion.div
               initial={{ y: 20, opacity: 0 }}
+              animate={{ y: isContentVisible ? 0 : 20, opacity: isContentVisible ? 1 : 0 }}
               whileHover={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
               className="text-center"
