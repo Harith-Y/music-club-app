@@ -11,6 +11,17 @@ interface GalleryItemProps {
   item: GalleryItemType;
 }
 
+const getCategoryDisplayName = (category: string): string => {
+  const categoryMap: { [key: string]: string } = {
+    'performances': 'Performances',
+    'jams': 'Jam Sessions',
+    'workshops': 'Workshops',
+    'team': 'Team',
+    'covers': 'Covers'
+  };
+  return categoryMap[category] || category;
+};
+
 const GalleryItem = ({ item }: GalleryItemProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -63,7 +74,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
                 {item.title}
               </h3>
               <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary-600/80 backdrop-blur-sm">
-                {item.category}
+                {getCategoryDisplayName(item.category)}
               </span>
             </motion.div>
           </motion.div>
