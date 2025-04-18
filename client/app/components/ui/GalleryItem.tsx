@@ -29,9 +29,8 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
   const handleClick = () => {
     if (item.type === 'video') {
       setIsModalOpen(true);
-    } else {
-      setIsContentVisible(!isContentVisible);
     }
+    setIsContentVisible(!isContentVisible);
   };
 
   return (
@@ -40,6 +39,8 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
         whileHover={{ y: -5 }}
         className="group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer"
         onClick={handleClick}
+        onHoverStart={() => setIsContentVisible(true)}
+        onHoverEnd={() => setIsContentVisible(false)}
       >
         <div className="relative h-64 w-full overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
@@ -53,9 +54,9 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
           
           {/* Video Play Button Overlay */}
           {item.type === 'video' && (
-            <div className="absolute inset-0 flex items-center justify-center z-[3]">
-              <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                <FaPlay className="w-6 h-6 text-white" />
+            <div className="absolute top-4 right-4 z-[3]">
+              <div className="w-10 h-10 bg-black/40 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-primary-500/50 transition-all duration-300">
+                <FaPlay className="w-4 h-4 text-white" />
               </div>
             </div>
           )}
@@ -64,17 +65,19 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: isContentVisible ? 1 : 0 }}
-            whileHover={{ opacity: 1 }}
-            className="absolute inset-0 z-[2] flex flex-col items-center justify-center p-6 text-white bg-black/60"
+            className="absolute inset-0 z-[2] flex flex-col items-center justify-center p-6 text-white bg-black/60 md:bg-black/60 md:group-hover:opacity-100 md:opacity-0 transition-opacity duration-300"
           >
             <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: isContentVisible ? 0 : 20, opacity: isContentVisible ? 1 : 0 }}
-              whileHover={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.3 }}
               className="text-center"
             >
-              <FaCamera className="w-8 h-8 mx-auto mb-3 text-primary-400" />
+              {item.type === 'video' ? (
+                <FaPlay className="w-8 h-8 mx-auto mb-3 text-primary-400" />
+              ) : (
+                <FaCamera className="w-8 h-8 mx-auto mb-3 text-primary-400" />
+              )}
               <h3 className="text-xl font-bold mb-2 text-white group-hover:text-primary-300 transition-colors duration-300">
                 {item.title}
               </h3>
