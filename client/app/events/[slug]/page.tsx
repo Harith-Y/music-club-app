@@ -7,13 +7,12 @@ import GalleryItem from '../../components/ui/GalleryItem';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import { pastEvents } from '../../data/events';
 
-type PageProps = {
-  params: {
-    slug: string;
-  };
+interface EventPageParams {
+  slug: string;
 }
 
-export default function EventGalleryPage({ params }: PageProps) {
+// Using the generic params type provided by Next.js
+export default function EventGalleryPage({ params, }: { params: EventPageParams; }) {
   const event = pastEvents.find(e => e.galleryRoute === `/events/${params.slug}`);
   const eventGalleryItems = galleryItems.filter(item => item.event === event?.title);
   
