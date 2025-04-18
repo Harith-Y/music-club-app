@@ -89,6 +89,20 @@ export const bands: Band[] = [
   },
   {
     id: 6,
+    name: "Just For You All",
+    image: "/bands/band3.png",
+    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    members: [
+      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
+      { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/crew/Shirish.jpg" },
+      { id: 3, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya.jpg" },
+      { id: 4, name: "Seimen", instrument: "Lead Guitar", image: "/crew/Seimen.jpg" },
+      { id: 5, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
+      { id: 6, name: "Daniel", instrument: "Keyboard", image: "/crew/Daniel.jpg" },
+    ]
+  },
+  {
+    id: 7,
     name: "Melody Waves",
     image: "/bands/band5.png",
     description: "A vocal-driven ensemble that creates waves of harmony with their multiple lead vocalists. Their sound is characterized by rich vocal arrangements, supported by dynamic keyboard work and rhythmic guitar patterns.",
@@ -102,7 +116,7 @@ export const bands: Band[] = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     name: "Dosa",
     image: "/bands/band7.png",
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
@@ -117,7 +131,21 @@ export const bands: Band[] = [
     ]
   },
   {
-    id: 8,
+    id: 9,
+    name: "Band",
+    image: "/bands/band7.png",
+    description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
+    members: [
+      { id: 1, name: "Jahnavi", instrument: "Lead Vocals", image: "/crew/Jahnavi.jpg" },
+      { id: 2, name: "Shashwat", instrument: "Drums", image: "/crew/Shashwat.jpg" },
+      { id: 3, name: "Rupkatha", instrument: "Lead Vocals", image: "/crew/Rupkatha.jpg" },
+      { id: 4, name: "Keshav", instrument: "Keyboard", image: "/crew/Keshav.jpg" },
+      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
+      { id: 6, name: "Caitlin", instrument: "Lead Vocals", image: "/crew/Caitlin.jpg" },
+    ]
+  },
+  {
+    id: 10,
     name: "Sanchari",
     image: "/bands/band6.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
@@ -155,7 +183,7 @@ export const merakiBands: Band[] = [
   },
   {
     id: 3,
-    name: "Just for you all",
+    name: "Just For You All",
     image: "/bands/band3.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
