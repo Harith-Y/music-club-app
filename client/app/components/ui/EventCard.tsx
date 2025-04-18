@@ -33,6 +33,14 @@ export default function EventCard({ event }: EventCardProps) {
     return match ? match[1] : '';
   };
 
+  const shouldShowGalleryButton = (event: Event) => {
+    if (event.title === "Unofficial Open Mic Night") return false;
+    if (event.title === "Spooky Symphonies: Battle of Bands Meraki") return false;
+    return event.category === 'Open Mics' || event.category === 'Competitions';
+  };
+
+  const isSpookySymponies = event.title === "Spooky Symphonies: Battle of Bands Meraki";
+
   return (
     <>
       <motion.div
@@ -80,7 +88,7 @@ export default function EventCard({ event }: EventCardProps) {
             </p>
           </div>
           <p className="mt-4 text-gray-400">{event.description}</p>
-          <div className="mt-6">
+          <div className="mt-6 space-y-3">
             {event.category === 'Performances' && event.youtubeUrl ? (
               <button
                 onClick={() => setIsVideoOpen(true)}
@@ -91,6 +99,48 @@ export default function EventCard({ event }: EventCardProps) {
                 </svg>
                 Watch Video
               </button>
+            ) : isSpookySymponies ? (
+              <div className="grid grid-cols-2 gap-3">
+                {event.registrationLink && (
+                  <a
+                    href={event.registrationLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+                  >
+                    Register Now
+                  </a>
+                )}
+                {event.viewBandsLink && (
+                  <Link
+                    href={event.viewBandsLink}
+                    className="w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+                  >
+                    View Bands
+                  </Link>
+                )}
+              </div>
+            ) : shouldShowGalleryButton(event) ? (
+              <div className="grid grid-cols-2 gap-3">
+                {event.registrationLink && (
+                  <a
+                    href={event.registrationLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+                  >
+                    Register Now
+                  </a>
+                )}
+                {event.galleryRoute && (
+                  <Link
+                    href={event.galleryRoute}
+                    className="w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+                  >
+                    Gallery
+                  </Link>
+                )}
+              </div>
             ) : event.registrationLink ? (
               <a
                 href={event.registrationLink}
@@ -100,13 +150,6 @@ export default function EventCard({ event }: EventCardProps) {
               >
                 Register Now
               </a>
-            ) : event.viewBandsLink ? (
-              <Link
-                href={event.viewBandsLink}
-                className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
-              >
-                View Bands
-              </Link>
             ) : null}
           </div>
         </div>

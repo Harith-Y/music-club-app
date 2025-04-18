@@ -70,7 +70,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
               className="text-center"
             >
               <FaCamera className="w-8 h-8 mx-auto mb-3 text-primary-400" />
-              <h3 className="text-xl font-bold mb-2 group-hover:text-primary-400 transition-colors duration-300">
+              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-primary-300 transition-colors duration-300">
                 {item.title}
               </h3>
               <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary-600/80 backdrop-blur-sm">

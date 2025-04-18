@@ -10,12 +10,13 @@ export interface Event {
     category: 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops';
     youtubeUrl?: string;
     viewBandsLink?: string;
+    galleryRoute?: string;
   }
   
   export const pastEvents: Event[] = [
     {
       id: 24,
-      title: "Unofficial Open Mic Night",
+      title: "Unofficial Open Mic Night - 4",
       date: "April 5, 2025",
       time: "8:00 PM",
       location: "Music Room",
@@ -32,7 +33,8 @@ export interface Event {
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/ArtOfNoise.png",
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8",
-      category: 'Competitions'
+      category: 'Competitions',
+      galleryRoute: '/events/art-of-noise'
     },
     {
       id: 22,
@@ -54,18 +56,20 @@ export interface Event {
       description: "A showcase of experimental sound design and electronic music production.",
       image: "/events/PixsonicXVoxels.png",
       registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7",
-      category: 'Competitions'
+      category: 'Competitions',
+      galleryRoute: '/events/pixsonic-x-voxels'
     },
     {
       id: 20,
-      title: "Open Mic Night",
+      title: "Open Mic Night - 3",
       date: "March 11, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicMarch11.jpg',
       registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9",
-      category: 'Open Mics'
+      category: 'Open Mics',
+      galleryRoute: '/events/openmicnight-march11'
     },
     {
       id: 19,
@@ -80,14 +84,15 @@ export interface Event {
     },
     {
       id: 18,
-      title: "Open Stage Night",
+      title: "Open Stage Night - 1",
       date: "February 2, 2025",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members along with stories, poems, shayaris, raps and more.",
       image: '/events/OpenMicFebruary2.jpg',
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7",
-      category: 'Open Mics'
+      category: 'Open Mics',
+      galleryRoute: '/events/openstagenight-feb2'
     },
     {
       id: 17,
@@ -98,7 +103,8 @@ export interface Event {
       description: "Musicians of IIITDM ! Get ready to showcase you talent and be featured on the Music Club Instagram page.",
       image: '/events/MusicReelChallenge.jpg',
       registrationLink: "https://forms.gle/P7ft2r92SSeoT31o7",
-      category: 'Competitions'
+      category: 'Competitions',
+      galleryRoute: '/events/music-reel-challenge'
     },
     {
       id: 16,
@@ -146,14 +152,15 @@ export interface Event {
     },
     {
       id: 12,
-      title: "Open Mic Night",
+      title: "Open Mic Night - 2",
       date: "November 9, 2024",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicNovember9.jpg',
       registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA",
-      category: 'Open Mics'
+      category: 'Open Mics',
+      galleryRoute: '/events/openmicnight-nov9'
     },
     {
       id: 11,
@@ -209,6 +216,7 @@ export interface Event {
       description: "An electrifying battle of bands featuring the most talented musicians competing for glory.",
       image: '/events/spookysymphonies.png',
       viewBandsLink: '/meraki2024/bands',
+      registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9",
       category: 'Competitions'
     },
     {
@@ -235,14 +243,15 @@ export interface Event {
     },
     {
       id: 4,
-      title: "Open Mic Night",
+      title: "Open Mic Night - 1",
       date: "August 31, 2024",
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/OpenMicAugust31.jpg',
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
-      category: 'Open Mics'
+      category: 'Open Mics',
+      galleryRoute: '/events/openmicnight-aug31'
     },
     {
       id: 3,
