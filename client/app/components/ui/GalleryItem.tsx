@@ -33,10 +33,14 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
   const handleClick = () => {
     if (item.type === 'video') {
       setIsModalOpen(true);
-    }
-    if (!isEventGallery || item.type !== 'video') {
+    } else {
       setIsContentVisible(!isContentVisible);
     }
+  };
+
+  const handleContentClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent triggering parent's onClick
+    setIsContentVisible(!isContentVisible);
   };
 
   // Video Play Button component
@@ -90,6 +94,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
                 ? 'bg-black/60' 
                 : 'bg-black/60 md:bg-black/60 transition-opacity duration-300'
             }`}
+            onClick={handleContentClick}
           >
             <motion.div
               initial={{ y: 20, opacity: 0 }}
