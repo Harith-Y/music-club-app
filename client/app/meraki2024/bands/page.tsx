@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { merakiBands } from '../data/bands';
-import AnimatedSection from '../components/layout/AnimatedSection';
+import { merakiBands } from '../../data/bands';
+import AnimatedSection from '../../components/layout/AnimatedSection';
 
 export default function BandsPage() {
   return (

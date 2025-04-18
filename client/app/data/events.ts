@@ -208,7 +208,7 @@ export interface Event {
       location: "Open Air Theatre",
       description: "An electrifying battle of bands featuring the most talented musicians competing for glory.",
       image: '/events/spookysymphonies.png',
-      viewBandsLink: '/bands',
+      viewBandsLink: '/meraki2024/bands',
       category: 'Competitions'
     },
     {
