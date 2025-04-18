@@ -7,10 +7,16 @@ import GalleryItem from '../../components/ui/GalleryItem';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import { pastEvents } from '../../data/events';
 
-export default function EventGalleryPage({ params }: { params: { slug: string } }) {
+type PageProps = {
+  params: {
+    slug: string;
+  };
+}
+
+export default function EventGalleryPage({ params }: PageProps) {
   const event = pastEvents.find(e => e.galleryRoute === `/events/${params.slug}`);
   const eventGalleryItems = galleryItems.filter(item => item.event === event?.title);
-
+  
   if (!event) {
     return (
       <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
