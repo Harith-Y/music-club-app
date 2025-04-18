@@ -133,7 +133,7 @@ export const bands: Band[] = [
   {
     id: 9,
     name: "Band",
-    image: "/bands/band7.png",
+    image: "/bands/band10.png",
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
     members: [
       { id: 1, name: "Jahnavi", instrument: "Lead Vocals", image: "/crew/Jahnavi.jpg" },
