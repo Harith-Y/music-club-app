@@ -38,7 +38,7 @@ export default function EventGalleryClient({ event, galleryItems }: EventGallery
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400 pb-1">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400 pb-2">
               {event.title} Gallery
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
