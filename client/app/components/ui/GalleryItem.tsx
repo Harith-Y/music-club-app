@@ -30,7 +30,8 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
   const pathname = usePathname();
   const isEventGallery = pathname.startsWith('/events/');
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
     if (item.type === 'video') {
       setIsModalOpen(true);
     } else {
@@ -38,14 +39,15 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
     }
   };
 
-  const handleContentClick = (e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent triggering parent's onClick
-    setIsContentVisible(!isContentVisible);
+  const handleCardClick = () => {
+    if (!isEventGallery) {
+      setIsContentVisible(!isContentVisible);
+    }
   };
 
   // Video Play Button component
   const PlayButton = () => (
-    <div className="absolute top-4 right-4 z-[3]">
+    <div className="absolute top-4 right-4 z-[3]" onClick={handleClick}>
       <div className={`w-10 h-10 ${isEventGallery ? 'bg-white/20' : 'bg-black/40'} backdrop-blur-sm rounded-full flex items-center justify-center ${isEventGallery ? 'group-hover:bg-white/30' : 'group-hover:bg-primary-500/50'} transition-all duration-300`}>
         <FaPlay className="w-4 h-4 text-white" />
       </div>
@@ -63,7 +65,7 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
       <motion.div
         whileHover={{ y: -5 }}
         className="group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer"
-        onClick={handleClick}
+        onClick={handleCardClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -94,7 +96,6 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
                 ? 'bg-black/60' 
                 : 'bg-black/60 md:bg-black/60 transition-opacity duration-300'
             }`}
-            onClick={handleContentClick}
           >
             <motion.div
               initial={{ y: 20, opacity: 0 }}
