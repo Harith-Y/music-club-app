@@ -61,7 +61,7 @@ export default function EventCard({ event }: EventCardProps) {
           <div className="flex items-center gap-3 mb-2">
             <h3 className="text-xl font-semibold text-white">{event.title.replace(/\(.*?\)/, '').trim()}</h3>
             {event.category === 'Performances' && (
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-primary-500 to-secondary-500 text-white">
+              <span className="inline-flex items-center justify-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-primary-500 to-secondary-500 text-white text-center">
                 {getEventName(event.title)}
               </span>
             )}
