@@ -10,6 +10,7 @@ import { usePathname } from 'next/navigation';
 
 interface GalleryItemProps {
   item: GalleryItemType;
+  isTeamPicture?: boolean;
 }
 
 const getCategoryDisplayName = (category: string): string => {
@@ -24,7 +25,7 @@ const getCategoryDisplayName = (category: string): string => {
   return categoryMap[category] || category;
 };
 
-const GalleryItem = ({ item }: GalleryItemProps) => {
+const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isContentVisible, setIsContentVisible] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -65,20 +66,45 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
     <>
       <motion.div
         whileHover={{ y: -5 }}
-        className="group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer"
+        className={`group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer ${
+          isTeamPicture ? 'h-auto' : 'h-64'
+        }`}
         onClick={handleCardClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="relative h-64 w-full overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
-          <Image
-            src={item.image}
-            alt={item.title}
-            fill
-            style={{ objectFit: 'cover' }}
-            className="rounded-2xl transform group-hover:scale-110 transition-transform duration-700"
-          />
+        <div className={`relative ${isTeamPicture ? 'h-auto' : 'h-64'} w-full overflow-hidden`}>
+          {!isTeamPicture && (
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
+          )}
+          
+          {isTeamPicture ? (
+            <div className="flex justify-center items-center">
+              <div className="relative w-full max-w-2xl mx-auto">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  width={800}
+                  height={600}
+                  style={{ 
+                    objectFit: 'contain',
+                    width: '100%',
+                    height: 'auto',
+                    borderRadius: '1rem'
+                  }}
+                  className="transform group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+            </div>
+          ) : (
+            <Image
+              src={item.image}
+              alt={item.title}
+              fill
+              style={{ objectFit: 'cover' }}
+              className="rounded-2xl transform group-hover:scale-110 transition-transform duration-700"
+            />
+          )}
           
           {/* Video Play Button Overlay */}
           {item.type === 'video' && <PlayButton />}
@@ -92,10 +118,14 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
                 : (isContentVisible || isHovered ? 1 : 0)
             }}
             transition={{ duration: 0.2 }}
-            className={`absolute inset-0 z-[2] flex flex-col items-center justify-center p-6 text-white ${
+            className={`absolute inset-0 z-[2] flex flex-col ${
+              isTeamPicture ? 'justify-end' : 'items-center justify-center'
+            } p-6 text-white ${
               isEventGallery 
                 ? 'bg-black/60' 
-                : 'bg-black/60 md:bg-black/60 transition-opacity duration-300'
+                : isTeamPicture 
+                  ? 'bg-transparent' 
+                  : 'bg-black/60 md:bg-black/60 transition-opacity duration-300'
             }`}
           >
             <motion.div
@@ -109,26 +139,30 @@ const GalleryItem = ({ item }: GalleryItemProps) => {
                   : (isContentVisible || isHovered ? 1 : 0)
               }}
               transition={{ duration: 0.3 }}
-              className="text-center"
+              className={`${isTeamPicture ? 'text-left' : 'text-center'}`}
             >
-              {(!isEventGallery && item.type === 'video') ? (
+              {(!isEventGallery && item.type === 'video' && !isTeamPicture) ? (
                 <FaPlay className="w-8 h-8 mx-auto mb-3 text-primary-400" />
-              ) : (
+              ) : !isTeamPicture ? (
                 <FaCamera className="w-8 h-8 mx-auto mb-3 text-primary-400" />
-              )}
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-primary-300 transition-colors duration-300">
+              ) : null}
+              <h3 className={`text-xl font-bold mb-2 text-white group-hover:text-primary-300 transition-colors duration-300 ${
+                isTeamPicture ? 'text-2xl' : ''
+              }`}>
                 {item.title}
               </h3>
-              <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary-600/80 backdrop-blur-sm">
-                {getCategoryDisplayName(item.category)}
-              </span>
+              {!isTeamPicture && (
+                <span className="inline-block px-3 py-1 rounded-full text-sm bg-primary-600/80 backdrop-blur-sm">
+                  {getCategoryDisplayName(item.category)}
+                </span>
+              )}
             </motion.div>
           </motion.div>
         </div>
       </motion.div>
 
       {/* Video Modal */}
-      {item.type === 'video' && (
+      {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
           <div className="relative w-full max-w-4xl mx-auto">
             <div className="relative pb-[56.25%] h-0">
