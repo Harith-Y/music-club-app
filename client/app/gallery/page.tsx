@@ -15,9 +15,17 @@ const hashToFilter = (hash: string): string => {
 };
 
 export default function GalleryPage() {
-  const [activeFilter, setActiveFilter] = useState('all');
+  // Initialize state from URL hash
+  const [activeFilter, setActiveFilter] = useState(() => {
+    // Check if we're in the browser
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      return hash ? hashToFilter(hash) : 'all';
+    }
+    return 'all';
+  });
 
-  // Initialize filter from URL hash on component mount
+  // Handle hash changes
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
@@ -26,9 +34,6 @@ export default function GalleryPage() {
         setActiveFilter(filter);
       }
     };
-
-    // Set initial filter from hash
-    handleHashChange();
 
     // Listen for hash changes
     window.addEventListener('hashchange', handleHashChange);

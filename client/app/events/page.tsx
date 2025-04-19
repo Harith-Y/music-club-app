@@ -27,12 +27,20 @@ const hashToCategory = (hash: string): EventCategory => {
 };
 
 export default function EventsPage() {
+  // Initialize state from URL hash
   const [activeTab, setActiveTab] = useState<'past' | 'upcoming'>('upcoming');
-  const [selectedCategory, setSelectedCategory] = useState<EventCategory>('All');
+  const [selectedCategory, setSelectedCategory] = useState<EventCategory>(() => {
+    // Check if we're in the browser
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      return hash ? hashToCategory(hash) : 'All';
+    }
+    return 'All';
+  });
 
   const categories: EventCategory[] = ['All', 'Performances', 'Open Mics', 'Competitions', 'Workshops'];
 
-  // Initialize category from URL hash on component mount
+  // Handle hash changes
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
@@ -41,9 +49,6 @@ export default function EventsPage() {
         setSelectedCategory(category);
       }
     };
-
-    // Set initial category from hash
-    handleHashChange();
 
     // Listen for hash changes
     window.addEventListener('hashchange', handleHashChange);
