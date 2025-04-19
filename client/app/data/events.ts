@@ -15,7 +15,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 24,
+      id: 26,
       title: "4th [Unofficial] Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -25,7 +25,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 23,
+      id: 25,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -37,7 +37,7 @@ export interface Event {
       galleryRoute: '/events/art-of-noise'
     },
     {
-      id: 22,
+      id: 24,
       title: "Opening Ceremony (Art of Noise)",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -48,7 +48,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
-      id: 21,
+      id: 23,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -60,7 +60,7 @@ export interface Event {
       galleryRoute: '/events/pixsonic-x-voxels'
     },
     {
-      id: 20,
+      id: 22,
       title: "3rd Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -72,7 +72,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-march11'
     },
     {
-      id: 19,
+      id: 21,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -83,7 +83,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 18,
+      id: 20,
       title: "Open Stage Night - 1",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -93,6 +93,28 @@ export interface Event {
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7",
       category: 'Open Mics',
       galleryRoute: '/events/openstagenight-feb2'
+    },
+    {
+      id: 19,
+      title: "Vande Matharam - Maa Tujhe Salaam (Republic Day)",
+      date: "January 26, 2025",
+      time: "7:00 AM",
+      location: "Open Air Theatre",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/RepublicDay2025.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/eOeejRMA1UE'
+    },
+    {
+      id: 18,
+      title: "Jai Ho (Republic Day)",
+      date: "January 26, 2025",
+      time: "7:00 AM",
+      location: "Open Air Theatre",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/RepublicDay2025.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/-JMQtq8c0C8'
     },
     {
       id: 17,
