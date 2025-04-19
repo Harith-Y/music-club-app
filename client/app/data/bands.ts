@@ -152,7 +152,7 @@ export const bands: Band[] = [
     members: [
       { id: 1, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
       { id: 2, name: "Ashish Nathan", instrument: "Rhythm Guitar", image: "/crew/AshishNathan.jpg" },
-      { id: 3, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
+      { id: 3, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh1.jpg" },
       { id: 4, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
       { id: 5, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
       { id: 6, name: "Harith", instrument: "Keyboard", image: "/crew/Harith3.jpg" },
@@ -161,7 +161,7 @@ export const bands: Band[] = [
       { id: 9, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
       { id: 10, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
       { id: 11, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
-      { id: 12, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela.jpg" },
+      { id: 12, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela1.jpg" },
     ]
   },
 ];
