@@ -15,7 +15,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 26,
+      id: 28,
       title: "4th [Unofficial] Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -25,7 +25,7 @@ export interface Event {
       category: 'Open Mics'
     },
     {
-      id: 25,
+      id: 27,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -37,7 +37,7 @@ export interface Event {
       galleryRoute: '/events/art-of-noise'
     },
     {
-      id: 24,
+      id: 26,
       title: "Opening Ceremony (Art of Noise)",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -48,7 +48,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
-      id: 23,
+      id: 25,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -60,7 +60,7 @@ export interface Event {
       galleryRoute: '/events/pixsonic-x-voxels'
     },
     {
-      id: 22,
+      id: 24,
       title: "3rd Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -72,7 +72,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-march11'
     },
     {
-      id: 21,
+      id: 23,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -83,7 +83,7 @@ export interface Event {
       category: 'Workshops'
     },
     {
-      id: 20,
+      id: 22,
       title: "Open Stage Night - 1",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -95,7 +95,7 @@ export interface Event {
       galleryRoute: '/events/openstagenight-feb2'
     },
     {
-      id: 19,
+      id: 21,
       title: "Vande Matharam - Maa Tujhe Salaam (Republic Day)",
       date: "January 26, 2025",
       time: "7:00 AM",
@@ -106,7 +106,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/eOeejRMA1UE'
     },
     {
-      id: 18,
+      id: 20,
       title: "Jai Ho (Republic Day)",
       date: "January 26, 2025",
       time: "7:00 AM",
@@ -117,7 +117,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/-JMQtq8c0C8'
     },
     {
-      id: 17,
+      id: 19,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -129,7 +129,7 @@ export interface Event {
       galleryRoute: '/events/music-reel-challenge'
     },
     {
-      id: 16,
+      id: 18,
       title: "Skyfall (CVIP)",
       date: "December 19, 2024",
       time: "5:00 PM",
@@ -140,7 +140,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/hH1Gp6kmaUQ'
     },
     {
-      id: 15,
+      id: 17,
       title: "Intehaan (CVIP)",
       date: "December 19, 2024",
       time: "5:00 PM",
@@ -151,7 +151,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/vw5Wj1u8rrw'
     },
     {
-      id: 14,
+      id: 16,
       title: "The Chain (CVIP)",
       date: "December 19, 2024",
       time: "5:00 PM",
@@ -162,7 +162,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/mZSY_ommAyo'
     },
     {
-      id: 13,
+      id: 15,
       title: "Dream a Little Dream of Me (CVIP)",
       date: "December 19, 2024",
       time: "5:00 PM",
@@ -173,7 +173,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/T66xfsmisgc'
     },
     {
-      id: 12,
+      id: 14,
       title: "2nd Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -185,7 +185,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-nov9'
     },
     {
-      id: 11,
+      id: 13,
       title: "Urvasi Urvase X Sheela Ki Jawani (Meraki)",
       date: "October 20, 2024",
       time: "10:00 PM",
@@ -196,7 +196,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/2jMVx2vp-gs'
     },
     {
-      id: 10,
+      id: 12,
       title: "Chandralekha (Meraki)",
       date: "October 20, 2024",
       time: "10:00 PM",
@@ -207,7 +207,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/RQd9IN4N_xM'
     },
     {
-      id: 9,
+      id: 11,
       title: "Muskaanein Jhooti Hai (Meraki)",
       date: "October 20, 2024",
       time: "10:00 PM",
@@ -218,7 +218,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/xHauVEB3a48'
     },
     {
-      id: 8,
+      id: 10,
       title: "Let's Kill Tonight (Meraki)",
       date: "October 20, 2024",
       time: "10:00 PM",
@@ -230,7 +230,7 @@ export interface Event {
     },
   
      {
-      id: 7,
+      id: 9,
       title: "Spooky Symphonies: Battle of Bands Meraki",
       date: "October 31, 2024",
       time: "6:00 PM",
@@ -242,7 +242,7 @@ export interface Event {
       category: 'Competitions'
     },
     {
-      id: 6,
+      id: 8,
       title: "Kande Pohe (Ganesh Chaturthi)",
       date: "September 7, 2024",
       time: "3:00 PM",
@@ -253,7 +253,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/NQi_6k_if-g'
     },
     {
-      id: 5,
+      id: 7,
       title: "Mahaganapathim (Ganesh Chaturthi)",
       date: "September 7, 2024",
       time: "3:00 PM",
@@ -264,7 +264,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/8aSGtWMdvzw'
     },
     {
-      id: 4,
+      id: 6,
       title: "1st Open Mic Night",
       date: "August 31, 2024",
       time: "8:00 PM",
@@ -276,7 +276,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-aug31'
     },
     {
-      id: 3,
+      id: 5,
       title: "Bulleya (Orientation)",
       date: "August 16, 2024",
       time: "10:30 AM",
@@ -287,7 +287,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/K36PvD_09bk'
     },
     {
-      id: 2,
+      id: 4,
       title: "Jiye Kyun (Orientation)",
       date: "August 16, 2024",
       time: "10:30 AM",
@@ -298,7 +298,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/e9Fdm7klZwc'
     },
     {
-      id: 1,
+      id: 3,
       title: "Rolling in the Deep (Orientation)",
       date: "August 16, 2024",
       time: "10:30 AM",
@@ -307,6 +307,28 @@ export interface Event {
       image: '/events/Orientation2024-1.jpg',
       category: 'Performances',
       youtubeUrl: 'https://www.youtube.com/embed/-AlngyopEG0'
+    },
+    {
+      id: 2,
+      title: "Utthan Desathin Kural (Independence Day)",
+      date: "August 15, 2024",
+      time: "7:00 AM",
+      location: "Open Air Theatre",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/IndependenceDay2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/h4mw0A6XL8o'
+    },
+    {
+      id: 1,
+      title: "Vande Matharam - Fighter Theme (Independence Day)",
+      date: "August 15, 2024",
+      time: "7:00 AM",
+      location: "Open Air Theatre",
+      description: "A wonderful morning of live performances from our talented members.",
+      image: '/events/IndependenceDay2024.jpg',
+      category: 'Performances',
+      youtubeUrl: 'https://www.youtube.com/embed/FcJu8kSG0tA'
     },
   ];
   
