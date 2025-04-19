@@ -150,18 +150,20 @@ export const bands: Band[] = [
     image: "/bands/band6.png",
     description: "A versatile rock collective that masterfully combines traditional rock elements with contemporary alternative influences. Their powerful stage presence and musical versatility create an immersive concert experience.",
     members: [
-      { id: 1, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
-      { id: 2, name: "Ashish Nathan", instrument: "Rhythm Guitar", image: "/crew/AshishNathan.jpg" },
-      { id: 3, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh1.jpg" },
-      { id: 4, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
-      { id: 5, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
-      { id: 6, name: "Harith", instrument: "Keyboard", image: "/crew/Harith3.jpg" },
-      { id: 7, name: "Manoj", instrument: "Keyboard", image: "/crew/Manoj.jpg" },
-      { id: 8, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
+      { id: 1, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
+      { id: 2, name: "Harith", instrument: "Keyboard", image: "/crew/Harith3.jpg" },
+      { id: 3, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela1.jpg" },
+      { id: 4, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
+      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh1.jpg" },
+      { id: 6, name: "Grishmank", instrument: "Rhythm Guitar", image: "/crew/Grishmank.jpg" },
+      { id: 7, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
+      { id: 8, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
+
       { id: 9, name: "Srinivas Nithin", instrument: "Lead Vocals", image: "/crew/SrinivasNithin.jpg" },
-      { id: 10, name: "Veni", instrument: "Lead Vocals", image: "/crew/Veni.jpg" },
-      { id: 11, name: "Vijay", instrument: "Lead Vocals", image: "/crew/Vijay.jpg" },
-      { id: 12, name: "Vineela", instrument: "Lead Vocals", image: "/crew/Vineela1.jpg" },
+      { id: 10, name: "Ashish Nathan", instrument: "Rhythm Guitar", image: "/crew/AshishNathan.jpg" },
+
+      { id: 11, name: "Manoj", instrument: "Keyboard", image: "/crew/Manoj.jpg" },
+      { id: 12, name: "Srinidhi", instrument: "Lead Vocals", image: "/crew/Srinidhi.jpg" },
     ]
   },
 ];

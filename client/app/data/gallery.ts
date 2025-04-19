@@ -18,6 +18,7 @@ export interface GalleryItem {
     { id: 7, category: 'performances', image: '/gallery/Saarang2025/DrumsSolo.jpg', title: 'Drums Solo', type: 'video', videoUrl: 'https://www.youtube.com/embed/G42Gx7FuPEc' },
     { id: 8, category: 'performances', image: '/gallery/Saarang2025/ShriyaSolo.jpg', title: 'I Wanna Know What Love Is', type: 'video', videoUrl: 'https://www.youtube.com/embed/NtB7KgQwaCc' },
     { id: 9, category: 'performances', image: '/gallery/Saarang2025/KeyboardSolo.jpg', title: 'Keyboard Solo', type: 'video', videoUrl: 'https://www.youtube.com/embed/0bX-TSTKmEE'},
+    { id: 10, category: 'performances', image: '/gallery/Saarang2025/MeeraKSolo.jpg', title: 'In case you don\'t Live Forever', type: 'video', videoUrl: 'https://www.youtube.com/embed/lx6hLpcRMjg' },
 
     { id: 10, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_201107.jpg', title: 'Anuj and Anushree', type: 'image', event: '1st Open Mic Night' },
     { id: 11, category: 'competitions', image: '/gallery/MusicReelChallenge/Harini.jpg', title: 'Harini', type: 'video', event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/t46qLSQgBUY' },
