@@ -46,7 +46,7 @@ export const bands: Band[] = [
     id: 3,
     name: "Soul Rock",
     image: "/bands/band1.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "A powerhouse rock ensemble that masterfully blends classic rock anthems with contemporary alternative vibes. Their dynamic stage presence and tight harmonies create an unforgettable live experience.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Drums", image: "/crew/AbhishekKumar.jpg" },
       { id: 2, name: "David J Sharon", instrument: "Mixer", image: "/crew/David.png" },
@@ -63,7 +63,7 @@ export const bands: Band[] = [
     id: 4,
     name: "Dream Pie",
     image: "/bands/band2.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "An innovative rock collective that pushes musical boundaries by fusing progressive rock elements with modern indie sensibilities. Their experimental approach and technical precision set them apart.",
     members: [
       { id: 1, name: "Adi Khera", instrument: "Rhythm Guitar", image: "/crew/Adi.jpg" },
       { id: 2, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
@@ -77,7 +77,7 @@ export const bands: Band[] = [
     id: 5,
     name: "Paradise",
     image: "/bands/band9.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "A versatile rock outfit that seamlessly transitions between classic rock ballads and contemporary alternative hits. Their polished performances and charismatic stage presence captivate audiences.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
       { id: 2, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya.jpg" },
@@ -91,7 +91,7 @@ export const bands: Band[] = [
     id: 6,
     name: "Just For You All",
     image: "/bands/band3.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "A dynamic rock ensemble that delivers high-octane performances with a perfect blend of classic rock energy and modern alternative edge. Their infectious enthusiasm and crowd interaction make every show memorable.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
       { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/crew/Shirish.jpg" },
@@ -137,7 +137,7 @@ export const bands: Band[] = [
     description: "A contemporary fusion band that blends multiple vocal styles with modern instrumentation. Their performances feature a unique mix of lead and harmonizing vocals, supported by dynamic keyboard and guitar arrangements.",
     members: [
       { id: 1, name: "Jahnavi", instrument: "Lead Vocals", image: "/crew/Jahnavi.jpg" },
-      { id: 2, name: "Shashwat", instrument: "Drums", image: "/crew/Shashwat.jpg" },
+      { id: 2, name: "Shashwat", instrument: "Drums", image: "/crew/Shashwath.jpg" },
       { id: 3, name: "Rupkatha", instrument: "Lead Vocals", image: "/crew/Rupkatha.jpg" },
       { id: 4, name: "Keshav", instrument: "Keyboard", image: "/crew/Keshav.jpg" },
       { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/crew/Bhadresh.jpg" },
@@ -148,7 +148,7 @@ export const bands: Band[] = [
     id: 10,
     name: "Sanchari",
     image: "/bands/band6.png",
-    description: "A high-energy rock band that combines classic rock influences with modern alternative sounds. Known for their powerful live performances.",
+    description: "A versatile rock collective that masterfully combines traditional rock elements with contemporary alternative influences. Their powerful stage presence and musical versatility create an immersive concert experience.",
     members: [
       { id: 1, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/crew/Ajitha.jpg" },
       { id: 2, name: "Ashish Nathan", instrument: "Rhythm Guitar", image: "/crew/AshishNathan.jpg" },
