@@ -198,7 +198,7 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed - see the [LICENSE.md](LICENSE.md) file for details.
 
-## �� Acknowledgements
+## 🙏 Acknowledgements
 
 - [Next.js](https://nextjs.org/) - React framework
 - [Firebase](https://firebase.google.com/) - Backend services
@@ -212,6 +212,54 @@ For any queries or support, please reach out to:
 - Email: [musicclub.iiitdm@gmail.com](mailto:musicclub.iiitdm@gmail.com)
 - Website: [https://music-club-iiitdm.vercel.app](https://music-club-iiitdm.vercel.app)
 
+## 🔄 Recent Updates
+
+### New Features
+- 📱 **Enhanced Mobile Responsiveness** with improved UI/UX for all screen sizes
+- 🎨 **Refined UI Components** with smoother animations and transitions
+- 📝 **Legal Pages** added:
+  - Privacy Policy
+  - Terms of Service
+- 🎵 **Expanded Events Section** with:
+  - Detailed event categories
+  - YouTube video integration
+  - Event registration links
+  - Gallery routes for events
+- 📞 **Enhanced Contact Section** with:
+  - Detailed club hours
+  - Physical location information
+  - Multiple contact methods
+  - Social media integration
+
+### Technical Improvements
+- ⚡ **Performance Optimizations**:
+  - Improved image loading
+  - Optimized animations
+  - Better code splitting
+- 🔧 **Development Updates**:
+  - Updated Next.js to version 15.2.0
+  - Enhanced TypeScript configurations
+  - Improved Firebase integration
+  - Added comprehensive error handling
+
+### Content Updates
+- 📅 **New Events Added**:
+  - Art of Noise (March 30, 2025)
+  - Pixsonic X Voxels (March 30, 2025)
+  - 4th [Unofficial] Open Mic Night (April 5, 2025)
+  - Music Production Workshop (March 5, 2025)
+  - Republic Day Performances (January 26, 2025)
+  - Music Reel Challenge (January 1, 2025)
+  - CVIP Performances (December 19, 2024)
+  - Meraki Performances (October 20, 2024)
+
+## 🎯 Upcoming Features
+- 🔐 **Member Authentication System**
+- 🎵 **Section for Originals by our Club**
+- 📱 **Mobile App Development**
+- 🌐 **Multi-language Support**
+
 ---
 
+Last Updated: March 2024
 Built with ❤️ by the Music Club Team at IIITDM Kancheepuram
