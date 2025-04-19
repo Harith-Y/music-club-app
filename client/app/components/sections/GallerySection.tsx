@@ -21,6 +21,7 @@ const filterButtons = [
   { id: 'workshops', label: 'Workshops' },
   { id: 'jams', label: 'Jam Sessions' },
   { id: 'covers', label: 'Covers' },
+  { id: 'team', label: 'The Team Pictures' },
 ];
 
 const GallerySection = ({ 
@@ -95,7 +96,11 @@ const GallerySection = ({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+            className={`grid gap-8 ${
+              activeFilter === 'team' 
+                ? 'grid-cols-1' 
+                : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
+            }`}
           >
             {displayItems.map((item, index) => (
               <motion.div
@@ -103,8 +108,9 @@ const GallerySection = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
+                className={activeFilter === 'team' ? 'w-full' : ''}
               >
-                <GalleryItem item={item} />
+                <GalleryItem item={item} isTeamPicture={activeFilter === 'team'} />
               </motion.div>
             ))}
           </motion.div>

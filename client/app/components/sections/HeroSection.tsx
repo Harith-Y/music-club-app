@@ -3,10 +3,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
+
+// Dynamically import the MusicNotesAnimation component with no SSR
+const MusicNotesAnimation = dynamic(
+  () => import('../ui/MusicNotesAnimation'),
+  { 
+    ssr: false,
+    loading: () => <div className="absolute inset-0 z-0 bg-transparent" />
+  }
+);
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen flex items-center justify-center hero-gradient text-white overflow-hidden">
+      {/* 3D Music Notes Animation */}
+      <div className="absolute inset-0 z-0">
+        <MusicNotesAnimation />
+      </div>
+
       {/* Animated background particles */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-primary-900/30 to-secondary-900/30" />

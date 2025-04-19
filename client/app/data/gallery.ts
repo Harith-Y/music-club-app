@@ -28,4 +28,11 @@ export interface GalleryItem {
     { id: 16, category: 'competitions', image: '/gallery/MusicReelChallenge/Duo.jpg', title: 'Anurag and Grishmank', type: 'video', event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/nHTZT4Ky9qU' },
     { id: 17, category: 'competitions', image: '/gallery/MusicReelChallenge/Tarun.jpg', title: 'Tarun Mamillapalli', type: 'video', event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/woGKn0s-mhc' },
     { id: 18, category: 'competitions', image: '/gallery/MusicReelChallenge/Benedict2.jpg', title: 'Benedict I', type: 'video', event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/4D2zzB3mAVw' },
+    
+    // Team Pictures
+    { id: 19, category: 'team', image: '/gallery/team/independence_day.jpg', title: 'Independence Day', type: 'image' },
+    { id: 20, category: 'team', image: '/gallery/team/merakiday0.jpg', title: 'Meraki Day 0', type: 'image' },
+    { id: 21, category: 'team', image: '/gallery/team/merakiday1.jpg', title: 'Meraki Day 1', type: 'image' },
+    { id: 22, category: 'team', image: '/gallery/team/repday.jpg', title: 'Republic Day', type: 'image' },
+    { id: 23, category: 'team', image: '/gallery/team/saarang.jpg', title: 'Saarang 2025', type: 'image' },
   ];
