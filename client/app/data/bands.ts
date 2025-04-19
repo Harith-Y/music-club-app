@@ -93,12 +93,12 @@ export const bands: Band[] = [
     image: "/bands/band3.png",
     description: "A dynamic rock ensemble that delivers high-octane performances with a perfect blend of classic rock energy and modern alternative edge. Their infectious enthusiasm and crowd interaction make every show memorable.",
     members: [
-      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN.jpg" },
-      { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/crew/Shirish.jpg" },
+      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN1.jpg" },
+      { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/crew/Shirish1.jpg" },
       { id: 3, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya.jpg" },
-      { id: 4, name: "Seimen", instrument: "Lead Guitar", image: "/crew/Seimen.jpg" },
-      { id: 5, name: "Vivek", instrument: "Rhythm Guitar", image: "/crew/Vivek.jpg" },
-      { id: 6, name: "Daniel", instrument: "Keyboard", image: "/crew/Daniel.jpg" },
+      { id: 4, name: "Seimen", instrument: "Backing Vocals/Lead Guitar", image: "/crew/Seimen.jpg" },
+      { id: 5, name: "Vivek", instrument: "Backing Vocals/Rhythm Guitar", image: "/crew/Vivek1.jpg" },
+      { id: 6, name: "Daniel", instrument: "Keyboard", image: "/crew/Daniel1.jpg" },
     ]
   },
   {
