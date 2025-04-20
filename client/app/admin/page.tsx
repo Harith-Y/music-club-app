@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { addGalleryItemAtPosition, addEventAtPosition } from '../utils/data-helpers';
 import { galleryItems } from '../data/gallery';
 import { pastEvents } from '../data/events';
@@ -8,6 +8,13 @@ import { GalleryItem } from '../data/gallery';
 import { Event } from '../data/events';
 
 export default function AdminPage() {
+  // Use useEffect to ensure client-side rendering
+  const [isClient, setIsClient] = useState(false);
+  
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  
   // Gallery form state
   const [galleryPosition, setGalleryPosition] = useState(0);
   const [newGalleryItem, setNewGalleryItem] = useState<Omit<GalleryItem, 'id'>>({
@@ -58,7 +65,6 @@ export default function AdminPage() {
         .replace(/"videoUrl":/g, 'videoUrl:')
         .replace(/"event":/g, 'event:')
         .replace(/"order":/g, 'order:')
-        .replace(/"/g, "'")
         .replace(/type: 'image'/g, "type: 'image' as const")
         .replace(/type: 'video'/g, "type: 'video' as const");
       
@@ -92,7 +98,6 @@ export default function AdminPage() {
         .replace(/"viewBandsLink":/g, 'viewBandsLink:')
         .replace(/"galleryRoute":/g, 'galleryRoute:')
         .replace(/"order":/g, 'order:')
-        .replace(/"/g, "'")
         .replace(/category: 'Performances'/g, "category: 'Performances' as const")
         .replace(/category: 'Open Mics'/g, "category: 'Open Mics' as const")
         .replace(/category: 'Competitions'/g, "category: 'Competitions' as const")
@@ -103,6 +108,11 @@ export default function AdminPage() {
       setEventResult(`Error: ${error instanceof Error ? error.message : String(error)}`);
     }
   };
+  
+  // If not on client, show loading state
+  if (!isClient) {
+    return <div className="p-4 text-gray-900 dark:text-white">Loading...</div>;
+  }
   
   return (
     <div className="container mx-auto p-4 max-w-4xl">
