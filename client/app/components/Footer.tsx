@@ -18,20 +18,6 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               The official Music Club of IIITDM Kancheepuram, dedicated to nurturing musical talent and creating memorable experiences through music.
             </p>
-            <div className="flex space-x-3">
-              <a href="https://www.instagram.com/musicclub.iiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaInstagram />
-              </a>
-              <a href="https://www.youtube.com/@iiitdmmusicclub2549" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaYoutube />
-              </a>
-              <a href="https://linktr.ee/MusicClub_IIITDM" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaTree />
-              </a>
-              <a href="https://www.facebook.com/profile.php?id=61575171101823" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaFacebook />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -97,6 +83,22 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            
+            <h4 className="text-lg font-bold mt-6 mb-3 font-poppins">Follow Us</h4>
+            <div className="flex space-x-3">
+              <a href="https://linktr.ee/MusicClub_IIITDM" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaTree />
+              </a>
+              <a href="https://www.instagram.com/musicclub.iiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaInstagram />
+              </a>
+              <a href="https://www.youtube.com/@iiitdmmusicclub2549" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaYoutube />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61575171101823" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaFacebook />
+              </a>
+            </div>
           </div>
         </div>
 
