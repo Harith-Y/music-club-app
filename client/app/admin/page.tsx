@@ -58,7 +58,9 @@ export default function AdminPage() {
         .replace(/"videoUrl":/g, 'videoUrl:')
         .replace(/"event":/g, 'event:')
         .replace(/"order":/g, 'order:')
-        .replace(/"/g, "'");
+        .replace(/"/g, "'")
+        .replace(/type: 'image'/g, "type: 'image' as const")
+        .replace(/type: 'video'/g, "type: 'video' as const");
       
       setGalleryResult(formattedResult);
     } catch (error) {
@@ -90,7 +92,11 @@ export default function AdminPage() {
         .replace(/"viewBandsLink":/g, 'viewBandsLink:')
         .replace(/"galleryRoute":/g, 'galleryRoute:')
         .replace(/"order":/g, 'order:')
-        .replace(/"/g, "'");
+        .replace(/"/g, "'")
+        .replace(/category: 'Performances'/g, "category: 'Performances' as const")
+        .replace(/category: 'Open Mics'/g, "category: 'Open Mics' as const")
+        .replace(/category: 'Competitions'/g, "category: 'Competitions' as const")
+        .replace(/category: 'Workshops'/g, "category: 'Workshops' as const");
       
       setEventResult(formattedResult);
     } catch (error) {
@@ -100,29 +106,29 @@ export default function AdminPage() {
   
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-2xl font-bold mb-6">Music Club Admin Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Music Club Admin Dashboard</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Gallery Item Form */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold mb-4">Add New Gallery Item</h2>
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Add New Gallery Item</h2>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Position (0-based index):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Position (0-based index):</label>
             <input 
               type="number" 
               value={galleryPosition} 
               onChange={(e) => setGalleryPosition(parseInt(e.target.value))}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Category:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Category:</label>
             <select 
               value={newGalleryItem.category} 
               onChange={(e) => setNewGalleryItem({...newGalleryItem, category: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             >
               <option value="performances">Performances</option>
               <option value="jams">Jams</option>
@@ -133,31 +139,31 @@ export default function AdminPage() {
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Title:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Title:</label>
             <input 
               type="text" 
               value={newGalleryItem.title} 
               onChange={(e) => setNewGalleryItem({...newGalleryItem, title: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Image Path:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Image Path:</label>
             <input 
               type="text" 
               value={newGalleryItem.image} 
               onChange={(e) => setNewGalleryItem({...newGalleryItem, image: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Type:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Type:</label>
             <select 
               value={newGalleryItem.type} 
               onChange={(e) => setNewGalleryItem({...newGalleryItem, type: e.target.value as 'image' | 'video'})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             >
               <option value="image">Image</option>
               <option value="video">Video</option>
@@ -166,37 +172,37 @@ export default function AdminPage() {
           
           {newGalleryItem.type === 'video' && (
             <div className="mb-4">
-              <label className="block text-sm font-medium mb-1">Video URL:</label>
+              <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Video URL:</label>
               <input 
                 type="text" 
                 value={newGalleryItem.videoUrl} 
                 onChange={(e) => setNewGalleryItem({...newGalleryItem, videoUrl: e.target.value})}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
               />
             </div>
           )}
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Event (optional):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Event (optional):</label>
             <input 
               type="text" 
               value={newGalleryItem.event} 
               onChange={(e) => setNewGalleryItem({...newGalleryItem, event: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <button 
             onClick={handleAddGalleryItem}
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            className="btn-primary w-full"
           >
             Generate Gallery Item
           </button>
           
           {galleryResult && (
             <div className="mt-4">
-              <h3 className="text-sm font-medium mb-1">Result (copy and replace in gallery.ts):</h3>
-              <pre className="bg-gray-100 p-3 rounded text-xs overflow-auto max-h-60">
+              <h3 className="text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Result (copy and replace in gallery.ts):</h3>
+              <pre className="bg-gray-100 dark:bg-gray-900 p-3 rounded text-xs overflow-auto max-h-60 text-gray-900 dark:text-white">
                 {galleryResult}
               </pre>
             </div>
@@ -204,85 +210,85 @@ export default function AdminPage() {
         </div>
         
         {/* Event Form */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold mb-4">Add New Event</h2>
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Add New Event</h2>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Position (0-based index):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Position (0-based index):</label>
             <input 
               type="number" 
               value={eventPosition} 
               onChange={(e) => setEventPosition(parseInt(e.target.value))}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Title:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Title:</label>
             <input 
               type="text" 
               value={newEvent.title} 
               onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Date:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Date:</label>
             <input 
               type="text" 
               value={newEvent.date} 
               onChange={(e) => setNewEvent({...newEvent, date: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Time:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Time:</label>
             <input 
               type="text" 
               value={newEvent.time} 
               onChange={(e) => setNewEvent({...newEvent, time: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Location:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Location:</label>
             <input 
               type="text" 
               value={newEvent.location} 
               onChange={(e) => setNewEvent({...newEvent, location: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Description:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Description:</label>
             <textarea 
               value={newEvent.description} 
               onChange={(e) => setNewEvent({...newEvent, description: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
               rows={3}
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Image Path:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Image Path:</label>
             <input 
               type="text" 
               value={newEvent.image} 
               onChange={(e) => setNewEvent({...newEvent, image: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Category:</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Category:</label>
             <select 
               value={newEvent.category} 
               onChange={(e) => setNewEvent({...newEvent, category: e.target.value as 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops'})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             >
               <option value="Performances">Performances</option>
               <option value="Open Mics">Open Mics</option>
@@ -292,56 +298,56 @@ export default function AdminPage() {
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Registration Link (optional):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Registration Link (optional):</label>
             <input 
               type="text" 
               value={newEvent.registrationLink} 
               onChange={(e) => setNewEvent({...newEvent, registrationLink: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">YouTube URL (optional):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">YouTube URL (optional):</label>
             <input 
               type="text" 
               value={newEvent.youtubeUrl} 
               onChange={(e) => setNewEvent({...newEvent, youtubeUrl: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">View Bands Link (optional):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">View Bands Link (optional):</label>
             <input 
               type="text" 
               value={newEvent.viewBandsLink} 
               onChange={(e) => setNewEvent({...newEvent, viewBandsLink: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Gallery Route (optional):</label>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Gallery Route (optional):</label>
             <input 
               type="text" 
               value={newEvent.galleryRoute} 
               onChange={(e) => setNewEvent({...newEvent, galleryRoute: e.target.value})}
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
           </div>
           
           <button 
             onClick={handleAddEvent}
-            className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+            className="btn-primary w-full"
           >
             Generate Event
           </button>
           
           {eventResult && (
             <div className="mt-4">
-              <h3 className="text-sm font-medium mb-1">Result (copy and replace in events.ts):</h3>
-              <pre className="bg-gray-100 p-3 rounded text-xs overflow-auto max-h-60">
+              <h3 className="text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Result (copy and replace in events.ts):</h3>
+              <pre className="bg-gray-100 dark:bg-gray-900 p-3 rounded text-xs overflow-auto max-h-60 text-gray-900 dark:text-white">
                 {eventResult}
               </pre>
             </div>
@@ -349,9 +355,9 @@ export default function AdminPage() {
         </div>
       </div>
       
-      <div className="mt-8 bg-yellow-50 p-4 rounded-lg border border-yellow-200">
-        <h2 className="text-lg font-semibold mb-2">How to Use This Tool</h2>
-        <ol className="list-decimal pl-5 space-y-2">
+      <div className="mt-8 bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg border border-yellow-200 dark:border-yellow-800">
+        <h2 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">How to Use This Tool</h2>
+        <ol className="list-decimal pl-5 space-y-2 text-gray-700 dark:text-gray-300">
           <li>Fill out the form for the item you want to add (Gallery Item or Event)</li>
           <li>Click the "Generate" button</li>
           <li>Copy the generated code from the result box</li>
