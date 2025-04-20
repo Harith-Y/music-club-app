@@ -24,7 +24,7 @@ export const bands: Band[] = [
       { id: 2, name: "Ayushya", instrument: "Lead Guitar", image: "/crew/Ayushya.jpg" },
       { id: 3, name: "Harini", instrument: "Lead Vocals", image: "/crew/Harini.jpg" },
       { id: 4, name: "Priyansu", instrument: "Lead Vocals", image: "/crew/Priyansu.jpg" },
-      { id: 5, name: "Varsha", instrument: "Keyboard", image: "/crew/Varsha.jpg" },
+      { id: 5, name: "Varsha", instrument: "Keyboard", image: "/crew/Varsha1.jpg" },
       { id: 6, name: "Yashas", instrument: "Drums", image: "/crew/Yashas.jpg" }
     ],
   },
