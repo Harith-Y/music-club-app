@@ -13,7 +13,7 @@ export interface GalleryItem {
     { id: 2, category: 'jams', image: '/performances/20240831_210445.jpg', title: 'Weekend Jam Session', type: 'image' },
     { id: 3, category: 'performances', image: '/performances/IMG_9793.jpg', title: 'Blastroduction', type: 'image' },
     { id: 4, category: 'jams', image: '/performances/20240831_210858.jpg', title: 'Weekend Jam Session', type: 'image' },
-    { id: 5, category: 'performances', image: '/gallery/Enter_Sandman.png', title: 'Enter Sandman', type: 'video', videoUrl: 'https://www.youtube.com/embed/hpURyv_xhu0' },
+    { id: 5, category: 'performances', image: '/gallery/Enter_SaMusicReelChallenge2025ndman.png', title: 'Enter Sandman', type: 'video', videoUrl: 'https://www.youtube.com/embed/hpURyv_xhu0' },
     { id: 6, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'Dream On', type: 'video', videoUrl: 'https://www.youtube.com/embed/_S_q-sEy6Pg' },
     { id: 7, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'For Whom the Bell Tolls', type: 'video', videoUrl: 'https://www.youtube.com/embed/zYfgVTm52_U' },
     { id: 8, category: 'performances', image: '/gallery/Saarang2025/DrumsSolo.jpg', title: 'Drums Solo', type: 'video', videoUrl: 'https://www.youtube.com/embed/G42Gx7FuPEc' },
@@ -40,9 +40,9 @@ export interface GalleryItem {
     { id: 27, category: 'covers', image: '/gallery/Farewell2025/Ankit_Farewell.jpg', title: 'Bulleya', type: 'video', videoUrl: 'https://youtube.com/embed/esI3k-LUq4Y' },
 
     // Team Pictures
-    { id: 28, category: 'team', image: '/gallery/team/independence_day.jpg', title: 'Independence Day', type: 'image' },
-    { id: 29, category: 'team', image: '/gallery/team/merakiday0.jpg', title: 'Meraki Day 0', type: 'image' },
-    { id: 30, category: 'team', image: '/gallery/team/merakiday1.jpg', title: 'Meraki Day 1', type: 'image' },
-    { id: 31, category: 'team', image: '/gallery/team/repday.jpg', title: 'Republic Day', type: 'image' },
-    { id: 32, category: 'team', image: '/gallery/team/saarang.jpg', title: 'Saarang 2025', type: 'image' },
+    { id: 28, category: 'team', image: '/gallery/Team2025/independence_day.jpg', title: 'Independence Day', type: 'image' },
+    { id: 29, category: 'team', image: '/gallery/Team2025/merakiday0.jpg', title: 'Meraki Day 0', type: 'image' },
+    { id: 30, category: 'team', image: '/gallery/Team2025/merakiday1.jpg', title: 'Meraki Day 1', type: 'image' },
+    { id: 31, category: 'team', image: '/gallery/Team2025/repday.jpg', title: 'Republic Day', type: 'image' },
+    { id: 32, category: 'team', image: '/gallery/Team2025/saarang.jpg', title: 'Saarang 2025', type: 'image' },
   ];
