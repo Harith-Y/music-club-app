@@ -31,6 +31,7 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const pathname = usePathname();
   const isEventGallery = pathname.startsWith('/events/');
+  const isJamsCategory = item.category === 'jams';
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -67,14 +68,14 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
       <motion.div
         whileHover={{ y: -5 }}
         className={`group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer ${
-          isTeamPicture ? 'h-auto' : 'h-64'
+          isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-64'
         }`}
         onClick={handleCardClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className={`relative ${isTeamPicture ? 'h-auto' : 'h-64'} w-full overflow-hidden`}>
-          {!isTeamPicture && (
+        <div className={`relative ${isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-64'} w-full overflow-hidden`}>
+          {!isTeamPicture && !isJamsCategory && (
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
           )}
           
@@ -90,6 +91,25 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
                     objectFit: 'contain',
                     width: '100%',
                     height: 'auto',
+                    borderRadius: '1rem'
+                  }}
+                  className="transform group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+            </div>
+          ) : isJamsCategory ? (
+            <div className="flex justify-center items-center">
+              <div className="relative w-full">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  width={800}
+                  height={1200}
+                  style={{ 
+                    objectFit: 'contain',
+                    width: '100%',
+                    height: 'auto',
+                    maxHeight: '400px',
                     borderRadius: '1rem'
                   }}
                   className="transform group-hover:scale-105 transition-transform duration-700"

@@ -99,7 +99,9 @@ const GallerySection = ({
             className={`grid gap-8 ${
               activeFilter === 'team' 
                 ? 'grid-cols-1' 
-                : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
+                : activeFilter === 'jams'
+                  ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-auto'
+                  : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
             }`}
           >
             {displayItems.map((item, index) => (
