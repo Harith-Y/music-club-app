@@ -35,10 +35,10 @@ export interface GalleryItem {
   
   export const galleryItems: GalleryItem[] = [
     { id: 1, category: 'performances', image: '/performances/20240815_103444.jpg', title: 'Independence Day Performance', type: 'image' as const },
-    { id: 2, category: 'jams', image: '/performances/20240831_210445.jpg', title: 'Weekend Jam Session', type: 'image' as const },
+    { id: 2, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_210445.jpg', title: 'Nihaal (Flute)', type: 'image' as const, event: '1st Open Mic Night'},
     { id: 3, category: 'performances', image: '/performances/IMG_9793.jpg', title: 'Blastroduction', type: 'image' as const },
-    { id: 4, category: 'jams', image: '/performances/20240831_210858.jpg', title: 'Weekend Jam Session', type: 'image' as const },
-    { id: 5, category: 'performances', image: '/gallery/Enter_SaMusicReelChallenge2025ndman.png', title: 'Enter Sandman', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/hpURyv_xhu0' },
+    { id: 4, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_210858.jpg', title: 'Jeswin (Vocal)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 5, category: 'performances', image: '/gallery/Enter_Sandman.png', title: 'Enter Sandman', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/hpURyv_xhu0' },
     { id: 6, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'Dream On', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/_S_q-sEy6Pg' },
     { id: 7, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'For Whom the Bell Tolls', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/zYfgVTm52_U' },
     { id: 8, category: 'performances', image: '/gallery/Saarang2025/DrumsSolo.jpg', title: 'Drums Solo', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/G42Gx7FuPEc' },
@@ -47,7 +47,7 @@ export interface GalleryItem {
     { id: 11, category: 'performances', image: '/gallery/Saarang2025/MeeraKSolo.jpg', title: 'In case you don\'t Live Forever', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/lx6hLpcRMjg' },
     { id: 12, category: 'performances', image: '/gallery/Saarang2025/MeeraRSolo.jpg', title: 'No One', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/GL4wmk8GBeQ' },
 
-    { id: 13, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_201107.jpg', title: 'Anuj and Anushree', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 13, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_201107.jpg', title: 'Anushree (Vocals) and Anuj (Guitar)', type: 'image' as const, event: '1st Open Mic Night' },
     { id: 14, category: 'competitions', image: '/gallery/MusicReelChallenge2025/Harini.jpg', title: 'Harini', type: 'video' as const, event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/t46qLSQgBUY' },
     { id: 15, category: 'competitions', image: '/gallery/MusicReelChallenge2025/Suranjana.jpg', title: 'Suranjana Mary Paul Santiago', type: 'video' as const, event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/vv6BadAlzVs' },
     { id: 16, category: 'competitions', image: '/gallery/MusicReelChallenge2025/Vijay.jpg', title: 'Vijay', type: 'video' as const, event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/31NE44FVR8g' },
