@@ -45,6 +45,19 @@ export default function AdminPage() {
   // Results state
   const [galleryResult, setGalleryResult] = useState<string>('');
   const [eventResult, setEventResult] = useState<string>('');
+  const [copyStatus, setCopyStatus] = useState<{gallery: boolean, event: boolean}>({gallery: false, event: false});
+  
+  // Handle copying code to clipboard
+  const copyToClipboard = (text: string, type: 'gallery' | 'event') => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopyStatus(prev => ({...prev, [type]: true}));
+      setTimeout(() => {
+        setCopyStatus(prev => ({...prev, [type]: false}));
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  };
   
   // Handle adding a new gallery item
   const handleAddGalleryItem = () => {
@@ -211,7 +224,15 @@ export default function AdminPage() {
           
           {galleryResult && (
             <div className="mt-4">
-              <h3 className="text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Result (copy and replace in gallery.ts):</h3>
+              <div className="flex justify-between items-center mb-1">
+                <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Result (copy and replace in gallery.ts):</h3>
+                <button 
+                  onClick={() => copyToClipboard(galleryResult, 'gallery')}
+                  className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                >
+                  {copyStatus.gallery ? 'Copied!' : 'Copy'}
+                </button>
+              </div>
               <pre className="bg-gray-100 dark:bg-gray-900 p-3 rounded text-xs overflow-auto max-h-60 text-gray-900 dark:text-white">
                 {galleryResult}
               </pre>
@@ -356,7 +377,15 @@ export default function AdminPage() {
           
           {eventResult && (
             <div className="mt-4">
-              <h3 className="text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Result (copy and replace in events.ts):</h3>
+              <div className="flex justify-between items-center mb-1">
+                <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Result (copy and replace in events.ts):</h3>
+                <button 
+                  onClick={() => copyToClipboard(eventResult, 'event')}
+                  className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                >
+                  {copyStatus.event ? 'Copied!' : 'Copy'}
+                </button>
+              </div>
               <pre className="bg-gray-100 dark:bg-gray-900 p-3 rounded text-xs overflow-auto max-h-60 text-gray-900 dark:text-white">
                 {eventResult}
               </pre>
@@ -370,7 +399,7 @@ export default function AdminPage() {
         <ol className="list-decimal pl-5 space-y-2 text-gray-700 dark:text-gray-300">
           <li>Fill out the form for the item you want to add (Gallery Item or Event)</li>
           <li>Click the "Generate" button</li>
-          <li>Copy the generated code from the result box</li>
+          <li>Click the "Copy" button to copy the generated code</li>
           <li>Open the corresponding data file (gallery.ts or events.ts)</li>
           <li>Replace the existing array with the new one</li>
           <li>Save the file and your changes will be reflected in the app</li>
