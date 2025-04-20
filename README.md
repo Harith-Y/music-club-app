@@ -15,6 +15,7 @@ The official website for the Music Club of IIITDM Kancheepuram, built with moder
 - 📱 **Responsive Design** that works seamlessly across all devices
 - 🎨 **Modern UI/UX** with smooth animations and transitions
 - 🌓 **Dark Mode** support with automatic system preference detection
+- 🔧 **Admin Interface** for easy content management
 
 ### Sections
 1. **Hero Section**
@@ -51,6 +52,12 @@ The official website for the Music Club of IIITDM Kancheepuram, built with moder
    - Team member profiles
    - Role-based organization
 
+7. **Admin Dashboard**
+   - Easy content management for gallery items and events
+   - Form-based interface for adding new content
+   - Automatic ID generation and position management
+   - One-click code copying for seamless updates
+
 ## 🛠️ Technical Stack
 
 ### Frontend
@@ -79,6 +86,7 @@ music-club-app/
 │   │   │   ├── events/       # Events page
 │   │   │   ├── gallery/      # Gallery page
 │   │   │   └── team/         # Team pages
+│   │   ├── admin/            # Admin dashboard
 │   │   ├── layout.tsx        # Root layout
 │   │   └── page.tsx          # Home page
 │   ├── components/           # Reusable React components
@@ -230,6 +238,11 @@ For any queries or support, please reach out to:
   - Physical location information
   - Multiple contact methods
   - Social media integration
+- 🔧 **Admin Dashboard** with:
+  - Form-based interface for adding gallery items and events
+  - Automatic ID generation and position management
+  - One-click code copying for seamless updates
+  - Smart handling of apostrophes in titles
 
 ### Technical Improvements
 - ⚡ **Performance Optimizations**:
@@ -241,6 +254,7 @@ For any queries or support, please reach out to:
   - Enhanced TypeScript configurations
   - Improved Firebase integration
   - Added comprehensive error handling
+  - Implemented client-side rendering for admin interface
 
 ### Content Updates
 - 📅 **New Events Added**:

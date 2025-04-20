@@ -7,7 +7,7 @@ This admin interface allows you to easily add new gallery items and events to yo
 1. Navigate to `/admin` in your application
 2. Fill out the form for the item you want to add (Gallery Item or Event)
 3. Click the "Generate" button
-4. Copy the generated code from the result box
+4. Click the "Copy" button to copy the generated code
 5. Open the corresponding data file (gallery.ts or events.ts)
 6. Replace the existing array with the new one
 7. Save the file and your changes will be reflected in the app
@@ -43,4 +43,16 @@ When adding an event, you need to provide:
 
 ## Security Note
 
-This admin interface is not protected by authentication. In a production environment, you should add authentication to restrict access to authorized users only. 
+This admin interface is not protected by authentication. In a production environment, you should add authentication to restrict access to authorized users only.
+
+## Recent Updates
+
+### Copy Button
+- Added a "Copy" button to each code box that copies the entire generated code to the clipboard with a single click
+- The button changes to "Copied!" for 2 seconds after successful copying
+- This makes it easier to copy the code without having to manually select and copy the text
+
+### Apostrophe Handling
+- The generated code now uses double quotes instead of single quotes for string values
+- This prevents syntax errors when titles contain apostrophes (e.g., "Let's Kill Tonight")
+- No need to manually escape apostrophes in titles anymore 
