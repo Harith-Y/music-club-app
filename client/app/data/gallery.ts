@@ -41,16 +41,23 @@ export interface GalleryItem {
     { id: 3, category: 'performances', image: '/gallery/Enter_Sandman.png', title: 'Enter Sandman', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/hpURyv_xhu0' },
     { id: 4, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'Dream On', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/_S_q-sEy6Pg' },
     { id: 5, category: 'performances', image: '/gallery/Saarang2025/Saarang2025.jpg', title: 'For Whom the Bell Tolls', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/zYfgVTm52_U' },
-    { id: 6, category: 'performances', image: '/gallery/Saarang2025/DrumsSolo.jpg', title: 'Drums Solo', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/G42Gx7FuPEc' },
-    { id: 7, category: 'performances', image: '/gallery/Saarang2025/ShriyaSolo.jpg', title: 'I Wanna Know What Love Is', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/NtB7KgQwaCc' },
-    { id: 8, category: 'performances', image: '/gallery/Saarang2025/KeyboardSolo.jpg', title: 'Keyboard Solo', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/0bX-TSTKmEE'},
-    { id: 9, category: 'performances', image: '/gallery/Saarang2025/MeeraKSolo.jpg', title: 'In case you don\'t Live Forever', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/lx6hLpcRMjg' },
-    { id: 10, category: 'performances', image: '/gallery/Saarang2025/MeeraRSolo.jpg', title: 'No One', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/GL4wmk8GBeQ' },
+    { id: 6, category: 'performances', image: '/gallery/Saarang2025/DrumsSolo.jpg', title: 'Drums Solo - Dikshant', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/G42Gx7FuPEc' },
+    { id: 7, category: 'performances', image: '/gallery/Saarang2025/ShriyaSolo.jpg', title: 'I Wanna Know What Love Is - Shriya Y', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/NtB7KgQwaCc' },
+    { id: 8, category: 'performances', image: '/gallery/Saarang2025/KeyboardSolo.jpg', title: 'Keyboard Solo - Nivedh Biju', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/0bX-TSTKmEE'},
+    { id: 9, category: 'performances', image: '/gallery/Saarang2025/MeeraKSolo.jpg', title: 'In case you don\'t Live Forever - Meera K', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/lx6hLpcRMjg' },
+    { id: 10, category: 'performances', image: '/gallery/Saarang2025/MeeraRSolo.jpg', title: 'No One - Meera R', type: 'video' as const, videoUrl: 'https://www.youtube.com/embed/GL4wmk8GBeQ' },
 
     // Open Mic Night 2024
     { id: 11, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_210445.jpg', title: 'Nihaal (Flute)', type: 'image' as const, event: '1st Open Mic Night'},
     { id: 12, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_210858.jpg', title: 'Jeswin (Vocal)', type: 'image' as const, event: '1st Open Mic Night' },
     { id: 13, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_201107.jpg', title: 'Anushree (Vocals) and Anuj (Guitar)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 14, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_212547.jpg', title: 'Divyaa (Vocals)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 15, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_205709.jpg', title: 'Hari Naveen (Vocals)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 16, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_204918.jpg', title: 'Manoj (Keyboard)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 17, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_203739.jpg', title: 'Suranjana (Vocals)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 18, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_201659.jpg', title: 'Ezhil and Co (Vocals)', type: 'image' as const, event: '1st Open Mic Night' },
+    { id: 19, category: 'jams', image: '/gallery/OpenMicNight-August 31/20240831_200248.jpg', title: 'Shashwat (Vocals)', type: 'image' as const, event: '1st Open Mic Night' },
+
     
     // Music Reel Challenge 2025
     { id: 14, category: 'competitions', image: '/gallery/MusicReelChallenge2025/Harini.jpg', title: 'Harini', type: 'video' as const, event: 'Music Reel Challenge', videoUrl: 'https://youtube.com/embed/t46qLSQgBUY' },
