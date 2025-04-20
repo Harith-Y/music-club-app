@@ -15,6 +15,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Music Club - IIITDM Kancheepuram',
   description: 'Official website of the Music Club at IIITDM Kancheepuram, Chennai, India',
+  icons: {
+    icon: '/Logo.ico',
+  },
 };
 
 export default function RootLayout({
