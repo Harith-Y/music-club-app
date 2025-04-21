@@ -78,8 +78,8 @@ export default function AdminPage() {
         .replace(/"videoUrl":/g, 'videoUrl:')
         .replace(/"event":/g, 'event:')
         .replace(/"order":/g, 'order:')
-        .replace(/type: 'image'/g, "type: 'image' as const")
-        .replace(/type: 'video'/g, "type: 'video' as const");
+        .replace(/type: "image"/g, "type: 'image' as const")
+        .replace(/type: "video"/g, "type: 'video' as const");
       
       setGalleryResult(formattedResult);
     } catch (error) {
