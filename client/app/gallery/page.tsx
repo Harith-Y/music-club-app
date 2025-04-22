@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import GallerySection from '../components/sections/GallerySection';
+import DriveButton from '../components/sections/DriveButton';
 
 // Convert filter to URL-friendly format
 const filterToHash = (filter: string): string => {
@@ -59,6 +60,7 @@ export default function GalleryPage() {
           showViewFullButton={false}
           showAllImages={true}
           showFilters={true}
+          driveButton={<DriveButton />}
         />
       </div>
     </main>

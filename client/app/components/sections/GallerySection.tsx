@@ -13,6 +13,7 @@ interface GallerySectionProps {
   showViewFullButton?: boolean;
   showAllImages?: boolean;
   showFilters?: boolean;
+  driveButton?: React.ReactNode;
 }
 
 const filterButtons = [
@@ -29,7 +30,8 @@ const GallerySection = ({
   setActiveFilter,
   showViewFullButton = true,
   showAllImages = false,
-  showFilters = false
+  showFilters = false,
+  driveButton
 }: GallerySectionProps) => {
   // Filter gallery items based on active filter
   const filteredGalleryItems = activeFilter === 'all' 
@@ -52,9 +54,20 @@ const GallerySection = ({
           <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400">
             Our Gallery
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-4">
             Explore moments captured during our various musical events and activities
           </p>
+          {driveButton && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="flex justify-center"
+            >
+              {driveButton}
+            </motion.div>
+          )}
         </motion.div>
         
         {/* Gallery Filters */}
