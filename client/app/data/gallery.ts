@@ -458,11 +458,12 @@ export interface GalleryItem {
       event: "1st Open Mic Night",
       order: 44
     },
+    
     {
       id: 35,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_200248.jpg",
-      title: "Shashwat (Vocals)",
+      image: "/gallery/OpenMicNight-August 31/20240831_193828.jpg",
+      title: "(VOcals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
       order: 45
@@ -470,8 +471,8 @@ export interface GalleryItem {
     {
       id: 36,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_193828.jpg",
-      title: "(VOcals)",
+      image: "/gallery/OpenMicNight-August 31/20240831_195846.jpg",
+      title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
       order: 46
@@ -479,7 +480,7 @@ export interface GalleryItem {
     {
       id: 37,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_195846.jpg",
+      image: "/gallery/OpenMicNight-August 31/20240831_203256.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -488,7 +489,7 @@ export interface GalleryItem {
     {
       id: 38,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_203256.jpg",
+      image: "/gallery/OpenMicNight-August 31/20240831_204226.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -497,7 +498,7 @@ export interface GalleryItem {
     {
       id: 39,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_204226.jpg",
+      image: "/gallery/OpenMicNight-August 31/20240831_204509.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -506,7 +507,7 @@ export interface GalleryItem {
     {
       id: 40,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_204509.jpg",
+      image: "/gallery/OpenMicNight-August 31/20240831_211416.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -515,8 +516,8 @@ export interface GalleryItem {
     {
       id: 41,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_211416.jpg",
-      title: "(Vocals)",
+      image: "/gallery/OpenMicNight-August 31/20240831_200248.jpg",
+      title: "Shashwat (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
       order: 51
