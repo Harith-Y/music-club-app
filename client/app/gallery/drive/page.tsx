@@ -9,7 +9,7 @@ export default function DriveRedirect() {
   
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
-      window.location.href = 'https://drive.google.com/drive/folders/1Low62FNIcbyp2_Sd2Syz0SZLD_s30vJV?usp=sharing';
+      window.location.replace('https://drive.google.com/drive/folders/1Low62FNIcbyp2_Sd2Syz0SZLD_s30vJV?usp=sharing');
     }, 2000);
 
     return () => clearTimeout(redirectTimer);
