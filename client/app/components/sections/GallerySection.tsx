@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import GalleryItem from '../ui/GalleryItem';
@@ -33,6 +34,12 @@ const GallerySection = ({
   showFilters = false,
   driveButton
 }: GallerySectionProps) => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   // Filter gallery items based on active filter
   const filteredGalleryItems = activeFilter === 'all' 
     ? galleryItems 
@@ -46,8 +53,7 @@ const GallerySection = ({
       <div className="container mx-auto px-4 md:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -60,8 +66,7 @@ const GallerySection = ({
           {driveButton && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex justify-center"
             >
@@ -75,8 +80,7 @@ const GallerySection = ({
           <motion.div 
             className="flex flex-wrap justify-center gap-4 mb-12"
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             {filterButtons.map((button, index) => (
@@ -91,8 +95,7 @@ const GallerySection = ({
                     : 'bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-white'
                 }`}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 {button.label}
@@ -106,7 +109,7 @@ const GallerySection = ({
           <motion.div 
             key={activeFilter}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            animate={isMounted ? { opacity: 1 } : { opacity: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
             className={`grid gap-8 ${
@@ -121,7 +124,7 @@ const GallerySection = ({
               <motion.div
                 key={item.id}
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className={activeFilter === 'team' ? 'w-full' : ''}
               >
@@ -134,8 +137,7 @@ const GallerySection = ({
         {showViewFullButton && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={isMounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-center mt-12"
           >

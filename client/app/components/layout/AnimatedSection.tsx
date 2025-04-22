@@ -1,8 +1,7 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 
 interface AnimatedSectionProps {
   children: ReactNode;
@@ -17,19 +16,19 @@ const fadeIn = {
 };
 
 export default function AnimatedSection({ children, id, className = '' }: AnimatedSectionProps) {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   return (
     <motion.section
       id={id}
-      ref={ref}
       initial="hidden"
-      animate={inView ? "visible" : "hidden"}
+      animate={isMounted ? "visible" : "hidden"}
       variants={fadeIn}
-      className={`py-16 md:py-24 ${className}`}
+      className={className}
     >
       {children}
     </motion.section>
