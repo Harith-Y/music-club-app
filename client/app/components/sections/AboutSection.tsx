@@ -35,10 +35,13 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300 leading-relaxed">
-              The Music Club of IIITDM Kancheepuram is a vibrant community of music enthusiasts dedicated to promoting and nurturing musical talent within the institute. Founded in 2016, our club has been a platform for students to explore their passion for music, develop their skills, and showcase their talents.
+              The Music Club of IIITDM Kancheepuram is a vibrant community of music enthusiasts dedicated to promoting and nurturing musical talent within the institute. Founded in 2014, our club has been a platform for students to explore their passion for music, develop their skills, and showcase their talents.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              We organize various events throughout the academic year, including concerts, open mic nights, workshops, and jam sessions. Our club is open to all students, regardless of their level of musical experience.
+              We organize various events throughout the academic year, including concerts, collaborative performances, themed events, open mic nights, workshops, and jam sessions. Our club is open to all students, regardless of their level of musical experience. Inclusive environment here, fosters growth and lasting friendships.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              Passionate musicians unite to create unforgettable experiences through rhythm and melody. Immerse yourself in the power of music and embark on an unforgettable adventure with us!
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
