@@ -47,7 +47,7 @@ const Navbar = () => {
               className="h-20 w-auto"
             />
             <Image
-              src="/logo/MusicClub.png"
+              src="/logo/Logo_NoBG.png"
               alt="Music Club Logo"
               width={40}
               height={40}
