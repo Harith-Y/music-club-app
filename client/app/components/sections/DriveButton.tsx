@@ -1,10 +1,13 @@
 'use client';
 
 import { FaGoogleDrive } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 
 export default function DriveButton() {
+  const router = useRouter();
+
   const handleDriveRedirect = () => {
-    window.location.href = 'https://drive.google.com/drive/folders/1Low62FNIcbyp2_Sd2Syz0SZLD_s30vJV?usp=sharing';
+    router.push('/gallery/drive');
   };
 
   return (
