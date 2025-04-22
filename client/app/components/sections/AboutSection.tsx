@@ -65,17 +65,13 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
             className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl group"
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent z-10" />
             <Image
-              src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              src="/Music_Room.jpg"
               alt="Music Club Activities"
               fill
               style={{ objectFit: 'cover' }}
               className="rounded-2xl transform group-hover:scale-105 transition-transform duration-700"
             />
-            {/* Decorative elements */}
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary-500/20 rounded-full blur-3xl animate-float" />
-            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
           </motion.div>
         </div>
       </div>
