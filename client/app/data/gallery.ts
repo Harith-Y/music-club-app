@@ -458,7 +458,6 @@ export interface GalleryItem {
       event: "1st Open Mic Night",
       order: 44
     },
-    
     {
       id: 35,
       category: "jams",
@@ -523,12 +522,22 @@ export interface GalleryItem {
       order: 51
     },
     {
+      category: "jams",
+      image: "/gallery/OpenMicNight-August 31/VideoCapture_20250423-002558.jpg",
+      title: "Crowd",
+      type: 'image' as const,
+      videoUrl: "",
+      event: "1st Open Mic Night",
+      id: 56,
+      order: 52
+    },
+    {
       id: 42,
       category: "performances",
       image: "/performances/IMG_9793.jpg",
       title: "Blastroduction",
       type: 'image' as const,
-      order: 52
+      order: 53
     },
     {
       id: 43,
@@ -536,7 +545,7 @@ export interface GalleryItem {
       image: "/performances/20240815_103444.jpg",
       title: "Independence Day Performance",
       type: 'image' as const,
-      order: 53
+      order: 54
     },
     {
       id: 44,
@@ -544,7 +553,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/independence_day.jpg",
       title: "Independence Day",
       type: 'image' as const,
-      order: 54
+      order: 55
     }
   ].map((item, index) => ({
     ...item,
