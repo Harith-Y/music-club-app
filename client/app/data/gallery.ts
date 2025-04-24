@@ -36,7 +36,7 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "covers",
-      image: "/gallery/Farewell2025/Room-823_Farewell.jpg",
+      image: "/gallery/Farewell2025/QQZDdPWx_Ak-SD.jpg",
       title: "Dil Ibaadat (Room 823)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QQZDdPWx_Ak",
@@ -47,7 +47,7 @@ export interface GalleryItem {
     {
       id: 1,
       category: "covers",
-      image: "/gallery/Farewell2025/QQZDdPWx_Ak-SD.jpg",
+      image: "/gallery/Farewell2025/Room-823_Farewell.jpg",
       title: "Hua Mein (Room 823)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/RtaddCi6TFo",
