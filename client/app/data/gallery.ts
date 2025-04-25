@@ -85,7 +85,7 @@ export interface GalleryItem {
     {
       category: "jams",
       image: "/gallery/OpenMicNight-March 11/20250311_204522.jpg",
-      title: "Abhishek N (Vocals)",
+      title: "Abhishek N (Vocals) and Vivek (Guitar)",
       type: 'image' as const,
       videoUrl: "",
       event: "3rd Open Mic Night",
