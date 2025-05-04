@@ -36,7 +36,21 @@ export default function EventCard({ event }: EventCardProps) {
   const shouldShowGalleryButton = (event: Event) => {
     if (event.title === "Unofficial Open Mic Night") return false;
     if (event.title === "Spooky Symphonies: Battle of Bands Meraki") return false;
-    return event.category === 'Open Mics' || event.category === 'Competitions';
+    
+    // Add specific events that need gallery buttons
+    const eventsWithGallery = [
+      "4th [Unofficial] Open Mic Night",
+      "Republic Day (Club Performance)",
+      "CVIP (Club Performance)",
+      "Meraki (Club Performance)",
+      "Ganesh Chaturthi (Club Performance)",
+      "Orientation (Club Performance)",
+      "Independence Day (Club Performance)"
+    ];
+    
+    return event.category === 'Open Mics' || 
+           event.category === 'Competitions' || 
+           eventsWithGallery.includes(event.title);
   };
 
   const isSpookySymponies = event.title === "Spooky Symphonies: Battle of Bands Meraki";
@@ -135,7 +149,9 @@ export default function EventCard({ event }: EventCardProps) {
                 {event.galleryRoute && (
                   <Link
                     href={event.galleryRoute}
-                    className="w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center"
+                    className={`w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center ${
+                      !event.registrationLink ? 'col-span-2' : ''
+                    }`}
                   >
                     Gallery
                   </Link>
