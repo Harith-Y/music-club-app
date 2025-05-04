@@ -47,7 +47,8 @@ export interface Event {
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
       image: '/events/UnofficialOpenMicApril5.jpg',
-      category: 'Open Mics' as const
+      category: 'Open Mics' as const,
+      galleryRoute: '/events/unofficialopenmicnight-april5'
     },
     {
       id: 23,
