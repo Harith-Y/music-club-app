@@ -29,9 +29,18 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isContentVisible, setIsContentVisible] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [imageAspectRatio, setImageAspectRatio] = useState<number>(1);
   const pathname = usePathname();
   const isEventGallery = pathname.startsWith('/events/');
   const isJamsCategory = item.category === 'jams';
+
+  useEffect(() => {
+    const img = new window.Image();
+    img.src = item.image;
+    img.onload = () => {
+      setImageAspectRatio(img.width / img.height);
+    };
+  }, [item.image]);
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -68,13 +77,13 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
       <motion.div
         whileHover={{ y: -5 }}
         className={`group relative bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer ${
-          isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-64'
+          isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-auto'
         }`}
         onClick={handleCardClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className={`relative ${isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-64'} w-full overflow-hidden`}>
+        <div className={`relative ${isTeamPicture ? 'h-auto' : isJamsCategory ? 'h-auto' : 'h-auto'} w-full overflow-hidden`}>
           {!isTeamPicture && !isJamsCategory && (
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent z-[1]" />
           )}
@@ -117,13 +126,15 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
               </div>
             </div>
           ) : (
-            <Image
-              src={item.image}
-              alt={item.title}
-              fill
-              style={{ objectFit: 'cover' }}
-              className="rounded-2xl transform group-hover:scale-110 transition-transform duration-700"
-            />
+            <div className="relative w-full aspect-square">
+              <Image
+                src={item.image}
+                alt={item.title}
+                fill
+                style={{ objectFit: Math.abs(imageAspectRatio - 1) < 0.1 ? 'cover' : 'contain' }}
+                className="rounded-2xl transform group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
           )}
           
           {/* Video Play Button Overlay */}
