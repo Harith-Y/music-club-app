@@ -48,7 +48,7 @@ export interface Event {
       description: "An evening of live performances from our talented members.",
       image: '/events/UnofficialOpenMicApril5.jpg',
       category: 'Open Mics' as const,
-      galleryRoute: '/events/unofficialopenmicnight-april5'
+      galleryRoute: '/events/unofficial_open_mic-april-2025'
     },
     {
       id: 15,
@@ -60,7 +60,7 @@ export interface Event {
       image: "/events/Art_of_Noise_2025/ArtOfNoise.png",
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8",
       category: 'Competitions' as const,
-      galleryRoute: '/events/art-of-noise'
+      galleryRoute: '/events/art_of_noise-2025'
     },
     {
       id: 14,
@@ -72,7 +72,7 @@ export interface Event {
       image: "/events/PixsonicXVoxels.png",
       registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7",
       category: 'Competitions' as const,
-      galleryRoute: '/events/pixsonic_x_voxels'
+      galleryRoute: '/events/pixsonic_x_voxels-2025'
     },
     {
       id: 13,
@@ -84,7 +84,7 @@ export interface Event {
       image: '/events/Open_Mic_March_2025/OpenMicMarch11.jpg',
       registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/open_mic-march11'
+      galleryRoute: '/events/open_mic-march-2025'
     },
     {
       id: 12,
@@ -107,7 +107,7 @@ export interface Event {
       image: '/events/OpenMicFebruary2.jpg',
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/openstagenight-feb2'
+      galleryRoute: '/events/open_stage-feb-2025'
     },
     {
       id: 10,
@@ -118,7 +118,7 @@ export interface Event {
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/RepublicDay2025.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/RepublicDay2025'
+      galleryRoute: '/events/republic_day-2025'
     },
     {
       id: 9,
@@ -130,7 +130,7 @@ export interface Event {
       image: '/events/Music_Reel_Challenge_2025/MusicReelChallenge2025.jpg',
       registrationLink: "https://forms.gle/P7ft2r92SSeoT31o7",
       category: 'Competitions' as const,
-      galleryRoute: '/events/music_reel_challenge_2025'
+      galleryRoute: '/events/music_reel_challenge-2025'
     },
     {
       id: 8,
@@ -150,10 +150,10 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: '/events/OpenMicNovember9.jpg',
+      image: '/events/Open_Mic_November_2024/OpenMicNovember9.jpg',
       registrationLink: "https://forms.gle/UZJm6wCpGrvxMM7EA",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/openmicnight-nov9'
+      galleryRoute: '/events/open_mic-nov-2024'
     },
     {
       id: 6,
@@ -196,10 +196,10 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: '/events/OpenMicAugust31.jpg',
+      image: '/events/Open_Mic_August_2024/OpenMicAugust31.jpg',
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/open_mic_night-aug31'
+      galleryRoute: '/events/open_mic-aug-2024'
     },
     {
       id: 2,
@@ -210,7 +210,7 @@ export interface Event {
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/Orientation2024-1.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/orientation2024'
+      galleryRoute: '/events/orientation-2024'
     },
     {
       id: 1,
@@ -221,7 +221,7 @@ export interface Event {
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/IndependenceDay2024.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/independence-day-2024'
+      galleryRoute: '/events/independence_day-2024'
     },
   ].map((item, index) => ({
     ...item,

@@ -450,7 +450,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP2024.png",
+      image: "/events/CVIP_2024/CVIP2024.png",
       title: "The Chain",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/mZSY_ommAyo",
@@ -460,7 +460,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP2024.png",
+      image: "/events/CVIP_2024/CVIP2024.png",
       title: "Dream a Little Dream of Me",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/T66xfsmisgc",
@@ -470,7 +470,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP2024.png",
+      image: "/events/CVIP_2024/CVIP2024.png",
       title: "Skyfall Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hH1Gp6kmaUQ",
@@ -480,7 +480,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP2024.png",
+      image: "/events/CVIP_2024/CVIP2024.png",
       title: "Intehaan Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/vw5Wj1u8rrw",
