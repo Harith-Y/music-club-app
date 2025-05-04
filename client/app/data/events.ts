@@ -72,7 +72,7 @@ export interface Event {
       image: "/events/PixsonicXVoxels.png",
       registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7",
       category: 'Competitions' as const,
-      galleryRoute: '/events/pixsonic-x-voxels'
+      galleryRoute: '/events/pixsonic_x_voxels'
     },
     {
       id: 13,
@@ -81,10 +81,10 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "An evening of live performances from our talented members.",
-      image: '/events/OpenMicMarch11.jpg',
+      image: '/events/Open_Mic_March_2025/OpenMicMarch11.jpg',
       registrationLink: "https://forms.gle/DU5h1GB93rY7Ek6T9",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/openmicnight-march11'
+      galleryRoute: '/events/open_mic-march11'
     },
     {
       id: 12,
@@ -162,9 +162,9 @@ export interface Event {
       time: "10:00 PM",
       location: "Open Air Theatre",
       description: "An evening of live performances from our talented members.",
-      image: '/events/Meraki2024.jpg',
+      image: '/events/Meraki_2024/Meraki2024.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/meraki2024'
+      galleryRoute: '/events/meraki-2024'
     },  
     {
       id: 5,
@@ -185,9 +185,9 @@ export interface Event {
       time: "3:00 PM",
       location: "Ashwatha Hostel",
       description: "An afternoon of live performances from our talented members.",
-      image: '/events/GaneshChaturthi2024-2.jpg',
+      image: '/events/Ganesh_Chaturthi_2024/GaneshChaturthi2024-2.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/ganeshchaturthi2024'
+      galleryRoute: '/events/ganesh_chaturthi-2024'
     },
     {
       id: 3,
@@ -199,7 +199,7 @@ export interface Event {
       image: '/events/OpenMicAugust31.jpg',
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSelkpTGhxMxEuojAIPusqn7NdhrTgFti8cbEAjVCCBg1OxFHQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabKzmPnBJRiCtzElxUb8nQcsBTkxguNC1jwqhWJA3QQUkmZPQFvhaO-QpA_aem_TN4C4Nm6qV1njYskj7YLgg",
       category: 'Open Mics' as const,
-      galleryRoute: '/events/openmicnight-aug31'
+      galleryRoute: '/events/open_mic_night-aug31'
     },
     {
       id: 2,

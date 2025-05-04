@@ -124,7 +124,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_204014.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_204014.jpg",
       title: "Tarun M (Keyboard)",
       type: 'image' as const,
       videoUrl: "",
@@ -134,7 +134,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_203522.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_203522.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -144,7 +144,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_204522.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_204522.jpg",
       title: "Abhishek N (Vocals) and Vivek (Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -154,7 +154,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_205019.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_205019.jpg",
       title: "Asish (Vocals and Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -164,7 +164,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_203008.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_203008.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -174,7 +174,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_211059.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_211059.jpg",
       title: "Ajitha Arvindh (Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -184,7 +184,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/20250311_205933.jpg",
+      image: "/events/Open_Mic_March_2025/Media/20250311_205933.jpg",
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -194,7 +194,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/IMG-20250312-WA0004.jpg",
+      image: "/events/Open_Mic_March_2025/Media/IMG-20250312-WA0004.jpg",
       title: "Harith (Keyboard)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/HXZFzyHFFmY",
@@ -204,7 +204,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-March 11/7YoLSDp0968-SD.jpg",
+      image: "/events/Open_Mic_March_2025/Media/7YoLSDp0968-SD.jpg",
       title: "Dharani and Meera R (Vocals)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/7YoLSDp0968",
@@ -260,7 +260,7 @@ export interface GalleryItem {
     {
       id: 5,
       category: "performances",
-      image: "/gallery/Saarang2025/Saarang2025.jpg",
+      image: "/external/Saarang2025/Saarang2025.jpg",
       title: "Dream On",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_S_q-sEy6Pg",
@@ -269,7 +269,7 @@ export interface GalleryItem {
     {
       id: 6,
       category: "performances",
-      image: "/gallery/Saarang2025/Saarang2025.jpg",
+      image: "/external/Saarang2025/Saarang2025.jpg",
       title: "For Whom the Bell Tolls",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zYfgVTm52_U",
@@ -278,7 +278,7 @@ export interface GalleryItem {
     {
       id: 7,
       category: "covers",
-      image: "/gallery/Saarang2025/DrumsSolo.jpg",
+      image: "/external/Saarang2025/DrumsSolo.jpg",
       title: "Drums Solo - Dikshant",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/G42Gx7FuPEc",
@@ -287,7 +287,7 @@ export interface GalleryItem {
     {
       id: 8,
       category: "covers",
-      image: "/gallery/Saarang2025/ShriyaSolo.jpg",
+      image: "/external/Saarang2025/ShriyaSolo.jpg",
       title: "I Wanna Know What Love Is - Shriya Y",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NtB7KgQwaCc",
@@ -296,7 +296,7 @@ export interface GalleryItem {
     {
       id: 9,
       category: "covers",
-      image: "/gallery/Saarang2025/KeyboardSolo.jpg",
+      image: "/external/Saarang2025/KeyboardSolo.jpg",
       title: "Keyboard Solo - Nivedh Biju",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0bX-TSTKmEE",
@@ -305,7 +305,7 @@ export interface GalleryItem {
     {
       id: 10,
       category: "covers",
-      image: "/gallery/Saarang2025/MeeraKSolo.jpg",
+      image: "/external/Saarang2025/MeeraKSolo.jpg",
       title: "In case you don't Live Forever - Meera K",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lx6hLpcRMjg",
@@ -314,7 +314,7 @@ export interface GalleryItem {
     {
       id: 11,
       category: "covers",
-      image: "/gallery/Saarang2025/MeeraRSolo.jpg",
+      image: "/external/Saarang2025/MeeraRSolo.jpg",
       title: "No One - Meera R",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/GL4wmk8GBeQ",
@@ -498,7 +498,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-November 9/IMG-20241109-WA0009.jpg",
+      image: "/events/Open_Mic_November_2024/Media/IMG-20241109-WA0009.jpg",
       title: "Priyank, Harith and Grishmank (Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -508,7 +508,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-November 9/_kAqrLvT-zM-HQ.jpg",
+      image: "/events/Open_Mic_November_2024/Media/_kAqrLvT-zM-HQ.jpg",
       title: "Caitlin (Vocals) and Harith (Keyboard)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/_kAqrLvT-zM",
@@ -518,7 +518,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki2024.jpg",
+      image: "/events/Meraki_2024/Meraki2024.jpg",
       title: "Let's Kill Tonight",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NhMqICsZZfM",
@@ -528,7 +528,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki2024.jpg",
+      image: "/events/Meraki_2024/Meraki2024.jpg",
       title: "Muskaanein Jhooti Hai",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xHauVEB3a48",
@@ -538,7 +538,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki2024.jpg",
+      image: "/events/Meraki_2024/Meraki2024.jpg",
       title: "Chandralekha",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/RQd9IN4N_xM",
@@ -548,7 +548,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki2024.jpg",
+      image: "/events/Meraki_2024/Meraki2024.jpg",
       title: "Urvasi Urvase X Sheela Ki Jawani",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2jMVx2vp-gs",
@@ -566,7 +566,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/GaneshChaturthi2024-1.jpg",
+      image: "/events/Ganesh_Chaturthi_2024/GaneshChaturthi2024-1.jpg",
       title: "Mahaganapathim Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/8aSGtWMdvzw",
@@ -576,7 +576,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/GaneshChaturthi2024-2.jpg",
+      image: "/events/Ganesh_Chaturthi_2024/GaneshChaturthi2024-2.jpg",
       title: "Kande Pohe Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NQi_6k_if-g",
@@ -587,7 +587,7 @@ export interface GalleryItem {
     {
       id: 27,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_210445.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_210445.jpg",
       title: "Nihaal (Flute)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -596,7 +596,7 @@ export interface GalleryItem {
     {
       id: 28,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_210858.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_210858.jpg",
       title: "Jeswin (Vocal)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -605,7 +605,7 @@ export interface GalleryItem {
     {
       id: 29,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_201107.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_201107.jpg",
       title: "Anushree (Vocals) and Anuj (Guitar)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -614,7 +614,7 @@ export interface GalleryItem {
     {
       id: 30,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_212547.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_212547.jpg",
       title: "Divyaa (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -623,7 +623,7 @@ export interface GalleryItem {
     {
       id: 31,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_205709.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_205709.jpg",
       title: "Hari Naveen (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -632,7 +632,7 @@ export interface GalleryItem {
     {
       id: 32,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_204918.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_204918.jpg",
       title: "Manoj (Keyboard)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -641,7 +641,7 @@ export interface GalleryItem {
     {
       id: 33,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_203739.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_203739.jpg",
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -650,7 +650,7 @@ export interface GalleryItem {
     {
       id: 34,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_201659.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_201659.jpg",
       title: "Ezhil and Co (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -659,7 +659,7 @@ export interface GalleryItem {
     {
       id: 35,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_193828.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_193828.jpg",
       title: "(VOcals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -668,7 +668,7 @@ export interface GalleryItem {
     {
       id: 36,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_195846.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_195846.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -677,7 +677,7 @@ export interface GalleryItem {
     {
       id: 37,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_203256.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_203256.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -686,7 +686,7 @@ export interface GalleryItem {
     {
       id: 38,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_204226.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_204226.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -695,7 +695,7 @@ export interface GalleryItem {
     {
       id: 39,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_204509.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_204509.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -704,7 +704,7 @@ export interface GalleryItem {
     {
       id: 40,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_211416.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_211416.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -713,7 +713,7 @@ export interface GalleryItem {
     {
       id: 41,
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/20240831_200248.jpg",
+      image: "/events/Open_Mic_August_2024/Media/20240831_200248.jpg",
       title: "Shashwat (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -721,7 +721,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/gallery/OpenMicNight-August 31/VideoCapture_20250423-002558.jpg",
+      image: "/events/Open_Mic_August_2024/Media/VideoCapture_20250423-002558.jpg",
       title: "Crowd",
       type: 'image' as const,
       videoUrl: "",
