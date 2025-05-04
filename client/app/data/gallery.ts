@@ -36,7 +36,7 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "performances",
-      image: "/gallery/Team2025/Samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "Dil Se Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2NGJ1bPrzUg",
@@ -46,7 +46,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team2025/Samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/IpzZjpbhejQ",
@@ -56,7 +56,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team2025/Samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "We Will Rock You Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/ERPM28X17FI",
@@ -66,7 +66,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team2025/Samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "Nadaan Parindey",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0KwCNBu5qQs",
@@ -76,7 +76,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team2025/Samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/tOMHFZN7zDM",
