@@ -126,12 +126,18 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
               </div>
             </div>
           ) : (
-            <div className="relative w-full aspect-square">
+            <div 
+              className="relative w-full" 
+              style={{ 
+                aspectRatio: imageAspectRatio,
+                maxHeight: '400px'
+              }}
+            >
               <Image
                 src={item.image}
                 alt={item.title}
                 fill
-                style={{ objectFit: Math.abs(imageAspectRatio - 1) < 0.1 ? 'cover' : 'contain' }}
+                style={{ objectFit: 'contain' }}
                 className="rounded-2xl transform group-hover:scale-105 transition-transform duration-700"
               />
             </div>
