@@ -36,7 +36,7 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "performances",
-      image: "/gallery/Team2025/samgatha.jpg",
+      image: "/gallery/Team2025/Samgatha.jpg",
       title: "Dil Se Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2NGJ1bPrzUg",
