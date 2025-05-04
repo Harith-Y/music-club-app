@@ -40,7 +40,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 28,
+      id: 24,
       title: "4th [Unofficial] Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -50,7 +50,7 @@ export interface Event {
       category: 'Open Mics' as const
     },
     {
-      id: 27,
+      id: 23,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -62,7 +62,7 @@ export interface Event {
       galleryRoute: '/events/art-of-noise'
     },
     {
-      id: 26,
+      id: 22,
       title: "Opening Ceremony (Art of Noise)",
       date: "March 30, 2025",
       time: "6:00 PM",
@@ -73,7 +73,7 @@ export interface Event {
       youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
     },
     {
-      id: 25,
+      id: 21,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -85,7 +85,7 @@ export interface Event {
       galleryRoute: '/events/pixsonic-x-voxels'
     },
     {
-      id: 24,
+      id: 20,
       title: "3rd Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -97,7 +97,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-march11'
     },
     {
-      id: 23,
+      id: 19,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -108,7 +108,7 @@ export interface Event {
       category: 'Workshops' as const
     },
     {
-      id: 22,
+      id: 18,
       title: "Open Stage Night - 1",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -120,29 +120,18 @@ export interface Event {
       galleryRoute: '/events/openstagenight-feb2'
     },
     {
-      id: 21,
-      title: "Vande Matharam - Maa Tujhe Salaam (Republic Day)",
+      id: 17,
+      title: "Republic Day (Club Performance)",
       date: "January 26, 2025",
       time: "7:00 AM",
       location: "Open Air Theatre",
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/RepublicDay2025.jpg',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/eOeejRMA1UE'
+      galleryRoute: '/events/republicday2025'
     },
     {
-      id: 20,
-      title: "Jai Ho (Republic Day)",
-      date: "January 26, 2025",
-      time: "7:00 AM",
-      location: "Open Air Theatre",
-      description: "A wonderful morning of live performances from our talented members.",
-      image: '/events/RepublicDay2025.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/-JMQtq8c0C8'
-    },
-    {
-      id: 19,
+      id: 16,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -154,51 +143,18 @@ export interface Event {
       galleryRoute: '/events/music-reel-challenge'
     },
     {
-      id: 18,
-      title: "Skyfall (CVIP)",
-      date: "December 19, 2024",
-      time: "5:00 PM",
-      location: "H05",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.png',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/hH1Gp6kmaUQ'
-    },
-    {
-      id: 17,
-      title: "Intehaan (CVIP)",
-      date: "December 19, 2024",
-      time: "5:00 PM",
-      location: "H05",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.png',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/vw5Wj1u8rrw'
-    },
-    {
-      id: 16,
-      title: "The Chain (CVIP)",
-      date: "December 19, 2024",
-      time: "5:00 PM",
-      location: "H05",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.png',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/mZSY_ommAyo'
-    },
-    {
       id: 15,
-      title: "Dream a Little Dream of Me (CVIP)",
+      title: "CVIP (Club Performance)",
       date: "December 19, 2024",
       time: "5:00 PM",
       location: "H05",
       description: "An evening of live performances from our talented members.",
       image: '/events/CVIP2024.png',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/T66xfsmisgc'
+      galleryRoute: '/events/cvip2024'
     },
     {
-      id: 14,
+      id: 11,
       title: "2nd Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -210,51 +166,17 @@ export interface Event {
       galleryRoute: '/events/openmicnight-nov9'
     },
     {
-      id: 13,
-      title: "Urvasi Urvase X Sheela Ki Jawani (Meraki)",
-      date: "October 20, 2024",
-      time: "10:00 PM",
-      location: "Open Air Theatre",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/Meraki2024.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/2jMVx2vp-gs'
-    },
-    {
-      id: 12,
-      title: "Chandralekha (Meraki)",
-      date: "October 20, 2024",
-      time: "10:00 PM",
-      location: "Open Air Theatre",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/Meraki2024.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/RQd9IN4N_xM'
-    },
-    {
-      id: 11,
-      title: "Muskaanein Jhooti Hai (Meraki)",
-      date: "October 20, 2024",
-      time: "10:00 PM",
-      location: "Open Air Theatre",
-      description: "An evening of live performances from our talented members.",
-      image: '/events/Meraki2024.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/xHauVEB3a48'
-    },
-    {
       id: 10,
-      title: "Let's Kill Tonight (Meraki)",
+      title: "Meraki (Club Performance)",
       date: "October 20, 2024",
       time: "10:00 PM",
       location: "Open Air Theatre",
       description: "An evening of live performances from our talented members.",
       image: '/events/Meraki2024.jpg',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/NhMqICsZZfM'
-    },
-  
-     {
+      galleryRoute: '/events/meraki2024'
+    },  
+    {
       id: 9,
       title: "Spooky Symphonies: Battle of Bands Meraki",
       date: "October 31, 2024",
@@ -268,25 +190,14 @@ export interface Event {
     },
     {
       id: 8,
-      title: "Kande Pohe (Ganesh Chaturthi)",
+      title: "Ganesh Chaturthi (Club Performance)",
       date: "September 7, 2024",
       time: "3:00 PM",
       location: "Ashwatha Hostel",
       description: "An afternoon of live performances from our talented members.",
       image: '/events/GaneshChaturthi2024-2.jpg',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/NQi_6k_if-g'
-    },
-    {
-      id: 7,
-      title: "Mahaganapathim (Ganesh Chaturthi)",
-      date: "September 7, 2024",
-      time: "3:00 PM",
-      location: "Ashwatha Hostel",
-      description: "An afternoon of live performances from our talented members.",
-      image: '/events/GaneshChaturthi2024-1.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/8aSGtWMdvzw'
+      galleryRoute: '/events/ganeshchaturthi2024'
     },
     {
       id: 6,
@@ -301,59 +212,26 @@ export interface Event {
       galleryRoute: '/events/openmicnight-aug31'
     },
     {
-      id: 5,
-      title: "Bulleya (Orientation)",
-      date: "August 16, 2024",
-      time: "10:30 AM",
-      location: "H05",
-      description: "A wonderful morning of live performances from our talented members.",
-      image: '/events/Orientation2024-3.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/K36PvD_09bk'
-    },
-    {
-      id: 4,
-      title: "Jiye Kyun (Orientation)",
-      date: "August 16, 2024",
-      time: "10:30 AM",
-      location: "H05",
-      description: "A wonderful morning of live performances from our talented members.",
-      image: '/events/Orientation2024-2.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/e9Fdm7klZwc'
-    },
-    {
       id: 3,
-      title: "Rolling in the Deep (Orientation)",
+      title: "Orientation (Club Performance)",
       date: "August 16, 2024",
       time: "10:30 AM",
       location: "H05",
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/Orientation2024-1.jpg',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/-AlngyopEG0'
-    },
-    {
-      id: 2,
-      title: "Utthan Desathin Kural (Independence Day)",
-      date: "August 15, 2024",
-      time: "7:00 AM",
-      location: "Open Air Theatre",
-      description: "A wonderful morning of live performances from our talented members.",
-      image: '/events/IndependenceDay2024.jpg',
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/h4mw0A6XL8o'
+      galleryRoute: '/events/orientation2024'
     },
     {
       id: 1,
-      title: "Vande Matharam - Fighter Theme (Independence Day)",
+      title: "Independence Day (Club Performance)",
       date: "August 15, 2024",
       time: "7:00 AM",
       location: "Open Air Theatre",
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/IndependenceDay2024.jpg',
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/FcJu8kSG0tA'
+      galleryRoute: '/events/independence-day-2024'
     },
   ].map((item, index) => ({
     ...item,
