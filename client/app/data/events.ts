@@ -57,7 +57,7 @@ export interface Event {
       time: "6:30 PM",
       location: "Main Stage",
       description: "A showcase of experimental sound design and electronic music production.",
-      image: "/events/ArtOfNoise.png",
+      image: "/events/Art_of_Noise_2025/ArtOfNoise.png",
       registrationLink: "https://forms.gle/GrCrQL9VYE1L1nQd8",
       category: 'Competitions' as const,
       galleryRoute: '/events/art-of-noise'
@@ -127,10 +127,10 @@ export interface Event {
       time: "All Day",
       location: "Instagram",
       description: "Musicians of IIITDM ! Get ready to showcase you talent and be featured on the Music Club Instagram page.",
-      image: '/events/MusicReelChallenge.jpg',
+      image: '/events/Music_Reel_Challenge_2025/MusicReelChallenge2025.jpg',
       registrationLink: "https://forms.gle/P7ft2r92SSeoT31o7",
       category: 'Competitions' as const,
-      galleryRoute: '/events/music-reel-challenge'
+      galleryRoute: '/events/music_reel_challenge_2025'
     },
     {
       id: 8,
@@ -139,9 +139,9 @@ export interface Event {
       time: "5:00 PM",
       location: "H05",
       description: "An evening of live performances from our talented members.",
-      image: '/events/CVIP2024.png',
+      image: '/events/CVIP_2024/CVIP2024.png',
       category: 'Performances' as const,
-      galleryRoute: '/events/cvip2024'
+      galleryRoute: '/events/cvip-2024'
     },
     {
       id: 7,
