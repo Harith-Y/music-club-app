@@ -128,7 +128,7 @@ export interface Event {
       description: "A wonderful morning of live performances from our talented members.",
       image: '/events/RepublicDay2025.jpg',
       category: 'Performances' as const,
-      galleryRoute: '/events/republicday2025'
+      galleryRoute: '/events/RepublicDay2025'
     },
     {
       id: 16,

@@ -208,7 +208,7 @@ export interface GalleryItem {
       title: "Jai Ho",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-JMQtq8c0C8",
-      event: "Republic Day",
+      event: "Republic Day (Club Performance)",
       id: 64,
       order: 17
     },
@@ -218,7 +218,7 @@ export interface GalleryItem {
       title: "Vande Matharam - Maa Tujhe Salaam",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/eOeejRMA1UE",
-      event: "Republic Day",
+      event: "Republic Day (Club Performance)",
       id: 63,
       order: 18
     },
@@ -456,7 +456,7 @@ export interface GalleryItem {
       title: "Skyfall Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hH1Gp6kmaUQ",
-      event: "CVIP",
+      event: "CVIP (Club Performance)",
       id: 66,
       order: 43
     },
@@ -466,7 +466,7 @@ export interface GalleryItem {
       title: "Intehaan Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/vw5Wj1u8rrw",
-      event: "CVIP",
+      event: "CVIP (Club Performance)",
       id: 65,
       order: 44
     },
@@ -504,7 +504,7 @@ export interface GalleryItem {
       title: "Let's Kill Tonight",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NhMqICsZZfM",
-      event: "Meraki",
+      event: "Meraki (Club Performance)",
       id: 72,
       order: 48
     },
@@ -514,7 +514,7 @@ export interface GalleryItem {
       title: "Muskaanein Jhooti Hai",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xHauVEB3a48",
-      event: "Meraki",
+      event: "Meraki (Club Performance)",
       id: 71,
       order: 49
     },
@@ -524,7 +524,7 @@ export interface GalleryItem {
       title: "Chandralekha",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/RQd9IN4N_xM",
-      event: "Meraki",
+      event: "Meraki (Club Performance)",
       id: 70,
       order: 50
     },
@@ -534,7 +534,7 @@ export interface GalleryItem {
       title: "Urvasi Urvase X Sheela Ki Jawani",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2jMVx2vp-gs",
-      event: "Meraki",
+      event: "Meraki (Club Performance)",
       id: 69,
       order: 51
     },
@@ -552,7 +552,7 @@ export interface GalleryItem {
       title: "Mahaganapathim Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/8aSGtWMdvzw",
-      event: "Ganesh Chaturthi",
+      event: "Ganesh Chaturthi (Club Performance)",
       id: 74,
       order: 53
     },
@@ -562,7 +562,7 @@ export interface GalleryItem {
       title: "Kande Pohe Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NQi_6k_if-g",
-      event: "Ganesh Chaturthi",
+      event: "Ganesh Chaturthi (Club Performance)",
       id: 73,
       order: 54
     },
@@ -717,7 +717,7 @@ export interface GalleryItem {
       title: "Bulleya Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/K36PvD_09bk",
-      event: "Orientation",
+      event: "Orientation (Club Performance)",
       id: 77,
       order: 71
     },
@@ -727,7 +727,7 @@ export interface GalleryItem {
       title: "Jiye Kyun Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/e9Fdm7klZwc",
-      event: "Orientation",
+      event: "Orientation (Club Performance)",
       id: 76,
       order: 72
     },
@@ -737,7 +737,7 @@ export interface GalleryItem {
       title: "Rolling in the Deep Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-AlngyopEG0",
-      event: "Orientation",
+      event: "Orientation (Club Performance)",
       id: 75,
       order: 73
     },
@@ -755,7 +755,7 @@ export interface GalleryItem {
       title: "Utthan Desathin Kural Cover",
       type: 'video' as const,
       videoUrl: "ttps://www.youtube.com/embed/h4mw0A6XL8o",
-      event: "Independence Day",
+      event: "Independence Day (Club Performance)",
       id: 79,
       order: 75
     },
@@ -765,7 +765,7 @@ export interface GalleryItem {
       title: "Vande Matharam - Fighter Theme Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/FcJu8kSG0tA",
-      event: "independence Day",
+      event: "Independence Day (Club Performance)",
       id: 78,
       order: 76
     },
