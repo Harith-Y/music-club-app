@@ -40,7 +40,7 @@ export interface Event {
   
   export const pastEvents: Event[] = [
     {
-      id: 24,
+      id: 16,
       title: "4th [Unofficial] Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
@@ -51,7 +51,7 @@ export interface Event {
       galleryRoute: '/events/unofficialopenmicnight-april5'
     },
     {
-      id: 23,
+      id: 15,
       title: "Art of Noise",
       date: "March 30, 2025",
       time: "6:30 PM",
@@ -63,18 +63,7 @@ export interface Event {
       galleryRoute: '/events/art-of-noise'
     },
     {
-      id: 22,
-      title: "Opening Ceremony (Art of Noise)",
-      date: "March 30, 2025",
-      time: "6:00 PM",
-      location: "Main Stage",
-      description: "A showcase of experimental sound design and electronic music production.",
-      image: "/events/OpeningArtOfNoise.jpg",
-      category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK'
-    },
-    {
-      id: 21,
+      id: 14,
       title: "Pixsonic X Voxels",
       date: "March 30, 2025",
       time: "1:00 PM",
@@ -86,7 +75,7 @@ export interface Event {
       galleryRoute: '/events/pixsonic-x-voxels'
     },
     {
-      id: 20,
+      id: 13,
       title: "3rd Open Mic Night",
       date: "March 11, 2025",
       time: "8:00 PM",
@@ -98,7 +87,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-march11'
     },
     {
-      id: 19,
+      id: 12,
       title: "Workshop: Music Production",
       date: "March 5, 2025",
       time: "8:00 PM",
@@ -109,7 +98,7 @@ export interface Event {
       category: 'Workshops' as const
     },
     {
-      id: 18,
+      id: 11,
       title: "Open Stage Night - 1",
       date: "February 2, 2025",
       time: "8:00 PM",
@@ -121,7 +110,7 @@ export interface Event {
       galleryRoute: '/events/openstagenight-feb2'
     },
     {
-      id: 17,
+      id: 10,
       title: "Republic Day (Club Performance)",
       date: "January 26, 2025",
       time: "7:00 AM",
@@ -132,7 +121,7 @@ export interface Event {
       galleryRoute: '/events/RepublicDay2025'
     },
     {
-      id: 16,
+      id: 9,
       title: "Music Reel Challenge",
       date: "January 1, 2025",
       time: "All Day",
@@ -144,7 +133,7 @@ export interface Event {
       galleryRoute: '/events/music-reel-challenge'
     },
     {
-      id: 15,
+      id: 8,
       title: "CVIP (Club Performance)",
       date: "December 19, 2024",
       time: "5:00 PM",
@@ -155,7 +144,7 @@ export interface Event {
       galleryRoute: '/events/cvip2024'
     },
     {
-      id: 11,
+      id: 7,
       title: "2nd Open Mic Night",
       date: "November 9, 2024",
       time: "8:00 PM",
@@ -167,7 +156,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-nov9'
     },
     {
-      id: 10,
+      id: 6,
       title: "Meraki (Club Performance)",
       date: "October 20, 2024",
       time: "10:00 PM",
@@ -178,7 +167,7 @@ export interface Event {
       galleryRoute: '/events/meraki2024'
     },  
     {
-      id: 9,
+      id: 5,
       title: "Spooky Symphonies: Battle of Bands Meraki",
       date: "October 31, 2024",
       time: "6:00 PM",
@@ -190,7 +179,7 @@ export interface Event {
       category: 'Competitions' as const
     },
     {
-      id: 8,
+      id: 4,
       title: "Ganesh Chaturthi (Club Performance)",
       date: "September 7, 2024",
       time: "3:00 PM",
@@ -201,7 +190,7 @@ export interface Event {
       galleryRoute: '/events/ganeshchaturthi2024'
     },
     {
-      id: 6,
+      id: 3,
       title: "1st Open Mic Night",
       date: "August 31, 2024",
       time: "8:00 PM",
@@ -213,7 +202,7 @@ export interface Event {
       galleryRoute: '/events/openmicnight-aug31'
     },
     {
-      id: 3,
+      id: 2,
       title: "Orientation (Club Performance)",
       date: "August 16, 2024",
       time: "10:30 AM",
