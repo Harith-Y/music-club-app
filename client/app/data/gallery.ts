@@ -35,6 +35,16 @@ export interface GalleryItem {
   
   export const galleryItems: GalleryItem[] = [
     {
+      category: "performances",
+      image: "/gallery/Team2025/Samgatha.jpg",
+      title: "Enter Sandman Cover",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/tOMHFZN7zDM",
+      event: "Art of Noise",
+      id: 58,
+      order: 0
+    },
+    {
       category: "covers",
       image: "/gallery/Farewell2025/QQZDdPWx_Ak-SD.jpg",
       title: "Dil Ibaadat (Room 823)",
@@ -42,7 +52,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/QQZDdPWx_Ak",
       event: "",
       id: 57,
-      order: 0
+      order: 1
     },
     {
       id: 1,
@@ -51,7 +61,7 @@ export interface GalleryItem {
       title: "Hua Mein (Room 823)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/RtaddCi6TFo",
-      order: 1
+      order: 2
     },
     {
       id: 2,
@@ -60,7 +70,7 @@ export interface GalleryItem {
       title: "Bulleya (Ankit's Band)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/esI3k-LUq4Y",
-      order: 2
+      order: 3
     },
     {
       category: "jams",
@@ -70,7 +80,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 51,
-      order: 3
+      order: 4
     },
     {
       category: "jams",
@@ -80,7 +90,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 49,
-      order: 4
+      order: 5
     },
     {
       category: "jams",
@@ -90,7 +100,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 53,
-      order: 5
+      order: 6
     },
     {
       category: "jams",
@@ -100,7 +110,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 54,
-      order: 6
+      order: 7
     },
     {
       category: "jams",
@@ -110,7 +120,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 55,
-      order: 7
+      order: 8
     },
     {
       category: "jams",
@@ -120,7 +130,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 50,
-      order: 8
+      order: 9
     },
     {
       category: "jams",
@@ -130,7 +140,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "3rd Open Mic Night",
       id: 52,
-      order: 9
+      order: 10
     },
     {
       category: "jams",
@@ -140,7 +150,7 @@ export interface GalleryItem {
       videoUrl: "https://youtube.com/embed/HXZFzyHFFmY",
       event: "3rd Open Mic Night",
       id: 48,
-      order: 10
+      order: 11
     },
     {
       category: "jams",
@@ -150,7 +160,7 @@ export interface GalleryItem {
       videoUrl: "https://youtube.com/embed/7YoLSDp0968",
       event: "3rd Open Mic Night",
       id: 47,
-      order: 11
+      order: 12
     },
     {
       id: 3,
@@ -158,7 +168,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/repday.jpg",
       title: "Republic Day",
       type: 'image' as const,
-      order: 12
+      order: 13
     },
     {
       id: 4,
@@ -167,7 +177,7 @@ export interface GalleryItem {
       title: "Enter Sandman",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hpURyv_xhu0",
-      order: 13
+      order: 14
     },
     {
       id: 5,
@@ -176,7 +186,7 @@ export interface GalleryItem {
       title: "Dream On",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_S_q-sEy6Pg",
-      order: 14
+      order: 15
     },
     {
       id: 6,
@@ -185,52 +195,52 @@ export interface GalleryItem {
       title: "For Whom the Bell Tolls",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zYfgVTm52_U",
-      order: 15
+      order: 16
     },
     {
       id: 7,
-      category: "performances",
+      category: "covers",
       image: "/gallery/Saarang2025/DrumsSolo.jpg",
       title: "Drums Solo - Dikshant",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/G42Gx7FuPEc",
-      order: 16
+      order: 17
     },
     {
       id: 8,
-      category: "performances",
+      category: "covers",
       image: "/gallery/Saarang2025/ShriyaSolo.jpg",
       title: "I Wanna Know What Love Is - Shriya Y",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NtB7KgQwaCc",
-      order: 17
+      order: 18
     },
     {
       id: 9,
-      category: "performances",
+      category: "covers",
       image: "/gallery/Saarang2025/KeyboardSolo.jpg",
       title: "Keyboard Solo - Nivedh Biju",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0bX-TSTKmEE",
-      order: 18
+      order: 19
     },
     {
       id: 10,
-      category: "performances",
+      category: "covers",
       image: "/gallery/Saarang2025/MeeraKSolo.jpg",
       title: "In case you don't Live Forever - Meera K",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lx6hLpcRMjg",
-      order: 19
+      order: 20
     },
     {
       id: 11,
-      category: "performances",
+      category: "covers",
       image: "/gallery/Saarang2025/MeeraRSolo.jpg",
       title: "No One - Meera R",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/GL4wmk8GBeQ",
-      order: 20
+      order: 21
     },
     {
       id: 12,
@@ -238,7 +248,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/saarang.jpg",
       title: "Saarang 2025",
       type: 'image' as const,
-      order: 21
+      order: 22
     },
     {
       id: 13,
@@ -248,7 +258,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/t46qLSQgBUY",
-      order: 22
+      order: 23
     },
     {
       id: 14,
@@ -258,7 +268,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/vv6BadAlzVs",
-      order: 23
+      order: 24
     },
     {
       id: 15,
@@ -268,7 +278,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/31NE44FVR8g",
-      order: 24
+      order: 25
     },
     {
       id: 16,
@@ -278,7 +288,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/DUq0kznKRwU",
-      order: 25
+      order: 26
     },
     {
       id: 17,
@@ -288,7 +298,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/_o3urkRycMg",
-      order: 26
+      order: 27
     },
     {
       id: 18,
@@ -298,7 +308,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/zBUYhD8EIyA",
-      order: 27
+      order: 28
     },
     {
       id: 19,
@@ -308,7 +318,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/OuMlbzoIhs8",
-      order: 28
+      order: 29
     },
     {
       id: 20,
@@ -318,7 +328,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/6LimLLpqOTE",
-      order: 29
+      order: 30
     },
     {
       id: 21,
@@ -328,7 +338,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/4iDT6WU6MtI",
-      order: 30
+      order: 31
     },
     {
       id: 22,
@@ -338,7 +348,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/nHTZT4Ky9qU",
-      order: 31
+      order: 32
     },
     {
       id: 23,
@@ -348,7 +358,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/woGKn0s-mhc",
-      order: 32
+      order: 33
     },
     {
       id: 24,
@@ -358,7 +368,7 @@ export interface GalleryItem {
       type: 'video' as const,
       event: "Music Reel Challenge",
       videoUrl: "https://youtube.com/embed/4D2zzB3mAVw",
-      order: 33
+      order: 34
     },
     {
       id: 25,
@@ -366,7 +376,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/merakiday1.jpg",
       title: "Meraki Day 1",
       type: 'image' as const,
-      order: 34
+      order: 35
     },
     {
       category: "jams",
@@ -376,7 +386,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "2nd Open Mic Night",
       id: 45,
-      order: 35
+      order: 36
     },
     {
       category: "jams",
@@ -386,7 +396,7 @@ export interface GalleryItem {
       videoUrl: "https://youtube.com/embed/_kAqrLvT-zM",
       event: "2nd Open Mic Night",
       id: 46,
-      order: 36
+      order: 37
     },
     {
       id: 26,
@@ -394,7 +404,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/merakiday0.jpg",
       title: "Meraki Day 0",
       type: 'image' as const,
-      order: 37
+      order: 38
     },
     {
       id: 27,
@@ -403,7 +413,7 @@ export interface GalleryItem {
       title: "Nihaal (Flute)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 38
+      order: 39
     },
     {
       id: 28,
@@ -412,7 +422,7 @@ export interface GalleryItem {
       title: "Jeswin (Vocal)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 39
+      order: 40
     },
     {
       id: 29,
@@ -421,7 +431,7 @@ export interface GalleryItem {
       title: "Anushree (Vocals) and Anuj (Guitar)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 40
+      order: 41
     },
     {
       id: 30,
@@ -430,7 +440,7 @@ export interface GalleryItem {
       title: "Divyaa (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 41
+      order: 42
     },
     {
       id: 31,
@@ -439,7 +449,7 @@ export interface GalleryItem {
       title: "Hari Naveen (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 42
+      order: 43
     },
     {
       id: 32,
@@ -448,7 +458,7 @@ export interface GalleryItem {
       title: "Manoj (Keyboard)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 43
+      order: 44
     },
     {
       id: 33,
@@ -457,7 +467,7 @@ export interface GalleryItem {
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 44
+      order: 45
     },
     {
       id: 34,
@@ -466,7 +476,7 @@ export interface GalleryItem {
       title: "Ezhil and Co (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 45
+      order: 46
     },
     {
       id: 35,
@@ -475,7 +485,7 @@ export interface GalleryItem {
       title: "(VOcals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 46
+      order: 47
     },
     {
       id: 36,
@@ -484,7 +494,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 47
+      order: 48
     },
     {
       id: 37,
@@ -493,7 +503,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 48
+      order: 49
     },
     {
       id: 38,
@@ -502,7 +512,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 49
+      order: 50
     },
     {
       id: 39,
@@ -511,7 +521,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 50
+      order: 51
     },
     {
       id: 40,
@@ -520,7 +530,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 51
+      order: 52
     },
     {
       id: 41,
@@ -529,7 +539,7 @@ export interface GalleryItem {
       title: "Shashwat (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 52
+      order: 53
     },
     {
       category: "jams",
@@ -539,7 +549,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "1st Open Mic Night",
       id: 56,
-      order: 53
+      order: 54
     },
     {
       id: 42,
@@ -547,7 +557,7 @@ export interface GalleryItem {
       image: "/performances/IMG_9793.jpg",
       title: "Blastroduction",
       type: 'image' as const,
-      order: 54
+      order: 55
     },
     {
       id: 43,
@@ -555,7 +565,7 @@ export interface GalleryItem {
       image: "/performances/20240815_103444.jpg",
       title: "Independence Day Performance",
       type: 'image' as const,
-      order: 55
+      order: 56
     },
     {
       id: 44,
@@ -563,7 +573,7 @@ export interface GalleryItem {
       image: "/gallery/Team2025/independence_day.jpg",
       title: "Independence Day",
       type: 'image' as const,
-      order: 56
+      order: 57
     }
   ].map((item, index) => ({
     ...item,
