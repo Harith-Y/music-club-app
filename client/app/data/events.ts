@@ -242,14 +242,14 @@ export interface Event {
   export const upcomingEvents: Event[] = [
     {
       id: 4,
-      title: "Winter Concert",
+      title: "Winter Concert (Club Performance)",
       date: "December 15, 2025",
       time: "6:00 PM",
       location: "H05",
       description: "A grand musical finale to the year, featuring performances from all club sections.",
       image: "https://images.unsplash.com/photo-1620642477222-7aef692dd0df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBjb25jZXJ0fGVufDB8MnwwfHx8MA%3D%3D",
       category: 'Performances' as const,
-      youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+      youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' 
     },
     {
       id: 5,
