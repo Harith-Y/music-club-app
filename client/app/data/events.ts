@@ -41,7 +41,7 @@ export interface Event {
   export const pastEvents: Event[] = [
     {
       id: 16,
-      title: "4th [Unofficial] Open Mic Night",
+      title: "4rth [Unofficial] Open Mic Night",
       date: "April 5, 2025",
       time: "8:00 PM",
       location: "Music Room",
