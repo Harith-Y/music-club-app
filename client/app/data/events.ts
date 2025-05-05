@@ -208,7 +208,7 @@ export interface Event {
       time: "6:00 PM",
       location: "H05",
       description: "A spectacular showcase introducing the Music Club's talent to the institute, featuring our finest performers and diverse musical styles.",
-      image: '/events/Blastroduction_2024/Blastroduction2024.jpg',
+      image: '/events/Blastroduction_2024/Media/Blastroduction2024.jpg',
       category: 'Performances' as const,
       galleryRoute: '/events/blastroduction-2024'
     },

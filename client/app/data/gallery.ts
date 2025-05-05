@@ -772,7 +772,7 @@ export interface GalleryItem {
     {
       id: 42,
       category: "performances",
-      image: "/events/Blastroduction/IMG_9793.jpg",
+      image: "/events/Blastroduction_2024/Media/IMG_9793.jpg",
       title: "Blastroduction",
       type: 'image' as const,
       order: 77
