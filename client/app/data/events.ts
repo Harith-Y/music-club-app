@@ -69,7 +69,7 @@ export interface Event {
       time: "1:00 PM",
       location: "H05",
       description: "A fusion of visual art and sound design, where digital creativity meets musical innovation.",
-      image: "/events/PixsonicXVoxels.png",
+      image: "/events/Pixsonic_X_Voxels_2025/PixsonicXVoxels.png",
       registrationLink: "https://forms.gle/5qR5WMhS2Rs8tWVx7",
       category: 'Competitions' as const,
       galleryRoute: '/events/pixsonic_x_voxels-2025'
@@ -93,7 +93,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "A week-long workshop covering different instruments each day: Vocals & Beatboxing, Guitar, Keyboard, Drums, and Mixing - everything you need to form your perfect band.",
-      image: '/events/OpenMicMarch5.jpg',
+      image: '/events/Workshop_March_2025/WorkshopMarch5.jpg',
       registrationLink: "https://forms.gle/hCTKN1Rrw1So8cs37",
       category: 'Workshops' as const
     },
@@ -104,7 +104,7 @@ export interface Event {
       time: "8:00 PM",
       location: "Music Room",
       description: "A celebration of artistic diversity featuring music, poetry, storytelling, and spoken word performances.",
-      image: '/events/OpenMicFebruary2.jpg',
+      image: '/events/Open_Mic_February_2025/OpenMicFebruary2.jpg',
       registrationLink: "https://forms.gle/M7chRkYD8EBmSZ2D7",
       category: 'Open Mics' as const,
       galleryRoute: '/events/open_stage-feb-2025'
@@ -173,7 +173,7 @@ export interface Event {
       time: "6:00 PM",
       location: "Open Air Theatre",
       description: "A thrilling Halloween-themed battle of bands where musical prowess meets creative costumes.",
-      image: '/events/spookysymphonies.png',
+      image: '/events/Spooky_Symphonies_2024/SpookySymphonies.png',
       viewBandsLink: '/meraki2024/bands',
       registrationLink: "https://forms.gle/ziAvj19nCU4h6eLj9",
       category: 'Competitions' as const
@@ -219,7 +219,7 @@ export interface Event {
       time: "10:30 AM",
       location: "H05",
       description: "A welcoming showcase introducing new students to the musical talent at our institute.",
-      image: '/events/Orientation2024-1.jpg',
+      image: '/events/Orientation_2024/Orientation2024-1.jpg',
       category: 'Performances' as const,
       galleryRoute: '/events/orientation-2024'
     },

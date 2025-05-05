@@ -96,7 +96,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/OpeningArtOfNoise.jpg",
+      image: "/events/Art_of_Noise_2025/OpeningArtOfNoise.jpg",
       title: "Opening Ceremony",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK",
@@ -224,7 +224,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/RepublicDay2025.jpg",
+      image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
       title: "Jai Ho",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-JMQtq8c0C8",
@@ -234,7 +234,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/RepublicDay2025.jpg",
+      image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
       title: "Vande Matharam - Maa Tujhe Salaam",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/eOeejRMA1UE",
@@ -741,7 +741,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation2024-3.jpg",
+      image: "/events/Orientation_2024/Orientation2024-3.jpg",
       title: "Bulleya Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/K36PvD_09bk",
@@ -751,7 +751,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation2024-2.jpg",
+      image: "/events/Orientation_2024/Orientation2024-2.jpg",
       title: "Jiye Kyun Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/e9Fdm7klZwc",
@@ -761,7 +761,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation2024-1.jpg",
+      image: "/events/Orientation_2024/Orientation2024-1.jpg",
       title: "Rolling in the Deep Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-AlngyopEG0",
@@ -779,7 +779,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/IndependenceDay2024.jpg",
+      image: "/events/Independence_Day_2024/IndependenceDay2024.jpg",
       title: "Utthan Desathin Kural Cover",
       type: 'video' as const,
       videoUrl: "ttps://www.youtube.com/embed/h4mw0A6XL8o",
@@ -789,7 +789,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/IndependenceDay2024.jpg",
+      image: "/events/Independence_Day_2024/IndependenceDay2024.jpg",
       title: "Vande Matharam - Fighter Theme Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/FcJu8kSG0tA",
