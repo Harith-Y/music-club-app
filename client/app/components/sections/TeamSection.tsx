@@ -11,6 +11,7 @@ interface TeamSectionProps {
   windowWidth: number;
   isClient: boolean;
   coreMembers: TeamMember[];
+  leads?: TeamMember[];
   coordinators: TeamMember[];
   crew: TeamMember[];
   mentors: TeamMember[];
@@ -21,6 +22,7 @@ const TeamSection = ({
   windowWidth, 
   isClient,
   coreMembers,
+  leads,
   coordinators,
   crew,
   mentors,
@@ -67,14 +69,40 @@ const TeamSection = ({
             ))}
           </div>
         </motion.div>
-        
-        {/* Coordinators - Second Row (Carousel) */}
-        {isClient && (
+
+        {/* Leads - Second Row (only if leads are provided) */}
+        {leads && leads.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
+            className="mb-16"
+          >
+            <h3 className="text-2xl font-bold mb-8 text-center text-secondary-400">Leads</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {leads.map((member, index) => (
+                <motion.div
+                  key={member.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <MemberCard member={member} />
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        )}
+        
+        {/* Coordinators - Third Row (Carousel) */}
+        {isClient && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             className="mb-16"
           >
             <TeamSlider 
@@ -87,13 +115,13 @@ const TeamSection = ({
           </motion.div>
         )}
         
-        {/* Crew - Third Row (Carousel) */}
+        {/* Crew - Fourth Row (Carousel) */}
         {isClient && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
             className="mb-16"
           >
             <TeamSlider 
@@ -107,12 +135,12 @@ const TeamSection = ({
         )}
         
         {/* Mentors - Last Row */}
-        {isClient && mentorsAsCarousel ? (
+        {isClient && mentorsAsCarousel && mentors.length > 3 ? (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
             className="mb-16"
           >
             <VerticalTeamSlider 
@@ -126,7 +154,7 @@ const TeamSection = ({
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
           >
             <h3 className="text-2xl font-bold mb-8 text-center text-primary-400">Mentors</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

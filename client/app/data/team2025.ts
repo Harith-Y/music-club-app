@@ -6,6 +6,12 @@ export const coreMembers2025: TeamMember[] = [
   { id: 3, name: 'Shriya', role: 'Vocalist', image: '/crew/Team2025/Shriya.jpg', bio: 'Versatile vocalist with a unique blend of Carnatic and Western techniques, excelling in improvisation.' },
 ];
 
+export const leads2025: TeamMember[] = [
+  { id: 1, name: 'Meera R', role: 'Vocal and Design Lead', image: '/crew/Team2025/MeeraR.jpg', bio: 'Vocalist and creative designer managing social media content and outreach with external bands.' },
+  { id: 2, name: 'David J Sharon', role: 'Technical and Sound Lead', image: '/crew/Team2025/DJ.jpg', bio: 'Beatboxer and FL Studio expert. Handles music production, mixing, and creates original compositions.' },
+  { id: 3, name: 'Omkar', role: 'Guitar and Logistics Lead', image: '/crew/Team2025/Omkar.jpg', bio: 'Guitarist managing event operations. Ensures smooth execution of club events and performances.' },
+];
+
 export const coordinators2025: TeamMember[] = [
   { id: 1, name: 'New Coordinator 1', role: 'Coordinator', image: '/crew/Team2025/coord1.jpg', bio: 'Innovative music producer with expertise in electronic music and sound engineering.' },
   { id: 2, name: 'New Coordinator 2', role: 'Coordinator', image: '/crew/Team2025/coord2.jpg', bio: 'Rhythm specialist with mastery in both traditional and modern percussion techniques.' },
@@ -27,7 +33,6 @@ export const mentors2025: TeamMember[] = [
   { id: 1, name: 'Rikitha Ravi', role: 'Former Club Core', image: '/crew/Team2025/Rikitha.jpg', bio: 'Classical vocalist with extensive experience in both traditional and contemporary music.' },
   { id: 2, name: 'Nivedh Biju', role: 'Former Club Core', image: '/crew/Team2025/Nivedh.png', bio: 'Pianist with a unique approach to classical and modern repertoire.' },
   { id: 3, name: 'Kshitij Singh', role: 'Former Club Core', image: '/crew/Team2025/Kshitij.jpg', bio: 'Guitarist known for innovative techniques and fusion arrangements.' },
-  { id: 4, name: 'David J Sharon', role: 'Former Club Coordinator', image: '/crew/Team2025/DJ.jpg', bio: 'Electronic music producer with expertise in live performance and sound design.' },
-  { id: 5, name: 'Meera R', role: 'Former Club Coordinator', image: '/crew/Team2025/MeeraR.jpg', bio: 'Vocalist and visual artist with a focus on creative expression.' },
-  { id: 6, name: 'Meera K', role: 'Former Club Coordinator', image: '/crew/Team2025/MeeraK.jpg', bio: 'Classical vocalist with a passion for teaching and mentoring.' },
+  { id: 4, name: 'Saarang', role: 'Club Crew', image: '/crew/Team2025/Saarang.jpg', bio: 'Classically trained mridangam artist and electronic music producer. Blends traditional percussion with modern sound design.' },
+  { id: 5, name: 'Meera K', role: 'Former Club Coordinator', image: '/crew/Team2025/MeeraK.jpg', bio: 'Classical vocalist with a passion for teaching and mentoring.' },
 ]; 

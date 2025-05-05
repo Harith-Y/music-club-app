@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import TeamSection from '../components/sections/TeamSection';
 import SliderCSS from '../components/layout/SliderCSS';
-import { coreMembers2025, coordinators2025, crew2025, mentors2025 } from '../data/team2025';
+import { coreMembers2025, leads2025, coordinators2025, crew2025, mentors2025 } from '../data/team2025';
 
 export default function Team2025() {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -28,6 +28,7 @@ export default function Team2025() {
         windowWidth={windowWidth} 
         isClient={isClient}
         coreMembers={coreMembers2025}
+        leads={leads2025}
         coordinators={coordinators2025}
         crew={crew2025}
         mentors={mentors2025}
