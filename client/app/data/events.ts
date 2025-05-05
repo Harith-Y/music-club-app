@@ -116,7 +116,7 @@ export interface Event {
       time: "7:00 AM",
       location: "Open Air Theatre",
       description: "Patriotic melodies and cultural performances to celebrate our nation's spirit.",
-      image: '/events/RepublicDay2025.jpg',
+      image: '/events/Republic_Day_2025/RepublicDay2025.jpg',
       category: 'Performances' as const,
       galleryRoute: '/events/republic_day-2025'
     },
@@ -230,7 +230,7 @@ export interface Event {
       time: "7:00 AM",
       location: "Open Air Theatre",
       description: "Patriotic performances and cultural expressions celebrating our nation's independence.",
-      image: '/events/IndependenceDay2024.jpg',
+      image: '/events/Independence_Day_2024/IndependenceDay2024.jpg',
       category: 'Performances' as const,
       galleryRoute: '/events/independence_day-2024'
     },
