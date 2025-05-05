@@ -84,36 +84,6 @@ const HeroSection = () => {
         </motion.div>
       </div>
 
-      {/* Animated scroll indicator */}
-      <motion.div 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-        animate={{ 
-          y: [0, 10, 0],
-        }}
-        transition={{ 
-          duration: 1.5,
-          repeat: Infinity,
-          ease: "easeInOut"
-        }}
-      >
-        <Link href="#about" className="text-white hover:text-primary-400 transition-colors duration-300">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-8 w-8"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            />
-          </svg>
-        </Link>
-      </motion.div>
-
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-primary-500/20 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-20 right-10 w-32 h-32 bg-secondary-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />

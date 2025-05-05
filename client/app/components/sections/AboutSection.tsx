@@ -66,7 +66,7 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl group"
+            className="relative h-[300px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl group"
           >
             <Image
               src="/Music_Room.jpg"
