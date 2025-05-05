@@ -51,12 +51,12 @@ export const bands: Band[] = [
       { id: 1, name: "Abhishek", instrument: "Drums", image: "/bands/SoulRock/AbhishekKumar.jpg" },
       { id: 2, name: "David J Sharon", instrument: "Mixer", image: "/bands/SoulRock/David.png" },
       { id: 3, name: "Gladwin John", instrument: "Lead Vocals", image: "/bands/SoulRock/John.jpg" },
-      { id: 4, name: "Harith Y", instrument: "Lead Keyboard", image: "/bands/SoulRock/Harith2.jpg" },
-      { id: 5, name: "Meera R", instrument: "Lead Vocals", image: "/bands/SoulRock/MeeraR2.jpg" },
-      { id: 6, name: "Pavan", instrument: "Lead Vocals", image: "/bands/SoulRock/Pavan.jpg" },
-      { id: 7, name: "Priyank Jain", instrument: "Rhythm Guitar", image: "/bands/SoulRock/Priyank.jpg" },
-      { id: 8, name: "Shriya Y", instrument: "Harmonizing Vocals", image: "/bands/SoulRock/Shriya2.jpg" },
-      { id: 9, name: "Tarun", instrument: "Rhythm Keyboard", image: "/bands/SoulRock/Tarun2.jpg" }
+      { id: 4, name: "Meera R", instrument: "Lead Vocals", image: "/bands/SoulRock/MeeraR.jpg" },
+      { id: 5, name: "Harith Y", instrument: "Lead Keyboard", image: "/bands/SoulRock/Harith.jpg" },
+      { id: 6, name: "Shriya Y", instrument: "Harmonizing Vocals", image: "/bands/SoulRock/Shriya.jpg" },
+      { id: 7, name: "Pavan", instrument: "Lead Vocals", image: "/bands/SoulRock/Pavan.jpg" },
+      { id: 8, name: "Priyank Jain", instrument: "Rhythm Guitar", image: "/bands/SoulRock/Priyank.jpg" },
+      { id: 9, name: "Tarun", instrument: "Rhythm Keyboard", image: "/bands/SoulRock/Tarun.jpg" }
     ],
   },
   {
@@ -140,7 +140,7 @@ export const bands: Band[] = [
       { id: 2, name: "Shashwat", instrument: "Drums", image: "/bands/Accord/Shashwat.jpg" },
       { id: 3, name: "Rupkatha", instrument: "Lead Vocals", image: "/bands/Accord/Rupkatha.jpg" },
       { id: 4, name: "Keshav", instrument: "Keyboard", image: "/bands/Accord/Keshav.jpg" },
-      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/bands/Accord/Bhadresh1.jpg" },
+      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/bands/Accord/Bhadresh.jpg" },
       { id: 6, name: "Caitlin", instrument: "Lead Vocals", image: "/bands/Accord/Caitlin.jpg" },
     ]
   },
