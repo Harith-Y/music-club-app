@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaCamera, FaPlay } from 'react-icons/fa';
+import { FaCamera, FaPlay, FaInstagram } from 'react-icons/fa';
 import { GalleryItem as GalleryItemType } from '../../data/gallery';
 import { useState, useEffect } from 'react';
 import Modal from './Modal';
@@ -25,6 +25,15 @@ const getCategoryDisplayName = (category: string): string => {
   return categoryMap[category] || category;
 };
 
+const isInstagramUrl = (url: string) => {
+  return url.includes('instagram.com');
+};
+
+const extractInstagramPostId = (url: string) => {
+  const match = url.match(/instagram\.com\/p\/([^\/]+)/);
+  return match ? match[1] : null;
+};
+
 const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isContentVisible, setIsContentVisible] = useState(false);
@@ -45,7 +54,11 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     if (item.type === 'video') {
-      setIsModalOpen(true);
+      if (isInstagramUrl(item.videoUrl || '')) {
+        setIsModalOpen(true);
+      } else {
+        setIsModalOpen(true);
+      }
     } else {
       setIsContentVisible(!isContentVisible);
     }
@@ -57,11 +70,21 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
     }
   };
 
+  const handleModalClose = (e: React.MouseEvent) => {
+    if (e.target === e.currentTarget) {
+      setIsModalOpen(false);
+    }
+  };
+
   // Video Play Button component
   const PlayButton = () => (
     <div className="absolute top-4 right-4 z-[3]" onClick={handleClick}>
       <div className={`w-10 h-10 ${isEventGallery ? 'bg-white/20' : 'bg-black/40'} backdrop-blur-sm rounded-full flex items-center justify-center ${isEventGallery ? 'group-hover:bg-white/30' : 'group-hover:bg-primary-500/50'} transition-all duration-300`}>
-        <FaPlay className="w-4 h-4 text-white" />
+        {isInstagramUrl(item.videoUrl || '') ? (
+          <FaInstagram className="w-4 h-4 text-white" />
+        ) : (
+          <FaPlay className="w-4 h-4 text-white" />
+        )}
       </div>
     </div>
   );
@@ -198,18 +221,34 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
         </div>
       </motion.div>
 
-      {/* Video Modal */}
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-          <div className="relative w-full max-w-4xl mx-auto">
-            <div className="relative pb-[56.25%] h-0">
-              <iframe
-                src={item.videoUrl}
-                className="absolute top-0 left-0 w-full h-full rounded-lg"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+          <div 
+            className="relative w-full max-w-4xl mx-auto"
+            onClick={handleModalClose}
+          >
+            {isInstagramUrl(item.videoUrl || '') ? (
+              <div className="relative w-[90%] max-w-[450px] mx-auto">
+                <div className="relative pb-[125%] h-0">
+                  <iframe
+                    src={`https://www.instagram.com/p/${extractInstagramPostId(item.videoUrl || '')}/embed`}
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                    allowFullScreen
+                    scrolling="no"
+                    frameBorder="0"
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="relative pb-[56.25%] h-0">
+                <iframe
+                  src={item.videoUrl}
+                  className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )}
           </div>
         </Modal>
       )}

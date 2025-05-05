@@ -36,10 +36,10 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "jams",
-      image: "",
+      image: "/gallery/Team2025/Samgatha.png",
       title: "Nenjukkul Peidhidum",
       type: 'video' as const,
-      videoUrl: "",
+      videoUrl: "https://www.instagram.com/p/DJPdoFRSPMj/",
       event: "4rth [Unofficial] Open Mic Night",
       id: 82,
       order: 0
