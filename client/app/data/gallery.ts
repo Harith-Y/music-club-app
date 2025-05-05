@@ -270,7 +270,7 @@ export interface GalleryItem {
     {
       id: 5,
       category: "performances",
-      image: "/external/Saarang2025/Saarang2025.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
       title: "Dream On",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_S_q-sEy6Pg",
@@ -279,7 +279,7 @@ export interface GalleryItem {
     {
       id: 6,
       category: "performances",
-      image: "/external/Saarang2025/Saarang2025.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
       title: "For Whom the Bell Tolls",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zYfgVTm52_U",
@@ -288,7 +288,7 @@ export interface GalleryItem {
     {
       id: 7,
       category: "covers",
-      image: "/external/Saarang2025/DrumsSolo.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/DrumsSolo.jpg",
       title: "Drums Solo - Dikshant",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/G42Gx7FuPEc",
@@ -297,7 +297,7 @@ export interface GalleryItem {
     {
       id: 8,
       category: "covers",
-      image: "/external/Saarang2025/ShriyaSolo.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/ShriyaSolo.jpg",
       title: "I Wanna Know What Love Is - Shriya Y",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NtB7KgQwaCc",
@@ -306,7 +306,7 @@ export interface GalleryItem {
     {
       id: 9,
       category: "covers",
-      image: "/external/Saarang2025/KeyboardSolo.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/KeyboardSolo.jpg",
       title: "Keyboard Solo - Nivedh Biju",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0bX-TSTKmEE",
@@ -315,7 +315,7 @@ export interface GalleryItem {
     {
       id: 10,
       category: "covers",
-      image: "/external/Saarang2025/MeeraKSolo.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/MeeraKSolo.jpg",
       title: "In case you don't Live Forever - Meera K",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lx6hLpcRMjg",
@@ -324,7 +324,7 @@ export interface GalleryItem {
     {
       id: 11,
       category: "covers",
-      image: "/external/Saarang2025/MeeraRSolo.jpg",
+      image: "/events/EXTERNAL_Saarang_2025/MeeraRSolo.jpg",
       title: "No One - Meera R",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/GL4wmk8GBeQ",
