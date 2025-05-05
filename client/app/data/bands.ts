@@ -93,12 +93,12 @@ export const bands: Band[] = [
     image: "/bands/JustForYouAll.png",
     description: "A dynamic rock ensemble that delivers high-octane performances with a perfect blend of classic rock energy and modern alternative edge. Their infectious enthusiasm and crowd interaction make every show memorable.",
     members: [
-      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/bands/JustForYouAll/AbhishekN1.jpg" },
-      { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/bands/JustForYouAll/Shirish1.jpg" },
+      { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/bands/JustForYouAll/AbhishekN.jpg" },
+      { id: 2, name: "Shirish", instrument: "Lead Vocals", image: "/bands/JustForYouAll/Shirish.jpg" },
       { id: 3, name: "Chaitanya", instrument: "Drums", image: "/bands/JustForYouAll/Chaitanya.jpg" },
       { id: 4, name: "Seimen", instrument: "Backing Vocals/Lead Guitar", image: "/bands/JustForYouAll/Seimen.jpg" },
-      { id: 5, name: "Vivek", instrument: "Backing Vocals/Rhythm Guitar", image: "/bands/JustForYouAll/Vivek1.jpg" },
-      { id: 6, name: "Daniel", instrument: "Keyboard", image: "/bands/JustForYouAll/Daniel1.jpg" },
+      { id: 5, name: "Vivek", instrument: "Backing Vocals/Rhythm Guitar", image: "/bands/JustForYouAll/Vivek.jpg" },
+      { id: 6, name: "Daniel", instrument: "Keyboard", image: "/bands/JustForYouAll/Daniel.jpg" },
     ]
   },
   {
@@ -111,7 +111,7 @@ export const bands: Band[] = [
       { id: 2, name: "Ayushyaa", instrument: "Rhythm Guitar", image: "/bands/MelodyWaves/Ayushya.jpg" },
       { id: 3, name: "Dhanya", instrument: "Lead Vocals", image: "/bands/MelodyWaves/Dhanya.jpg" },
       { id: 4, name: "Harini", instrument: "Lead Vocals", image: "/bands/MelodyWaves/Harini.jpg" },
-      { id: 5, name: "Harith", instrument: "Keyboard/Lead Vocals", image: "/bands/MelodyWaves/Harith4.jpg" },
+      { id: 5, name: "Harith", instrument: "Keyboard/Lead Vocals", image: "/bands/MelodyWaves/Harith.jpg" },
       { id: 6, name: "Yashas", instrument: "Drums", image: "/bands/MelodyWaves/Yashas.jpg" },
     ]
   },
@@ -150,11 +150,11 @@ export const bands: Band[] = [
     image: "/bands/Sanchari.png",
     description: "A versatile rock collective that masterfully combines traditional rock elements with contemporary alternative influences. Their powerful stage presence and musical versatility create an immersive concert experience.",
     members: [
-      { id: 1, name: "Chaitanya", instrument: "Drums", image: "/bands/Sanchari/Chaitanya2.jpg" },
-      { id: 2, name: "Harith", instrument: "Keyboard", image: "/bands/Sanchari/Harith3.jpg" },
+      { id: 1, name: "Chaitanya", instrument: "Drums", image: "/bands/Sanchari/Chaitanya.jpg" },
+      { id: 2, name: "Harith", instrument: "Keyboard", image: "/bands/Sanchari/Harith.jpg" },
       { id: 3, name: "Vineela", instrument: "Lead Vocals", image: "/bands/Sanchari/Vineela1.jpg" },
       { id: 4, name: "Veni", instrument: "Lead Vocals", image: "/bands/Sanchari/Veni.jpg" },
-      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/bands/Sanchari/Bhadresh1.jpg" },
+      { id: 5, name: "Bhadresh", instrument: "Lead Vocals", image: "/bands/Sanchari/Bhadresh.jpg" },
       { id: 6, name: "Grishmank", instrument: "Rhythm Guitar", image: "/bands/Sanchari/Grishmank.jpg" },
       { id: 7, name: "Vijay", instrument: "Lead Vocals", image: "/bands/Sanchari/Vijay.jpg" },
       { id: 8, name: "Ajitha Arvindh", instrument: "Lead Vocals", image: "/bands/Sanchari/Ajitha.jpg" },
