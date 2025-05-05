@@ -44,6 +44,7 @@ export default function EventCard({ event }: EventCardProps) {
       "CVIP (Club Performance)",
       "Meraki (Club Performance)",
       "Ganesh Chaturthi (Club Performance)",
+      "Blastroduction (Club Performance)",
       "Orientation (Club Performance)",
       "Independence Day (Club Performance)"
     ];
