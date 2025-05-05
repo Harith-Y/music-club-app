@@ -36,8 +36,8 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "jams",
-      image: "/events/Unofficial_Open_Mic_April_2025/Media/DJPdoFRSPMj-1.jpg",
-      title: "Nenjukkul Peidhidum",
+      image: "/events/Unofficial_Open_Mic_April_2025/Media/DJPdoFRSPMj-1.jpg",  
+      title: "Vijay (Vocals)",
       type: 'video' as const,
       videoUrl: "https://www.instagram.com/p/DJPdoFRSPMj/",
       event: "4rth [Unofficial] Open Mic Night",
