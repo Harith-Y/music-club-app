@@ -46,7 +46,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "Dil Se Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2NGJ1bPrzUg",
@@ -56,7 +56,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/IpzZjpbhejQ",
@@ -66,7 +66,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "We Will Rock You Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/ERPM28X17FI",
@@ -76,7 +76,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "Nadaan Parindey",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0KwCNBu5qQs",
@@ -86,7 +86,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/tOMHFZN7zDM",
