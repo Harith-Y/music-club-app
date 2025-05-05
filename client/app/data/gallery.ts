@@ -36,7 +36,7 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "jams",
-      image: "/gallery/Team2025/Samgatha.png",
+      image: "/events/Unofficial_Open_Mic_April_2025/Media/DJPdoFRSPMj-1.jpg",
       title: "Nenjukkul Peidhidum",
       type: 'video' as const,
       videoUrl: "https://www.instagram.com/p/DJPdoFRSPMj/",
