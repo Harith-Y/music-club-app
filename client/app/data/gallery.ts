@@ -244,7 +244,7 @@ export interface GalleryItem {
     },
     {
       category: "team",
-      image: "/gallery/Team_2024-25/Samgatha.png",
+      image: "/gallery/Team_2024-25/Samgatha.jpg",
       title: "Samgatha x Vashisht '2025",
       type: 'image' as const,
       id: 81,
