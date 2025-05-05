@@ -17,7 +17,7 @@ export const bands: Band[] = [
   {
     id: 1,
     name: "Rhythm Pulse",
-    image: "/bands/band4.png",
+    image: "/bands/RhythmPulse.png",
     description: "A fusion band that blends rock, pop, and electronic elements. Known for their energetic performances and innovative arrangements.",
     members: [
       { id: 1, name: "Anuj", instrument: "Rhythm Guitar", image: "/crew/Anuj.jpg" },
@@ -45,7 +45,7 @@ export const bands: Band[] = [
   {
     id: 3,
     name: "Soul Rock",
-    image: "/bands/band1.png",
+    image: "/bands/SoulRock.png",
     description: "A powerhouse rock ensemble that masterfully blends classic rock anthems with contemporary alternative vibes. Their dynamic stage presence and tight harmonies create an unforgettable live experience.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Drums", image: "/crew/AbhishekKumar.jpg" },
@@ -62,7 +62,7 @@ export const bands: Band[] = [
   {
     id: 4,
     name: "Dream Pie",
-    image: "/bands/band2.png",
+    image: "/bands/DreamPie.png",
     description: "An innovative rock collective that pushes musical boundaries by fusing progressive rock elements with modern indie sensibilities. Their experimental approach and technical precision set them apart.",
     members: [
       { id: 1, name: "Adi Khera", instrument: "Rhythm Guitar", image: "/crew/Adi.jpg" },
@@ -90,7 +90,7 @@ export const bands: Band[] = [
   {
     id: 6,
     name: "Just For You All",
-    image: "/bands/band3.png",
+    image: "/bands/JustForYouAll.png",
     description: "A dynamic rock ensemble that delivers high-octane performances with a perfect blend of classic rock energy and modern alternative edge. Their infectious enthusiasm and crowd interaction make every show memorable.",
     members: [
       { id: 1, name: "Abhishek", instrument: "Lead Vocals", image: "/crew/AbhishekN1.jpg" },
@@ -104,7 +104,7 @@ export const bands: Band[] = [
   {
     id: 7,
     name: "Melody Waves",
-    image: "/bands/band5.png",
+    image: "/bands/MelodyWaves.png",
     description: "A vocal-driven ensemble that creates waves of harmony with their multiple lead vocalists. Their sound is characterized by rich vocal arrangements, supported by dynamic keyboard work and rhythmic guitar patterns.",
     members: [
       { id: 1, name: "Anushree", instrument: "Lead Vocals", image: "/crew/Anushree.jpg" },
@@ -147,7 +147,7 @@ export const bands: Band[] = [
   {
     id: 10,
     name: "Sanchari",
-    image: "/bands/band6.png",
+    image: "/bands/Sanchari.png",
     description: "A versatile rock collective that masterfully combines traditional rock elements with contemporary alternative influences. Their powerful stage presence and musical versatility create an immersive concert experience.",
     members: [
       { id: 1, name: "Chaitanya", instrument: "Drums", image: "/crew/Chaitanya2.jpg" },
@@ -172,42 +172,42 @@ export const merakiBands: Band[] = [
   {
     id: 1,
     name: "SOULROCK",
-    image: "/bands/band1.png",
+    image: "/bands/SoulRock.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
   },
   {
     id: 2,
     name: "DreamPie",
-    image: "/bands/band2.png",
+    image: "/bands/DreamPie.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
   },
   {
     id: 3,
     name: "Just For You All",
-    image: "/bands/band3.png",
+    image: "/bands/JustForYouAll.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
   },
   {
     id: 4,
     name: "Rhythm Pulse",
-    image: "/bands/band4.png",
+    image: "/bands/RhythmPulse.png",
     description: "A fusion band that blends rock, pop, and electronic elements.",
     members: []
   },
   {
     id: 5,
     name: "Melody Waves",
-    image: "/bands/band5.png",
+    image: "/bands/MelodyWaves.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
   },
   {
     id: 6,
     name: "Sanchari",
-    image: "/bands/band6.png",
+    image: "/bands/Sanchari.png",
     description: "A high-energy rock band that combines classic rock influences with modern alternative sounds.",
     members: []
   }

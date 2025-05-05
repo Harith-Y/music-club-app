@@ -106,7 +106,7 @@ export interface GalleryItem {
     },
     {
       category: "covers",
-      image: "/gallery/Farewell2025/QQZDdPWx_Ak-SD.jpg",
+      image: "/events/Farewell_2025/QQZDdPWx_Ak-SD.jpg",
       title: "Dil Ibaadat (Room 823)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QQZDdPWx_Ak",
@@ -117,7 +117,7 @@ export interface GalleryItem {
     {
       id: 1,
       category: "covers",
-      image: "/gallery/Farewell2025/Room-823_Farewell.jpg",
+      image: "/events/Farewell_2025/Room-823_Farewell.jpg",
       title: "Hua Mein (Room 823)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/RtaddCi6TFo",
@@ -126,7 +126,7 @@ export interface GalleryItem {
     {
       id: 2,
       category: "covers",
-      image: "/gallery/Farewell2025/Ankit_Farewell.jpg",
+      image: "/events/Farewell_2025/Ankit_Farewell.jpg",
       title: "Bulleya (Ankit's Band)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/esI3k-LUq4Y",
