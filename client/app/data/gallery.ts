@@ -164,7 +164,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/zQpCUeZNyK0-HD",
+      image: "/events/Open_Mic_March_2025/Media/zQpCUeZNyK0-HD.jpg",
       title: "Soul Rock (Don'u Don'u Don'u)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zQpCUeZNyK0",
