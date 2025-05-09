@@ -77,7 +77,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/gallery/Team_2024-25/Samgatha.jpg",
-      title: "Nadaan Parindey",
+      title: "Nadaan Parindey Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0KwCNBu5qQs",
       event: "Art of Noise",
@@ -107,7 +107,7 @@ export interface GalleryItem {
     {
       category: "covers",
       image: "/events/Farewell_2025/QQZDdPWx_Ak-SD.jpg",
-      title: "Dil Ibaadat (Room 823)",
+      title: "Dil Ibaadat Cover (Room 823)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QQZDdPWx_Ak",
       event: "",
@@ -118,7 +118,7 @@ export interface GalleryItem {
       id: 1,
       category: "covers",
       image: "/events/Farewell_2025/Room-823_Farewell.jpg",
-      title: "Hua Mein (Room 823)",
+      title: "Hua Mein Cover (Room 823)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/RtaddCi6TFo",
       order: 8
@@ -127,7 +127,7 @@ export interface GalleryItem {
       id: 2,
       category: "covers",
       image: "/events/Farewell_2025/Ankit_Farewell.jpg",
-      title: "Bulleya (Ankit's Band)",
+      title: "Bulleya Cover (Ankit's Band)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/esI3k-LUq4Y",
       order: 9
@@ -165,7 +165,7 @@ export interface GalleryItem {
     {
       category: "jams",
       image: "/events/Open_Mic_March_2025/Media/zQpCUeZNyK0-HD.jpg",
-      title: "Soul Rock (Don'u Don'u Don'u)",
+      title: "Don'u Don'u Don'u - Soul Rock Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zQpCUeZNyK0",
       event: "3rd Open Mic Night",
@@ -235,7 +235,7 @@ export interface GalleryItem {
     {
       category: "covers",
       image: "/events/Workshop_March_2025/QpGra9txmTQ-HQ.jpg",
-      title: "Demons - Band",
+      title: "Demons - Band Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QpGra9txmTQ",
       event: "Workshop: How to form a Band",
@@ -245,7 +245,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
-      title: "Jai Ho",
+      title: "Jai Ho Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-JMQtq8c0C8",
       event: "Republic Day (Club Performance)",
@@ -255,7 +255,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
-      title: "Vande Matharam - Maa Tujhe Salaam",
+      title: "Vande Matharam - Maa Tujhe Salaam Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/eOeejRMA1UE",
       event: "Republic Day (Club Performance)",
@@ -292,7 +292,7 @@ export interface GalleryItem {
       id: 4,
       category: "performances",
       image: "/gallery/Enter_Sandman.png",
-      title: "Enter Sandman",
+      title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hpURyv_xhu0",
       order: 26
@@ -301,7 +301,7 @@ export interface GalleryItem {
       id: 5,
       category: "performances",
       image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
-      title: "Dream On",
+      title: "Dream On Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_S_q-sEy6Pg",
       order: 27
@@ -310,7 +310,7 @@ export interface GalleryItem {
       id: 6,
       category: "performances",
       image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
-      title: "For Whom the Bell Tolls",
+      title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zYfgVTm52_U",
       order: 28
@@ -328,7 +328,7 @@ export interface GalleryItem {
       id: 8,
       category: "covers",
       image: "/events/EXTERNAL_Saarang_2025/ShriyaSolo.jpg",
-      title: "I Wanna Know What Love Is - Shriya Y",
+      title: "I Wanna Know What Love Is - Shriya Y Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NtB7KgQwaCc",
       order: 30
@@ -346,7 +346,7 @@ export interface GalleryItem {
       id: 10,
       category: "covers",
       image: "/events/EXTERNAL_Saarang_2025/MeeraKSolo.jpg",
-      title: "In case you don't Live Forever - Meera K",
+      title: "In case you don't Live Forever - Meera K Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lx6hLpcRMjg",
       order: 32
@@ -355,7 +355,7 @@ export interface GalleryItem {
       id: 11,
       category: "covers",
       image: "/events/EXTERNAL_Saarang_2025/MeeraRSolo.jpg",
-      title: "No One - Meera R",
+      title: "No One - Meera R Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/GL4wmk8GBeQ",
       order: 33
@@ -491,7 +491,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/CVIP_2024/CVIP2024.png",
-      title: "The Chain",
+      title: "The Chain Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/mZSY_ommAyo",
       event: "CVIP",
@@ -501,7 +501,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/CVIP_2024/CVIP2024.png",
-      title: "Dream a Little Dream of Me",
+      title: "Dream a Little Dream of Me Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/T66xfsmisgc",
       event: "CVIP",
@@ -559,7 +559,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/Meraki2024.jpg",
-      title: "Let's Kill Tonight",
+      title: "Let's Kill Tonight Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NhMqICsZZfM",
       event: "Meraki (Club Performance)",
@@ -569,7 +569,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/Meraki2024.jpg",
-      title: "Muskaanein Jhooti Hai",
+      title: "Muskaanein Jhooti Hai Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xHauVEB3a48",
       event: "Meraki (Club Performance)",
@@ -579,7 +579,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/Meraki2024.jpg",
-      title: "Chandralekha",
+      title: "Chandralekha Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/RQd9IN4N_xM",
       event: "Meraki (Club Performance)",
@@ -589,7 +589,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/Meraki2024.jpg",
-      title: "Urvasi Urvase X Sheela Ki Jawani",
+      title: "Urvasi Urvase X Sheela Ki Jawani Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2jMVx2vp-gs",
       event: "Meraki (Club Performance)",
@@ -599,7 +599,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/CKFhdkn-H6g-SD.jpg",
-      title: "Badass (Day 0)",
+      title: "Badass Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/CKFhdkn-H6g",
       event: "Meraki",
@@ -609,7 +609,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Meraki_2024/TGIAivcPyvM-HQ.jpg",
-      title: "Saibo (Day 0)",
+      title: "Saibo Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/TGIAivcPyvM",
       event: "Meraki",
@@ -627,7 +627,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/gallery/Maate_Vinadhuga.jpg",
-      title: "Maate Vinadhuga",
+      title: "Maate Vinadhuga Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/5P6USwo9HJg",
       event: "",
@@ -721,7 +721,7 @@ export interface GalleryItem {
       id: 34,
       category: "jams",
       image: "/events/Open_Mic_August_2024/Media/20240831_201659.jpg",
-      title: "Ezhil and Co (Vocals)",
+      title: "Sakthi, Ezhil and Co (Vocals)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lFqX58L6om4",
       event: "1st Open Mic Night",
@@ -803,7 +803,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Blastroduction_2024/Media/Blastro3.jpg",
-      title: "I See Red",
+      title: "I See Red Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/x9975qgh40g",
       event: "Blastroduction (Club Performance)",
@@ -813,7 +813,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Blastroduction_2024/Media/Blastro2.png",
-      title: "Aaoge Tum Kabhi",
+      title: "Aaoge Tum Kabhi Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-MFdihgVbg8",
       event: "Blastroduction (Club Performance)",
@@ -823,7 +823,7 @@ export interface GalleryItem {
     {
       category: "performances",
       image: "/events/Blastroduction_2024/Media/Blastro.png",
-      title: "Adiye Kolluthe",
+      title: "Adiye Kolluthe Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zyu6L7JDGNQ",
       event: "Blastroduction (Club Performance)",
@@ -908,7 +908,7 @@ export interface GalleryItem {
     {
       category: "covers",
       image: "/gallery/7Rodpr3ux2g-SD.jpg",
-      title: "River Flows in You - Saumadeep",
+      title: "River Flows in You Cover - Saumadeep",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/7Rodpr3ux2g",
       event: "",
