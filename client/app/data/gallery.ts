@@ -802,13 +802,52 @@ export interface GalleryItem {
     },
     {
       category: "performances",
+      image: "/events/Blastroduction_2024/Media/Blastro3.jpg",
+      title: "I See Red",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/x9975qgh40g",
+      event: "Blastroduction (Club Performance)",
+      id: 92,
+      order: 80
+    },
+    {
+      category: "performances",
+      image: "/events/Blastroduction_2024/Media/Blastro2.png",
+      title: "Aaoge Tum Kabhi",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/-MFdihgVbg8",
+      event: "Blastroduction (Club Performance)",
+      id: 91,
+      order: 81
+    },
+    {
+      category: "performances",
+      image: "/events/Blastroduction_2024/Media/Blastro.png",
+      title: "Adiye Kolluthe",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/zyu6L7JDGNQ",
+      event: "Blastroduction (Club Performance)",
+      id: 90,
+      order: 82
+    },
+    {
+      id: 42,
+      category: "performances",
+      image: "/events/Blastroduction_2024/Media/IMG_9793.jpg",
+      title: "Stage Set-Up",
+      type: 'image' as const,
+      event: "Blastroduction (Club Performance)",
+      order: 83
+    },
+    {
+      category: "performances",
       image: "/events/Orientation_2024/Orientation2024-3.jpg",
       title: "Bulleya Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/K36PvD_09bk",
       event: "Orientation (Club Performance)",
       id: 77,
-      order: 80
+      order: 84
     },
     {
       category: "performances",
@@ -818,7 +857,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/e9Fdm7klZwc",
       event: "Orientation (Club Performance)",
       id: 76,
-      order: 81
+      order: 85
     },
     {
       category: "performances",
@@ -828,15 +867,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/-AlngyopEG0",
       event: "Orientation (Club Performance)",
       id: 75,
-      order: 82
-    },
-    {
-      id: 42,
-      category: "performances",
-      image: "/events/Blastroduction_2024/Media/IMG_9793.jpg",
-      title: "Blastroduction",
-      type: 'image' as const,
-      order: 83
+      order: 86
     },
     {
       category: "performances",
@@ -846,7 +877,7 @@ export interface GalleryItem {
       videoUrl: "ttps://www.youtube.com/embed/h4mw0A6XL8o",
       event: "Independence Day (Club Performance)",
       id: 79,
-      order: 84
+      order: 87
     },
     {
       category: "performances",
@@ -856,7 +887,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/FcJu8kSG0tA",
       event: "Independence Day (Club Performance)",
       id: 78,
-      order: 85
+      order: 88
     },
     {
       id: 43,
@@ -864,7 +895,7 @@ export interface GalleryItem {
       image: "/events/Independence_Day_2024/20240815_103444.jpg",
       title: "Independence Day Performance",
       type: 'image' as const,
-      order: 86
+      order: 89
     },
     {
       id: 44,
@@ -872,7 +903,7 @@ export interface GalleryItem {
       image: "/gallery/Team_2024-25/independence_day.jpg",
       title: "Independence Day",
       type: 'image' as const,
-      order: 87
+      order: 90
     },
     {
       category: "covers",
@@ -882,7 +913,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/7Rodpr3ux2g",
       event: "",
       id: 88,
-      order: 88
+      order: 91
     }
   ].map((item, index) => ({
     ...item,
