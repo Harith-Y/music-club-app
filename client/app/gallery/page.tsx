@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import GallerySection from '../components/sections/GallerySection';
 import DriveButton from '../components/sections/DriveButton';
+import VideoSubmissionButton from '../components/sections/VideoSubmissionButton';
 
 // Convert filter to URL-friendly format
 const filterToHash = (filter: string): string => {
@@ -60,7 +61,12 @@ export default function GalleryPage() {
           showViewFullButton={false}
           showAllImages={true}
           showFilters={true}
-          driveButton={<DriveButton />}
+          driveButton={
+            <div className="flex items-center gap-4 justify-center mt-8">
+              <DriveButton />
+              <VideoSubmissionButton />
+            </div>
+          }
         />
       </div>
     </main>
