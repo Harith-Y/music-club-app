@@ -626,13 +626,63 @@ export interface GalleryItem {
     },
     {
       category: "performances",
+      image: "/events/Onam_2024/xdgsV5wh5xc-SD.jpg",
+      title: "Maate Vinadhuga Cover",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/xdgsV5wh5xc",
+      event: "Onam (Club Performance)",
+      id: 95,
+      order: 61
+    },
+    {
+      category: "performances",
+      image: "/events/Onam_2024/9h9L0G2vQS0-SD.jpg",
+      title: "Lose Yourself Cover (With Drums)",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/9h9L0G2vQS0",
+      event: "Onam (Club Performance)",
+      id: 96,
+      order: 62
+    },
+    {
+      category: "performances",
+      image: "/events/Onam_2024/ZGvUCeNrXb4-SD.jpg",
+      title: "Lose Yourself Cover",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/ZGvUCeNrXb4",
+      event: "Onam (Club Performance)",
+      id: 93,
+      order: 63
+    },
+    {
+      category: "performances",
+      image: "/events/Onam_2024/_eBlEah44JQ-SD.jpg",
+      title: "Pachai Nirame Cover",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/_eBlEah44JQ",
+      event: "Onam (Club Performance)",
+      id: 97,
+      order: 64
+    },
+    {
+      category: "performances",
+      image: "/events/Onam_2024/9SL4rqBX6Vk-SD.jpg",
+      title: "Agam - The Boat song Cover",
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/embed/9SL4rqBX6Vk",
+      event: "Onam (Club Performance)",
+      id: 94,
+      order: 65
+    },
+    {
+      category: "performances",
       image: "/gallery/Maate_Vinadhuga.jpg",
       title: "Maate Vinadhuga Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/5P6USwo9HJg",
       event: "",
       id: 85,
-      order: 61
+      order: 66
     },
     {
       category: "performances",
@@ -642,7 +692,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/8aSGtWMdvzw",
       event: "Ganesh Chaturthi (Club Performance)",
       id: 74,
-      order: 62
+      order: 67
     },
     {
       category: "performances",
@@ -652,7 +702,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/NQi_6k_if-g",
       event: "Ganesh Chaturthi (Club Performance)",
       id: 73,
-      order: 63
+      order: 68
     },
     {
       id: 27,
@@ -661,7 +711,7 @@ export interface GalleryItem {
       title: "Nihaal (Flute)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 64
+      order: 69
     },
     {
       id: 28,
@@ -670,7 +720,7 @@ export interface GalleryItem {
       title: "Jeswin (Vocal)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 65
+      order: 70
     },
     {
       id: 29,
@@ -679,7 +729,7 @@ export interface GalleryItem {
       title: "Anushree (Vocals) and Anuj (Guitar)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 66
+      order: 71
     },
     {
       id: 30,
@@ -688,7 +738,7 @@ export interface GalleryItem {
       title: "Divyaa (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 67
+      order: 72
     },
     {
       id: 31,
@@ -697,7 +747,7 @@ export interface GalleryItem {
       title: "Hari Naveen (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 68
+      order: 73
     },
     {
       id: 32,
@@ -706,7 +756,7 @@ export interface GalleryItem {
       title: "Manoj (Keyboard)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 69
+      order: 74
     },
     {
       id: 33,
@@ -715,7 +765,7 @@ export interface GalleryItem {
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 70
+      order: 75
     },
     {
       id: 34,
@@ -725,7 +775,7 @@ export interface GalleryItem {
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lFqX58L6om4",
       event: "1st Open Mic Night",
-      order: 71
+      order: 76
     },
     {
       id: 35,
@@ -734,7 +784,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 72
+      order: 77
     },
     {
       id: 36,
@@ -743,7 +793,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 73
+      order: 78
     },
     {
       id: 37,
@@ -752,7 +802,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 74
+      order: 79
     },
     {
       id: 38,
@@ -761,7 +811,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 75
+      order: 80
     },
     {
       id: 39,
@@ -770,7 +820,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 76
+      order: 81
     },
     {
       id: 40,
@@ -779,7 +829,7 @@ export interface GalleryItem {
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 77
+      order: 82
     },
     {
       id: 41,
@@ -788,7 +838,7 @@ export interface GalleryItem {
       title: "Shashwat (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
-      order: 78
+      order: 83
     },
     {
       category: "jams",
@@ -798,7 +848,7 @@ export interface GalleryItem {
       videoUrl: "",
       event: "1st Open Mic Night",
       id: 56,
-      order: 79
+      order: 84
     },
     {
       category: "performances",
@@ -808,7 +858,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/x9975qgh40g",
       event: "Blastroduction (Club Performance)",
       id: 92,
-      order: 80
+      order: 85
     },
     {
       category: "performances",
@@ -818,7 +868,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/-MFdihgVbg8",
       event: "Blastroduction (Club Performance)",
       id: 91,
-      order: 81
+      order: 86
     },
     {
       category: "performances",
@@ -828,7 +878,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/zyu6L7JDGNQ",
       event: "Blastroduction (Club Performance)",
       id: 90,
-      order: 82
+      order: 87
     },
     {
       id: 42,
@@ -837,7 +887,7 @@ export interface GalleryItem {
       title: "Stage Set-Up",
       type: 'image' as const,
       event: "Blastroduction (Club Performance)",
-      order: 83
+      order: 88
     },
     {
       category: "performances",
@@ -847,7 +897,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/K36PvD_09bk",
       event: "Orientation (Club Performance)",
       id: 77,
-      order: 84
+      order: 89
     },
     {
       category: "performances",
@@ -857,7 +907,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/e9Fdm7klZwc",
       event: "Orientation (Club Performance)",
       id: 76,
-      order: 85
+      order: 90
     },
     {
       category: "performances",
@@ -867,7 +917,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/-AlngyopEG0",
       event: "Orientation (Club Performance)",
       id: 75,
-      order: 86
+      order: 91
     },
     {
       category: "performances",
@@ -877,7 +927,7 @@ export interface GalleryItem {
       videoUrl: "ttps://www.youtube.com/embed/h4mw0A6XL8o",
       event: "Independence Day (Club Performance)",
       id: 79,
-      order: 87
+      order: 92
     },
     {
       category: "performances",
@@ -887,7 +937,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/FcJu8kSG0tA",
       event: "Independence Day (Club Performance)",
       id: 78,
-      order: 88
+      order: 93
     },
     {
       id: 43,
@@ -895,7 +945,7 @@ export interface GalleryItem {
       image: "/events/Independence_Day_2024/20240815_103444.jpg",
       title: "Independence Day Performance",
       type: 'image' as const,
-      order: 89
+      order: 94
     },
     {
       id: 44,
@@ -903,7 +953,7 @@ export interface GalleryItem {
       image: "/gallery/Team_2024-25/independence_day.jpg",
       title: "Independence Day",
       type: 'image' as const,
-      order: 90
+      order: 95
     },
     {
       category: "covers",
@@ -913,7 +963,7 @@ export interface GalleryItem {
       videoUrl: "https://www.youtube.com/embed/7Rodpr3ux2g",
       event: "",
       id: 88,
-      order: 91
+      order: 96
     }
   ].map((item, index) => ({
     ...item,

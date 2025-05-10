@@ -46,7 +46,8 @@ export default function EventCard({ event }: EventCardProps) {
       "Ganesh Chaturthi (Club Performance)",
       "Blastroduction (Club Performance)",
       "Orientation (Club Performance)",
-      "Independence Day (Club Performance)"
+      "Independence Day (Club Performance)",
+      "Onam (Club Performance)"
     ];
     
     return event.category === 'Open Mics' || 
