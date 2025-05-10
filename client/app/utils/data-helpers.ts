@@ -1,4 +1,4 @@
-import { GalleryItem, insertGalleryItem } from '../data/gallery';
+import { GalleryItem, insertGalleryItem } from '../data/gallery2024';
 import { Event, insertEvent } from '../data/events2024';
 
 /**

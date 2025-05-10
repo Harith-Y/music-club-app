@@ -36,7 +36,7 @@ export interface GalleryItem {
   export const galleryItems: GalleryItem[] = [
     {
       category: "jams",
-      image: "/events/Unofficial_Open_Mic_April_2025/Media/DJPdoFRSPMj-1.jpg",
+      image: "/events2024-25/Unofficial_Open_Mic_April_2025/Media/DJPdoFRSPMj-1.jpg",
       title: "Vijay (Vocals)",
       type: 'video' as const,
       videoUrl: "https://www.instagram.com/p/DJPdoFRSPMj/",
@@ -46,7 +46,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "Dil Se Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2NGJ1bPrzUg",
@@ -56,7 +56,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/IpzZjpbhejQ",
@@ -66,7 +66,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "We Will Rock You Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/ERPM28X17FI",
@@ -76,7 +76,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "Nadaan Parindey Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0KwCNBu5qQs",
@@ -86,7 +86,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/tOMHFZN7zDM",
@@ -96,7 +96,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Art_of_Noise_2025/OpeningArtOfNoise.jpg",
+      image: "/events2024-25/Art_of_Noise_2025/OpeningArtOfNoise.jpg",
       title: "Opening Ceremony",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/MMoPQU21OfM?si=lfeDcLykyQgmZvQK",
@@ -106,7 +106,7 @@ export interface GalleryItem {
     },
     {
       category: "covers",
-      image: "/events/Farewell_2025/QQZDdPWx_Ak-SD.jpg",
+      image: "/events2024-25/Farewell_2025/QQZDdPWx_Ak-SD.jpg",
       title: "Dil Ibaadat Cover (Room 823)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QQZDdPWx_Ak",
@@ -117,7 +117,7 @@ export interface GalleryItem {
     {
       id: 1,
       category: "covers",
-      image: "/events/Farewell_2025/Room-823_Farewell.jpg",
+      image: "/events2024-25/Farewell_2025/Room-823_Farewell.jpg",
       title: "Hua Mein Cover (Room 823)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/RtaddCi6TFo",
@@ -126,7 +126,7 @@ export interface GalleryItem {
     {
       id: 2,
       category: "covers",
-      image: "/events/Farewell_2025/Ankit_Farewell.jpg",
+      image: "/events2024-25/Farewell_2025/Ankit_Farewell.jpg",
       title: "Bulleya Cover (Ankit's Band)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/esI3k-LUq4Y",
@@ -134,7 +134,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_204014.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_204014.jpg",
       title: "Tarun M (Keyboard)",
       type: 'image' as const,
       videoUrl: "",
@@ -144,7 +144,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_203522.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_203522.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -154,7 +154,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_204522.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_204522.jpg",
       title: "Abhishek N (Vocals) and Vivek (Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -164,7 +164,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/zQpCUeZNyK0-HD.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/zQpCUeZNyK0-HD.jpg",
       title: "Don'u Don'u Don'u - Soul Rock Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zQpCUeZNyK0",
@@ -174,7 +174,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_205019.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_205019.jpg",
       title: "Asish (Vocals and Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -184,7 +184,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_203008.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_203008.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -194,7 +194,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_211059.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_211059.jpg",
       title: "Ajitha Arvindh (Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -204,7 +204,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/20250311_205933.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/20250311_205933.jpg",
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       videoUrl: "",
@@ -214,7 +214,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/IMG-20250312-WA0004.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/IMG-20250312-WA0004.jpg",
       title: "Harith (Keyboard)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/HXZFzyHFFmY",
@@ -224,7 +224,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_March_2025/Media/7YoLSDp0968-SD.jpg",
+      image: "/events2024-25/Open_Mic_March_2025/Media/7YoLSDp0968-SD.jpg",
       title: "Dharani and Meera R (Vocals)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/7YoLSDp0968",
@@ -234,7 +234,7 @@ export interface GalleryItem {
     },
     {
       category: "covers",
-      image: "/events/Workshop_March_2025/QpGra9txmTQ-HQ.jpg",
+      image: "/events2024-25/Workshop_March_2025/QpGra9txmTQ-HQ.jpg",
       title: "Demons - Band Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QpGra9txmTQ",
@@ -244,7 +244,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
+      image: "/events2024-25/Republic_Day_2025/RepublicDay2025.jpg",
       title: "Jai Ho Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-JMQtq8c0C8",
@@ -254,7 +254,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Republic_Day_2025/RepublicDay2025.jpg",
+      image: "/events2024-25/Republic_Day_2025/RepublicDay2025.jpg",
       title: "Vande Matharam - Maa Tujhe Salaam Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/eOeejRMA1UE",
@@ -264,7 +264,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/Image-627.png",
+      image: "/events2024-25/Open_Mic_August_2024/Media/Image-627.png",
       title: "Vijay (Vocals)",
       type: 'video' as const,
       videoUrl: "https://www.instagram.com/p/C_WLbBNqObQ/",
@@ -274,7 +274,7 @@ export interface GalleryItem {
     },
     {
       category: "team",
-      image: "/gallery/Team_2024-25/Samgatha.jpg",
+      image: "/gallery2024-25/Team_2024-25/Samgatha.jpg",
       title: "Samgatha x Vashisht '2025",
       type: 'image' as const,
       id: 81,
@@ -283,7 +283,7 @@ export interface GalleryItem {
     {
       id: 3,
       category: "team",
-      image: "/gallery/Team_2024-25/repday.jpg",
+      image: "/gallery2024-25/Team_2024-25/repday.jpg",
       title: "Republic Day",
       type: 'image' as const,
       order: 25
@@ -291,7 +291,7 @@ export interface GalleryItem {
     {
       id: 4,
       category: "performances",
-      image: "/gallery/Enter_Sandman.png",
+      image: "/gallery2024-25/Enter_Sandman.png",
       title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hpURyv_xhu0",
@@ -300,7 +300,7 @@ export interface GalleryItem {
     {
       id: 5,
       category: "performances",
-      image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/Saarang2025.jpg",
       title: "Dream On Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_S_q-sEy6Pg",
@@ -309,7 +309,7 @@ export interface GalleryItem {
     {
       id: 6,
       category: "performances",
-      image: "/events/EXTERNAL_Saarang_2025/Saarang2025.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/Saarang2025.jpg",
       title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zYfgVTm52_U",
@@ -318,7 +318,7 @@ export interface GalleryItem {
     {
       id: 7,
       category: "covers",
-      image: "/events/EXTERNAL_Saarang_2025/DrumsSolo.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/DrumsSolo.jpg",
       title: "Drums Solo - Dikshant",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/G42Gx7FuPEc",
@@ -327,7 +327,7 @@ export interface GalleryItem {
     {
       id: 8,
       category: "covers",
-      image: "/events/EXTERNAL_Saarang_2025/ShriyaSolo.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/ShriyaSolo.jpg",
       title: "I Wanna Know What Love Is - Shriya Y Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NtB7KgQwaCc",
@@ -336,7 +336,7 @@ export interface GalleryItem {
     {
       id: 9,
       category: "covers",
-      image: "/events/EXTERNAL_Saarang_2025/KeyboardSolo.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/KeyboardSolo.jpg",
       title: "Keyboard Solo - Nivedh Biju",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0bX-TSTKmEE",
@@ -345,7 +345,7 @@ export interface GalleryItem {
     {
       id: 10,
       category: "covers",
-      image: "/events/EXTERNAL_Saarang_2025/MeeraKSolo.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/MeeraKSolo.jpg",
       title: "In case you don't Live Forever - Meera K Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lx6hLpcRMjg",
@@ -354,7 +354,7 @@ export interface GalleryItem {
     {
       id: 11,
       category: "covers",
-      image: "/events/EXTERNAL_Saarang_2025/MeeraRSolo.jpg",
+      image: "/events2024-25/EXTERNAL_Saarang_2025/MeeraRSolo.jpg",
       title: "No One - Meera R Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/GL4wmk8GBeQ",
@@ -363,7 +363,7 @@ export interface GalleryItem {
     {
       id: 12,
       category: "team",
-      image: "/gallery/Team_2024-25/saarang.jpg",
+      image: "/gallery2024-25/Team_2024-25/saarang.jpg",
       title: "Saarang 2025",
       type: 'image' as const,
       order: 34
@@ -371,7 +371,7 @@ export interface GalleryItem {
     {
       id: 13,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Harini.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Harini.jpg",
       title: "Harini",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -381,7 +381,7 @@ export interface GalleryItem {
     {
       id: 14,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Suranjana.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Suranjana.jpg",
       title: "Suranjana Mary Paul Santiago",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -391,7 +391,7 @@ export interface GalleryItem {
     {
       id: 15,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Vijay.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Vijay.jpg",
       title: "Vijay",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -401,7 +401,7 @@ export interface GalleryItem {
     {
       id: 16,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Caitlin.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Caitlin.jpg",
       title: "Caitlin",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -411,7 +411,7 @@ export interface GalleryItem {
     {
       id: 17,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Mayukha.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Mayukha.jpg",
       title: "Mayukha",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -421,7 +421,7 @@ export interface GalleryItem {
     {
       id: 18,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Ranjan.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Ranjan.jpg",
       title: "Ranjan",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -431,7 +431,7 @@ export interface GalleryItem {
     {
       id: 19,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Benedict.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Benedict.jpg",
       title: "Benedict I",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -441,7 +441,7 @@ export interface GalleryItem {
     {
       id: 20,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/ShashwatSingh.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/ShashwatSingh.jpg",
       title: "Shashwat Singh",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -451,7 +451,7 @@ export interface GalleryItem {
     {
       id: 21,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Saniya.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Saniya.jpg",
       title: "Katkam Saniya",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -461,7 +461,7 @@ export interface GalleryItem {
     {
       id: 22,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Duo.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Duo.jpg",
       title: "Anurag and Grishmank",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -471,7 +471,7 @@ export interface GalleryItem {
     {
       id: 23,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Tarun.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Tarun.jpg",
       title: "Tarun Mamillapalli",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -481,7 +481,7 @@ export interface GalleryItem {
     {
       id: 24,
       category: "competitions",
-      image: "/events/Music_Reel_Challenge_2025/Submissions/Benedict2.jpg",
+      image: "/events2024-25/Music_Reel_Challenge_2025/Submissions/Benedict2.jpg",
       title: "Benedict I",
       type: 'video' as const,
       event: "Music Reel Challenge",
@@ -490,7 +490,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP_2024/CVIP2024.png",
+      image: "/events2024-25/CVIP_2024/CVIP2024.png",
       title: "The Chain Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/mZSY_ommAyo",
@@ -500,7 +500,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP_2024/CVIP2024.png",
+      image: "/events2024-25/CVIP_2024/CVIP2024.png",
       title: "Dream a Little Dream of Me Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/T66xfsmisgc",
@@ -510,7 +510,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP_2024/CVIP2024.png",
+      image: "/events2024-25/CVIP_2024/CVIP2024.png",
       title: "Skyfall Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/hH1Gp6kmaUQ",
@@ -520,7 +520,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/CVIP_2024/CVIP2024.png",
+      image: "/events2024-25/CVIP_2024/CVIP2024.png",
       title: "Intehaan Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/vw5Wj1u8rrw",
@@ -531,14 +531,14 @@ export interface GalleryItem {
     {
       id: 25,
       category: "team",
-      image: "/gallery/Team_2024-25/merakiday1.jpg",
+      image: "/gallery2024-25/Team_2024-25/merakiday1.jpg",
       title: "Meraki Day 1",
       type: 'image' as const,
       order: 51
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_November_2024/Media/IMG-20241109-WA0009.jpg",
+      image: "/events2024-25/Open_Mic_November_2024/Media/IMG-20241109-WA0009.jpg",
       title: "Priyank, Harith and Grishmank (Guitar)",
       type: 'image' as const,
       videoUrl: "",
@@ -548,7 +548,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_November_2024/Media/_kAqrLvT-zM-HQ.jpg",
+      image: "/events2024-25/Open_Mic_November_2024/Media/_kAqrLvT-zM-HQ.jpg",
       title: "Caitlin (Vocals) and Harith (Keyboard)",
       type: 'video' as const,
       videoUrl: "https://youtube.com/embed/_kAqrLvT-zM",
@@ -558,7 +558,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/Meraki2024.jpg",
+      image: "/events2024-25/Meraki_2024/Meraki2024.jpg",
       title: "Let's Kill Tonight Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NhMqICsZZfM",
@@ -568,7 +568,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/Meraki2024.jpg",
+      image: "/events2024-25/Meraki_2024/Meraki2024.jpg",
       title: "Muskaanein Jhooti Hai Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xHauVEB3a48",
@@ -578,7 +578,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/Meraki2024.jpg",
+      image: "/events2024-25/Meraki_2024/Meraki2024.jpg",
       title: "Chandralekha Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/RQd9IN4N_xM",
@@ -588,7 +588,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/Meraki2024.jpg",
+      image: "/events2024-25/Meraki_2024/Meraki2024.jpg",
       title: "Urvasi Urvase X Sheela Ki Jawani Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2jMVx2vp-gs",
@@ -598,7 +598,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/CKFhdkn-H6g-SD.jpg",
+      image: "/events2024-25/Meraki_2024/CKFhdkn-H6g-SD.jpg",
       title: "Badass Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/CKFhdkn-H6g",
@@ -608,7 +608,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/fLRv9_1ovVw",
+      image: "/events2024-25/Meraki_2024/fLRv9_1ovVw",
       title: "Saibo Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/fLRv9_1ovVw",
@@ -618,7 +618,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Meraki_2024/TGIAivcPyvM-HQ.jpg",
+      image: "/events2024-25/Meraki_2024/TGIAivcPyvM-HQ.jpg",
       title: "Chali Chaliga Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/TGIAivcPyvM",
@@ -629,14 +629,14 @@ export interface GalleryItem {
     {
       id: 26,
       category: "team",
-      image: "/gallery/Team_2024-25/merakiday0.jpg",
+      image: "/gallery2024-25/Team_2024-25/merakiday0.jpg",
       title: "Meraki Day 0",
       type: 'image' as const,
       order: 61
     },
     {
       category: "performances",
-      image: "/events/Onam_2024/xdgsV5wh5xc-SD.jpg",
+      image: "/events2024-25/Onam_2024/xdgsV5wh5xc-SD.jpg",
       title: "Maate Vinadhuga Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xdgsV5wh5xc",
@@ -646,7 +646,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Onam_2024/9h9L0G2vQS0-SD.jpg",
+      image: "/events2024-25/Onam_2024/9h9L0G2vQS0-SD.jpg",
       title: "Lose Yourself Cover (With Drums)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/9h9L0G2vQS0",
@@ -656,7 +656,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Onam_2024/ZGvUCeNrXb4-SD.jpg",
+      image: "/events2024-25/Onam_2024/ZGvUCeNrXb4-SD.jpg",
       title: "Lose Yourself Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/ZGvUCeNrXb4",
@@ -666,7 +666,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Onam_2024/_eBlEah44JQ-SD.jpg",
+      image: "/events2024-25/Onam_2024/_eBlEah44JQ-SD.jpg",
       title: "Pachai Nirame Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/_eBlEah44JQ",
@@ -676,7 +676,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Onam_2024/9SL4rqBX6Vk-SD.jpg",
+      image: "/events2024-25/Onam_2024/9SL4rqBX6Vk-SD.jpg",
       title: "Agam - The Boat song Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/9SL4rqBX6Vk",
@@ -686,7 +686,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/Maate_Vinadhuga.jpg",
+      image: "/gallery2024-25/Maate_Vinadhuga.jpg",
       title: "Maate Vinadhuga Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/5P6USwo9HJg",
@@ -696,7 +696,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Ganesh_Chaturthi_2024/GaneshChaturthi2024-1.jpg",
+      image: "/events2024-25/Ganesh_Chaturthi_2024/GaneshChaturthi2024-1.jpg",
       title: "Mahaganapathim Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/8aSGtWMdvzw",
@@ -706,7 +706,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Ganesh_Chaturthi_2024/GaneshChaturthi2024-2.jpg",
+      image: "/events2024-25/Ganesh_Chaturthi_2024/GaneshChaturthi2024-2.jpg",
       title: "Kande Pohe Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/NQi_6k_if-g",
@@ -717,7 +717,7 @@ export interface GalleryItem {
     {
       id: 27,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_210445.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_210445.jpg",
       title: "Nihaal (Flute)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -726,7 +726,7 @@ export interface GalleryItem {
     {
       id: 28,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_210858.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_210858.jpg",
       title: "Jeswin (Vocal)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -735,7 +735,7 @@ export interface GalleryItem {
     {
       id: 29,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_201107.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_201107.jpg",
       title: "Anushree (Vocals) and Anuj (Guitar)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -744,7 +744,7 @@ export interface GalleryItem {
     {
       id: 30,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_212547.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_212547.jpg",
       title: "Divyaa (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -753,7 +753,7 @@ export interface GalleryItem {
     {
       id: 31,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_205709.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_205709.jpg",
       title: "Hari Naveen (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -762,7 +762,7 @@ export interface GalleryItem {
     {
       id: 32,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_204918.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_204918.jpg",
       title: "Manoj (Keyboard)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -771,7 +771,7 @@ export interface GalleryItem {
     {
       id: 33,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_203739.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_203739.jpg",
       title: "Suranjana (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -780,7 +780,7 @@ export interface GalleryItem {
     {
       id: 34,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_201659.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_201659.jpg",
       title: "Sakthi, Ezhil and Co (Vocals)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/lFqX58L6om4",
@@ -790,7 +790,7 @@ export interface GalleryItem {
     {
       id: 35,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_193828.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_193828.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -799,7 +799,7 @@ export interface GalleryItem {
     {
       id: 36,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_195846.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_195846.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -808,7 +808,7 @@ export interface GalleryItem {
     {
       id: 37,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_203256.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_203256.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -817,7 +817,7 @@ export interface GalleryItem {
     {
       id: 38,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_204226.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_204226.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -826,7 +826,7 @@ export interface GalleryItem {
     {
       id: 39,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_204509.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_204509.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -835,7 +835,7 @@ export interface GalleryItem {
     {
       id: 40,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_211416.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_211416.jpg",
       title: "(Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -844,7 +844,7 @@ export interface GalleryItem {
     {
       id: 41,
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/20240831_200248.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/20240831_200248.jpg",
       title: "Shashwat (Vocals)",
       type: 'image' as const,
       event: "1st Open Mic Night",
@@ -852,7 +852,7 @@ export interface GalleryItem {
     },
     {
       category: "jams",
-      image: "/events/Open_Mic_August_2024/Media/VideoCapture_20250423-002558.jpg",
+      image: "/events2024-25/Open_Mic_August_2024/Media/VideoCapture_20250423-002558.jpg",
       title: "Crowd",
       type: 'image' as const,
       videoUrl: "",
@@ -862,7 +862,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Blastroduction_2024/Media/Blastro3.jpg",
+      image: "/events2024-25/Blastroduction_2024/Media/Blastro3.jpg",
       title: "I See Red Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/x9975qgh40g",
@@ -872,7 +872,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Blastroduction_2024/Media/Blastro2.png",
+      image: "/events2024-25/Blastroduction_2024/Media/Blastro2.png",
       title: "Aaoge Tum Kabhi Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-MFdihgVbg8",
@@ -882,7 +882,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Blastroduction_2024/Media/Blastro.png",
+      image: "/events2024-25/Blastroduction_2024/Media/Blastro.png",
       title: "Adiye Kolluthe Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/zyu6L7JDGNQ",
@@ -893,7 +893,7 @@ export interface GalleryItem {
     {
       id: 42,
       category: "performances",
-      image: "/events/Blastroduction_2024/Media/IMG_9793.jpg",
+      image: "/events2024-25/Blastroduction_2024/Media/IMG_9793.jpg",
       title: "Stage Set-Up",
       type: 'image' as const,
       event: "Blastroduction (Club Performance)",
@@ -901,7 +901,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation_2024/Orientation2024-3.jpg",
+      image: "/events2024-25/Orientation_2024/Orientation2024-3.jpg",
       title: "Bulleya Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/K36PvD_09bk",
@@ -911,7 +911,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation_2024/Orientation2024-2.jpg",
+      image: "/events2024-25/Orientation_2024/Orientation2024-2.jpg",
       title: "Jiye Kyun Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/e9Fdm7klZwc",
@@ -921,7 +921,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Orientation_2024/Orientation2024-1.jpg",
+      image: "/events2024-25/Orientation_2024/Orientation2024-1.jpg",
       title: "Rolling in the Deep Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/-AlngyopEG0",
@@ -931,7 +931,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Independence_Day_2024/IndependenceDay2024.jpg",
+      image: "/events2024-25/Independence_Day_2024/IndependenceDay2024.jpg",
       title: "Utthan Desathin Kural Cover",
       type: 'video' as const,
       videoUrl: "ttps://www.youtube.com/embed/h4mw0A6XL8o",
@@ -941,7 +941,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events/Independence_Day_2024/IndependenceDay2024.jpg",
+      image: "/events2024-25/Independence_Day_2024/IndependenceDay2024.jpg",
       title: "Vande Matharam - Fighter Theme Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/FcJu8kSG0tA",
@@ -952,7 +952,7 @@ export interface GalleryItem {
     {
       id: 43,
       category: "performances",
-      image: "/events/Independence_Day_2024/20240815_103444.jpg",
+      image: "/events2024-25/Independence_Day_2024/20240815_103444.jpg",
       title: "Independence Day Performance",
       type: 'image' as const,
       order: 95
@@ -960,14 +960,14 @@ export interface GalleryItem {
     {
       id: 44,
       category: "team",
-      image: "/gallery/Team_2024-25/independence_day.jpg",
+      image: "/gallery2024-25/Team_2024-25/independence_day.jpg",
       title: "Independence Day",
       type: 'image' as const,
       order: 96
     },
     {
       category: "covers",
-      image: "/gallery/7Rodpr3ux2g-SD.jpg",
+      image: "/gallery2024-25/7Rodpr3ux2g-SD.jpg",
       title: "River Flows in You Cover - Saumadeep",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/7Rodpr3ux2g",

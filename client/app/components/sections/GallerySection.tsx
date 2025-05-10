@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import GalleryItem from '../ui/GalleryItem';
-import { galleryItems } from '../../data/gallery';
+import { galleryItems } from '../../data/gallery2024';
 
 interface GallerySectionProps {
   activeFilter: string;

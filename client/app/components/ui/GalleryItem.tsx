@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaCamera, FaPlay, FaInstagram } from 'react-icons/fa';
-import { GalleryItem as GalleryItemType } from '../../data/gallery';
+import { GalleryItem as GalleryItemType } from '../../data/gallery2024';
 import { useState, useEffect } from 'react';
 import Modal from './Modal';
 import { usePathname } from 'next/navigation';

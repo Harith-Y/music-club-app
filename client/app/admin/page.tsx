@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { addGalleryItemAtPosition, addEventAtPosition } from '../utils/data-helpers';
-import { galleryItems } from '../data/gallery';
-import { pastEvents, Event } from '../data/events2024';
-import { GalleryItem } from '../data/gallery';
+import { galleryItems } from '../data/gallery2024';
+import { pastEvents as pastEvents2024, Event } from '../data/events2024';
+import { pastEvents as pastEvents2025, upcomingEvents as upcomingEvents2025 } from '../data/events2025';
+import { GalleryItem } from '../data/gallery2024';
 
 export default function AdminPage() {
   // Use useEffect to ensure client-side rendering
@@ -27,6 +28,7 @@ export default function AdminPage() {
   
   // Event form state
   const [eventPosition, setEventPosition] = useState(0);
+  const [selectedYear, setSelectedYear] = useState<'2024' | '2025'>('2024');
   const [newEvent, setNewEvent] = useState<Omit<Event, 'id'>>({
     title: '',
     date: '',
@@ -89,8 +91,11 @@ export default function AdminPage() {
   // Handle adding a new event
   const handleAddEvent = () => {
     try {
+      const events = selectedYear === '2024' ? pastEvents2024 : 
+                    selectedYear === '2025' ? [...pastEvents2025, ...upcomingEvents2025] : [];
+      
       const updatedEvents = addEventAtPosition(
-        pastEvents, 
+        events, 
         newEvent, 
         eventPosition
       );
@@ -244,6 +249,18 @@ export default function AdminPage() {
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Add New Event</h2>
           
           <div className="mb-4">
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Year:</label>
+            <select 
+              value={selectedYear} 
+              onChange={(e) => setSelectedYear(e.target.value as '2024' | '2025')}
+              className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
+            >
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+            </select>
+          </div>
+          
+          <div className="mb-4">
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Position (0-based index):</label>
             <input 
               type="number" 
@@ -317,7 +334,7 @@ export default function AdminPage() {
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Category:</label>
             <select 
               value={newEvent.category} 
-              onChange={(e) => setNewEvent({...newEvent, category: e.target.value as 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops'})}
+              onChange={(e) => setNewEvent({...newEvent, category: e.target.value as Event['category']})}
               className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             >
               <option value="Performances">Performances</option>
@@ -331,7 +348,7 @@ export default function AdminPage() {
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Registration Link (optional):</label>
             <input 
               type="text" 
-              value={newEvent.registrationLink} 
+              value={newEvent.registrationLink || ''} 
               onChange={(e) => setNewEvent({...newEvent, registrationLink: e.target.value})}
               className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
@@ -341,7 +358,7 @@ export default function AdminPage() {
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">YouTube URL (optional):</label>
             <input 
               type="text" 
-              value={newEvent.youtubeUrl} 
+              value={newEvent.youtubeUrl || ''} 
               onChange={(e) => setNewEvent({...newEvent, youtubeUrl: e.target.value})}
               className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
@@ -351,7 +368,7 @@ export default function AdminPage() {
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">View Bands Link (optional):</label>
             <input 
               type="text" 
-              value={newEvent.viewBandsLink} 
+              value={newEvent.viewBandsLink || ''} 
               onChange={(e) => setNewEvent({...newEvent, viewBandsLink: e.target.value})}
               className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
@@ -361,7 +378,7 @@ export default function AdminPage() {
             <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Gallery Route (optional):</label>
             <input 
               type="text" 
-              value={newEvent.galleryRoute} 
+              value={newEvent.galleryRoute || ''} 
               onChange={(e) => setNewEvent({...newEvent, galleryRoute: e.target.value})}
               className="w-full p-2 border rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border-gray-300 dark:border-gray-600"
             />
@@ -377,7 +394,7 @@ export default function AdminPage() {
           {eventResult && (
             <div className="mt-4">
               <div className="flex justify-between items-center mb-1">
-                <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Result (copy and replace in events.ts):</h3>
+                <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Result (copy and replace in events{selectedYear}.ts):</h3>
                 <button 
                   onClick={() => copyToClipboard(eventResult, 'event')}
                   className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
