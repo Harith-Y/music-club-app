@@ -10,7 +10,6 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isTeamDropdownOpen, setIsTeamDropdownOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -30,6 +29,7 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: pathname === '/' ? '#about' : '/#about' },
     { name: 'Events', href: '/events' },
+    { name: 'Team', href: '/team' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: pathname === '/' ? '#contact' : '/#contact' },
   ];
@@ -58,52 +58,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.slice(0, 3).map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className="text-gray-300 hover:text-white transition-colors duration-300"
-              >
-                {link.name}
-              </Link>
-            ))}
-            
-            {/* Team Dropdown */}
-            <div 
-              className="relative group"
-              onMouseEnter={() => setIsTeamDropdownOpen(true)}
-              onMouseLeave={() => setIsTeamDropdownOpen(false)}
-            >
-              <button className="text-gray-300 hover:text-white transition-colors duration-300">
-                Team
-              </button>
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: isTeamDropdownOpen ? 1 : 0, y: isTeamDropdownOpen ? 0 : 10 }}
-                className="absolute top-full left-0 mt-2 w-40 bg-gray-800 rounded-lg shadow-xl py-2"
-              >
-                <Link
-                  href="/internal-bands"
-                  className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
-                >
-                  Internal Bands
-                </Link>
-                <Link
-                  href="/2024team"
-                  className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
-                >
-                  2024 Team
-                </Link>
-                <Link
-                  href="/2025team"
-                  className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300"
-                >
-                  2025 Team
-                </Link>
-              </motion.div>
-            </div>
-
-            {navLinks.slice(3).map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
