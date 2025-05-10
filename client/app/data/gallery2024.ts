@@ -608,7 +608,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/events2024-25/Meraki_2024/fLRv9_1ovVw",
+      image: "/events2024-25/Meraki_2024/fLRv9_1ovVw.jpg",
       title: "Saibo Cover (Day 0)",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/fLRv9_1ovVw",
