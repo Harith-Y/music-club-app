@@ -40,7 +40,7 @@ const GalleryItem = ({ item, isTeamPicture = false }: GalleryItemProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const [imageAspectRatio, setImageAspectRatio] = useState<number>(1);
   const pathname = usePathname();
-  const isEventGallery = pathname.startsWith('/events/');
+  const isEventGallery = pathname.startsWith('/events/') || pathname.startsWith('/2024events/') || pathname.startsWith('/2025events/');
   const isJamsCategory = item.category === 'jams';
 
   useEffect(() => {

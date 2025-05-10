@@ -6,7 +6,7 @@ import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import EventCard from '../ui/EventCard';
-import { Event } from '../../data/events';
+import { Event } from '../../data/events2024';
 
 interface EventsSectionProps {
   events?: Event[];
@@ -82,7 +82,7 @@ const EventsSection = ({
           className="text-center mt-12"
         >
           <Link 
-            href="#" 
+            href="/2024events" 
             className="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-semibold hover:from-primary-700 hover:to-secondary-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             View All Events

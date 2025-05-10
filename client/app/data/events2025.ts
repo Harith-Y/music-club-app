@@ -1,0 +1,41 @@
+import { Event } from './events2024';
+
+export const pastEvents: Event[] = [];
+
+export const upcomingEvents: Event[] = [
+  {
+    id: 2,
+    title: "Winter Concert (Club Performance)",
+    date: "November 10, 2025",
+    time: "6:00 PM",
+    location: "H05",
+    description: "A grand musical finale to the year, featuring performances from all club sections.",
+    image: "/events/Winter_Concert_2025/WinterConcert2025.jpg",
+    category: 'Performances' as const,
+    youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' 
+  },
+  {
+    id: 1,
+    title: "Jazz Night",
+    date: "October 19, 2025",
+    time: "7:00 PM",
+    location: "Cafeteria",
+    description: "An elegant evening of smooth jazz, featuring both classic standards and modern interpretations.",
+    image: "/events/Jazz_Night_2025/JazzNight2025.jpg",
+    category: 'Open Mics' as const
+  },
+  {
+    id: 0,
+    title: "Music Theory Workshop",
+    date: "October 5, 2025",
+    time: "4:00 PM",
+    location: "Music Room",
+    description: "A comprehensive workshop covering music theory fundamentals and practical composition techniques.",
+    image: "/events/Music_Theory_Workshop_2025/MusicTheoryWorkshop2025.jpg",
+    category: 'Workshops' as const
+  }
+].map((item, index) => ({
+  ...item,
+  order: index,
+  category: item.category as 'Performances' | 'Open Mics' | 'Competitions' | 'Workshops'
+}));

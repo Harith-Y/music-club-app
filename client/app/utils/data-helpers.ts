@@ -1,5 +1,5 @@
 import { GalleryItem, insertGalleryItem } from '../data/gallery';
-import { Event, insertEvent } from '../data/events';
+import { Event, insertEvent } from '../data/events2024';
 
 /**
  * Example of how to insert a new gallery item at a specific position

@@ -3,9 +3,8 @@
 import { useState, useEffect } from 'react';
 import { addGalleryItemAtPosition, addEventAtPosition } from '../utils/data-helpers';
 import { galleryItems } from '../data/gallery';
-import { pastEvents } from '../data/events';
+import { pastEvents, Event } from '../data/events2024';
 import { GalleryItem } from '../data/gallery';
-import { Event } from '../data/events';
 
 export default function AdminPage() {
   // Use useEffect to ensure client-side rendering

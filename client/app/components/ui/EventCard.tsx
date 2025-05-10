@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { FaCalendar, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
-import { Event } from '../../data/events';
+import { Event } from '../../data/events2024';
 import Link from 'next/link';
 import LazyYoutubeEmbed from './LazyYoutubeEmbed';
 
@@ -47,7 +47,8 @@ export default function EventCard({ event }: EventCardProps) {
       "Blastroduction (Club Performance)",
       "Orientation (Club Performance)",
       "Independence Day (Club Performance)",
-      "Onam (Club Performance)"
+      "Onam (Club Performance)",
+      "Workshop: How to form a Band"
     ];
     
     return event.category === 'Open Mics' || 
