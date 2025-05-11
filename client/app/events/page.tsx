@@ -136,11 +136,11 @@ export default function EventsSelectionPage() {
               <div className="p-3 bg-primary/10 rounded-lg group-hover:scale-110 transition-transform duration-300">
                 <FaTrophy className="text-xl text-primary" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-2xl font-bold text-white">
                   {pastEvents.filter(e => e.category === 'Competitions').length}
                 </p>
-                <p className="text-gray-400">Competitions</p>
+                <p className="text-gray-400 truncate">Competitions</p>
               </div>
             </div>
           </div>
@@ -149,11 +149,11 @@ export default function EventsSelectionPage() {
               <div className="p-3 bg-primary/10 rounded-lg group-hover:scale-110 transition-transform duration-300">
                 <FaChalkboardTeacher className="text-xl text-primary" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-2xl font-bold text-white">
                   {pastEvents.filter(e => e.category === 'Workshops').length}
                 </p>
-                <p className="text-gray-400">Workshops</p>
+                <p className="text-gray-400 truncate">Workshops</p>
               </div>
             </div>
           </div>
