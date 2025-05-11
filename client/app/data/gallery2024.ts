@@ -253,7 +253,7 @@ export interface GalleryItem {
       order: 19
     },
     {
-      category: "covers",
+      category: "workshops",
       // image: "/events/events2024-25/Workshop_March_2025/Media/QpGra9txmTQ-HQ.jpg",
       image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2024-25%2FWorkshop_March_2025%2FMedia%2FQpGra9txmTQ-HQ.jpg?alt=media&token=c68a9f23-28df-449e-afab-4d6663ef4e94",
       title: "Demons - Band Cover",
