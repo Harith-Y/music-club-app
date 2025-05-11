@@ -7,6 +7,7 @@ import GallerySection from './components/sections/GallerySection';
 import JoinUsSection from './components/sections/JoinUsSection';
 import ContactSection from './components/sections/ContactSection';
 import SliderCSS from './components/layout/SliderCSS';
+import { galleryItems } from './data/gallery2024';
 
 export default function Home() {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -37,7 +38,8 @@ export default function Home() {
       <AboutSection />
       <GallerySection 
         activeFilter={activeGalleryFilter} 
-        setActiveFilter={setActiveGalleryFilter} 
+        setActiveFilter={setActiveGalleryFilter}
+        items={galleryItems}
       />
       <JoinUsSection />
       <ContactSection />
