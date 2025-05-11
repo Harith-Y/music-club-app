@@ -46,7 +46,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "Dil Se Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/2NGJ1bPrzUg",
@@ -56,7 +56,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "For Whom the Bell Tolls Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/IpzZjpbhejQ",
@@ -66,7 +66,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "We Will Rock You Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/ERPM28X17FI",
@@ -76,7 +76,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "Nadaan Parindey Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/0KwCNBu5qQs",
@@ -86,7 +86,7 @@ export interface GalleryItem {
     },
     {
       category: "performances",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "Enter Sandman Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/tOMHFZN7zDM",
@@ -234,7 +234,7 @@ export interface GalleryItem {
     },
     {
       category: "covers",
-      image: "/events/events2024-25/Workshop_March_2025/QpGra9txmTQ-HQ.jpg",
+      image: "/events/events2024-25/Workshop_March_2025/Media/QpGra9txmTQ-HQ.jpg",
       title: "Demons - Band Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/QpGra9txmTQ",
@@ -274,7 +274,7 @@ export interface GalleryItem {
     },
     {
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Samgatha.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Samgatha.jpg",
       title: "Samgatha x Vashisht '2025",
       type: 'image' as const,
       id: 81,
@@ -283,7 +283,7 @@ export interface GalleryItem {
     {
       id: 3,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Republic-Day.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Republic-Day.jpg",
       title: "Republic Day",
       type: 'image' as const,
       order: 25
@@ -363,7 +363,7 @@ export interface GalleryItem {
     {
       id: 12,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Saarang.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Saarang.jpg",
       title: "Saarang 2025",
       type: 'image' as const,
       order: 34
@@ -531,7 +531,7 @@ export interface GalleryItem {
     {
       id: 25,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Meraki-Day1.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Meraki-Day1.jpg",
       title: "Meraki Day 1",
       type: 'image' as const,
       order: 51
@@ -629,7 +629,7 @@ export interface GalleryItem {
     {
       id: 26,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Meraki-Day0.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Meraki-Day0.jpg",
       title: "Meraki Day 0",
       type: 'image' as const,
       order: 61
@@ -960,7 +960,7 @@ export interface GalleryItem {
     {
       id: 44,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/Independence-Day.jpg",
+      image: "/gallery/gallery2024-25/Team2024-25/Independence-Day.jpg",
       title: "Independence Day",
       type: 'image' as const,
       order: 96
