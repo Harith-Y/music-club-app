@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import GalleryItem from '../ui/GalleryItem';
-import { galleryItems } from '../../data/gallery2024';
 
 interface GallerySectionProps {
   activeFilter: string;
@@ -15,6 +14,7 @@ interface GallerySectionProps {
   showAllImages?: boolean;
   showFilters?: boolean;
   driveButton?: React.ReactNode;
+  items: GalleryItem[];
 }
 
 const filterButtons = [
@@ -32,7 +32,8 @@ const GallerySection = ({
   showViewFullButton = true,
   showAllImages = false,
   showFilters = false,
-  driveButton
+  driveButton,
+  items
 }: GallerySectionProps) => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -42,8 +43,8 @@ const GallerySection = ({
 
   // Filter gallery items based on active filter
   const filteredGalleryItems = activeFilter === 'all' 
-    ? galleryItems 
-    : galleryItems.filter(item => item.category === activeFilter);
+    ? items 
+    : items.filter(item => item.category === activeFilter);
 
   // If not showing all images, limit to 3 items
   const displayItems = showAllImages ? filteredGalleryItems : filteredGalleryItems.slice(0, 3);
