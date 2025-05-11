@@ -1,5 +1,5 @@
 import { upcomingEvents } from '../../data/events2025';
-import { galleryItems } from '../../data/gallery2024';
+import { galleryItems } from '../../data/gallery2025';
 import EventGalleryClient from '../../components/sections/EventGalleryClient';
 
 // @ts-ignore - Force ignore TypeScript errors for this component

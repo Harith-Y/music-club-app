@@ -13,7 +13,8 @@ export const upcomingEvents: Event[] = [
     // image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
     image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
     category: 'Performances' as const,
-    youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ' 
+    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    galleryRoute: "/2025events/winter_concert-2025",
   },
   {
     id: 1,

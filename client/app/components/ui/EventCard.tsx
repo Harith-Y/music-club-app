@@ -48,7 +48,8 @@ export default function EventCard({ event }: EventCardProps) {
       "Orientation (Club Performance)",
       "Independence Day (Club Performance)",
       "Onam (Club Performance)",
-      "Workshop: How to form a Band"
+      "Workshop: How to form a Band",
+      "Winter Concert (Club Performance)"
     ];
     
     return event.category === 'Open Mics' || 

@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import GalleryItem from '../ui/GalleryItem';
+import { GalleryItem as GalleryItemType } from '../../data/gallery2024';
 
 interface GallerySectionProps {
   activeFilter: string;
@@ -14,7 +15,7 @@ interface GallerySectionProps {
   showAllImages?: boolean;
   showFilters?: boolean;
   driveButton?: React.ReactNode;
-  items: GalleryItem[];
+  items: GalleryItemType[];
 }
 
 const filterButtons = [
