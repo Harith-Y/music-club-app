@@ -699,7 +699,7 @@ export interface GalleryItem {
     {
       category: "performances",
       //image: "/events/events2024-25/Onam_2024/xdgsV5wh5xc-SD.jpg",
-      image: "http s://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2024-25%2FOnam_2024%2FxdgsV5wh5xc-SD.jpg?alt=media&token=17388ae1-f0b2-4cc7-96d5-5a8b8ac232e0",
+      image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2024-25%2FOnam_2024%2FxdgsV5wh5xc-SD.jpg?alt=media&token=17388ae1-f0b2-4cc7-96d5-5a8b8ac232e0",
       title: "Maate Vinadhuga Cover",
       type: 'video' as const,
       videoUrl: "https://www.youtube.com/embed/xdgsV5wh5xc",
