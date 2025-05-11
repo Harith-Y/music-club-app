@@ -283,7 +283,7 @@ export interface GalleryItem {
     {
       id: 3,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/repday.jpg",
+      image: "/gallery/gallery2024-25/Team_2024-25/Republic-Day.jpg",
       title: "Republic Day",
       type: 'image' as const,
       order: 25
@@ -363,7 +363,7 @@ export interface GalleryItem {
     {
       id: 12,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/saarang.jpg",
+      image: "/gallery/gallery2024-25/Team_2024-25/Saarang.jpg",
       title: "Saarang 2025",
       type: 'image' as const,
       order: 34
@@ -531,7 +531,7 @@ export interface GalleryItem {
     {
       id: 25,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/merakiday1.jpg",
+      image: "/gallery/gallery2024-25/Team_2024-25/Meraki-Day1.jpg",
       title: "Meraki Day 1",
       type: 'image' as const,
       order: 51
@@ -629,7 +629,7 @@ export interface GalleryItem {
     {
       id: 26,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/merakiday0.jpg",
+      image: "/gallery/gallery2024-25/Team_2024-25/Meraki-Day0.jpg",
       title: "Meraki Day 0",
       type: 'image' as const,
       order: 61
@@ -960,7 +960,7 @@ export interface GalleryItem {
     {
       id: 44,
       category: "team",
-      image: "/gallery/gallery2024-25/Team_2024-25/independence_day.jpg",
+      image: "/gallery/gallery2024-25/Team_2024-25/Independence-Day.jpg",
       title: "Independence Day",
       type: 'image' as const,
       order: 96
