@@ -448,6 +448,13 @@ export const bands: Band[] = [
         // image: "/bands/Dosa/Shriya.jpg",
         image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Bands%2FDosa%2FShriya.jpg?alt=media&token=3bdfd8e0-37b4-40de-be58-24f808eb25d1"
       },
+      {
+        id: 8,
+        name: "Saarang",
+        instrument: "Tambourine and Mridangam",
+        image: "/bands/Dosa/Saarang.jpg",
+        // image: ""
+      }
     ]
   },
   {
