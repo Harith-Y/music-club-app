@@ -36,6 +36,13 @@ export const bands: Band[] = [
         image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Bands%2FRhythmPulse%2FAyushya.jpg?alt=media&token=d3489bdf-06e7-4568-a441-6f11a1428dfc"
       },
       { 
+        id: 3, 
+        name: "Harini", 
+        instrument: "Lead Vocals", 
+        // image: "/bands/RhythmPulse/Harini.jpg",
+        image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Bands%2FRhythmPulse%2FHarini.jpg?alt=media&token=a170fbed-17e2-4637-abb1-10293fc7799e"
+      },
+      { 
         id: 4, 
         name: "Priyansu", 
         instrument: "Lead Vocals", 
