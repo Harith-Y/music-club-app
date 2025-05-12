@@ -74,11 +74,11 @@ export const crew2025: TeamMember[] = [
 export const mentors2025: TeamMember[] = [
   { 
     id: 1, 
-    name: 'Rikitha Ravi', 
-    role: 'Former Club Core', 
-    // image: '/crew/Team2025/Rikitha.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FRikitha.jpg?alt=media&token=286a46d6-3342-4315-ac44-aa1a8698e17b",
-    bio: 'Classical vocalist with extensive experience in both traditional and contemporary music.' 
+    name: 'Meera K', 
+    role: 'Acapella Expert', 
+    // image: '/crew/Team2025/MeeraK.jpg', 
+    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraK.jpg?alt=media&token=d828d410-3448-4052-8420-2d68b17aebe2",
+    bio: 'Classical vocalist with a passion for teaching and mentoring.' 
   },
   { 
     id: 2, 
@@ -98,10 +98,10 @@ export const mentors2025: TeamMember[] = [
   },
   { 
     id: 4, 
-    name: 'Meera K', 
-    role: 'Former Club Coordinator', 
-    // image: '/crew/Team2025/MeeraK.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraK.jpg?alt=media&token=d828d410-3448-4052-8420-2d68b17aebe2",
-    bio: 'Classical vocalist with a passion for teaching and mentoring.' 
+    name: 'Rikitha Ravi', 
+    role: 'Former Club Core', 
+    // image: '/crew/Team2025/Rikitha.jpg', 
+    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FRikitha.jpg?alt=media&token=286a46d6-3342-4315-ac44-aa1a8698e17b",
+    bio: 'Classical vocalist with extensive experience in both traditional and contemporary music.' 
   }
 ]; 

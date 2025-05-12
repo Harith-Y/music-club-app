@@ -138,14 +138,6 @@ export const crew2024: TeamMember[] = [
     // image: '/crew/Team2024/Yashas.jpg', 
     image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2024%2FYashas.jpg?alt=media&token=d9ea7e3e-0d4f-4e68-bdfd-507fd1022772",
     bio: 'Skilled percussionist proficient in both drums and tabla, with a talent for blending cultural rhythms.' 
-  },
-  { 
-    id: 7, 
-    name: 'Saarang', 
-    role: 'Tambourine and Mridangam', 
-    image: '/crew/Team2025/Saarang.jpg', 
-    // image: "",
-    bio: 'Classically trained mridangam artist and electronic music producer. Blends traditional percussion with modern sound design.' 
   }
 ];
 
