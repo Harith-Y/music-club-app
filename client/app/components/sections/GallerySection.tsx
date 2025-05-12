@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 import AnimatedSection from '../layout/AnimatedSection';
 import GalleryItem from '../ui/GalleryItem';
