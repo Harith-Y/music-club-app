@@ -142,7 +142,7 @@ export const crew2024: TeamMember[] = [
   { 
     id: 7, 
     name: 'Saarang', 
-    role: 'Club Crew', 
+    role: 'Tambourine and Mridangam', 
     image: '/crew/Team2025/Saarang.jpg', 
     // image: "",
     bio: 'Classically trained mridangam artist and electronic music producer. Blends traditional percussion with modern sound design.' 
