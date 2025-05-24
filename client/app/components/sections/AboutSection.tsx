@@ -14,10 +14,13 @@ const features = [
 
 const AboutSection = () => {
   return (
-    <AnimatedSection id="about" className="bg-gradient-to-b from-gray-900 to-gray-800 py-20">
-      <div className="container mx-auto px-4 md:px-6">
+    <AnimatedSection id="about" className="relative py-20 overflow-hidden">
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-600 bg-[length:180%_180%] animate-gradient" />
+      
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.h2 
-          className="section-heading text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-secondary-400"
+          className="section-heading text-4xl font-bold text-center mb-16 text-white"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
