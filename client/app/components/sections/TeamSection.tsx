@@ -15,6 +15,7 @@ interface TeamSectionProps {
   coordinators: TeamMember[];
   crew: TeamMember[];
   mentors: TeamMember[];
+  externalMentors?: TeamMember[];
   mentorsAsCarousel?: boolean;
 }
 
@@ -26,6 +27,7 @@ const TeamSection = ({
   coordinators,
   crew,
   mentors,
+  externalMentors,
   mentorsAsCarousel = false
 }: TeamSectionProps) => {
   return (
@@ -155,10 +157,37 @@ const TeamSection = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.6 }}
+            className="mb-16"
           >
             <h3 className="text-2xl font-bold mb-8 text-center text-primary-400">Mentors</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {mentors.map((member, index) => (
+                <motion.div
+                  key={member.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <MemberCard member={member} />
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        )}
+
+        {/* External Mentors Section */}
+        {externalMentors && externalMentors.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+            className="mb-16"
+          >
+            <h3 className="text-2xl font-bold mb-8 text-center text-secondary-400">External Mentors</h3>
+            <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${externalMentors.length === 1 ? 'lg:grid-cols-1 lg:max-w-md lg:mx-auto' : ''}`}>
+              {externalMentors.map((member, index) => (
                 <motion.div
                   key={member.id}
                   initial={{ opacity: 0, y: 20 }}
