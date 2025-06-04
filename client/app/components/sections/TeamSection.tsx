@@ -186,7 +186,7 @@ const TeamSection = ({
             className="mb-16"
           >
             <h3 className="text-2xl font-bold mb-8 text-center text-secondary-400">External Mentors</h3>
-            <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${externalMentors.length === 1 ? 'lg:grid-cols-1 lg:max-w-md lg:mx-auto' : ''}`}>
+            <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${externalMentors.length === 1 ? 'lg:grid-cols-3' : ''}`}>
               {externalMentors.map((member, index) => (
                 <motion.div
                   key={member.id}
@@ -194,6 +194,7 @@ const TeamSection = ({
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className={externalMentors.length === 1 ? 'lg:col-start-2' : ''}
                 >
                   <MemberCard member={member} />
                 </motion.div>
