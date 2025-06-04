@@ -55,7 +55,7 @@ const TeamSection = ({
           className="mb-16"
         >
           <h3 className="text-2xl font-bold mb-8 text-center text-primary-400">Core Team</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${coreMembers.length === 2 ? 'sm:ml-[25%]' : ''}`}>
             {coreMembers.map((member, index) => (
               <motion.div
                 key={member.id}

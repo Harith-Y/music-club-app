@@ -2,15 +2,7 @@ import { TeamMember } from './team';
 
 export const coreMembers2025: TeamMember[] = [
   { 
-    id: 1, 
-    name: 'Harith', 
-    role: 'Pianist', 
-    // image: '/crew/Team2025/Harith.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FHarith.jpg?alt=media&token=20098526-ab7d-40b9-8615-399087353767",
-    bio: 'Award-winning pianist mastering classical and contemporary styles with innovative arrangements.' 
-  },
-  { 
-    id: 2, 
+    id: 1,
     name: 'Dikshant', 
     role: 'Percussionist', 
     // image: '/crew/Team2025/Dikshant.jpg', 
@@ -18,7 +10,7 @@ export const coreMembers2025: TeamMember[] = [
     bio: 'Multi-instrumental percussionist specializing in experimental rhythms and cinematic sound design.' 
   },
   { 
-    id: 3, 
+    id: 2, 
     name: 'Shriya', 
     role: 'Vocalist', 
     // image: '/crew/Team2025/Shriya.jpg', 
@@ -103,5 +95,13 @@ export const mentors2025: TeamMember[] = [
     // image: '/crew/Team2025/Rikitha.jpg', 
     image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FRikitha.jpg?alt=media&token=286a46d6-3342-4315-ac44-aa1a8698e17b",
     bio: 'Classical vocalist with extensive experience in both traditional and contemporary music.' 
-  }
+  },
+  { 
+    id: 5, 
+    name: 'Harith', 
+    role: 'Pianist', 
+    // image: '/crew/Team2025/Harith.jpg', 
+    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FHarith.jpg?alt=media&token=20098526-ab7d-40b9-8615-399087353767",
+    bio: 'Award-winning pianist mastering classical and contemporary styles with innovative arrangements.' 
+  },
 ]; 
