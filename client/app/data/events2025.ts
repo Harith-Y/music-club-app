@@ -10,8 +10,8 @@ export const upcomingEvents: Event[] = [
     time: "6:00 PM",
     location: "H05",
     description: "A grand musical finale to the year, featuring performances from all club sections.",
-    // image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
+    image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
     category: 'Performances' as const,
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     galleryRoute: "/2025events/winter_concert-2025",
@@ -23,8 +23,8 @@ export const upcomingEvents: Event[] = [
     time: "7:00 PM",
     location: "Cafeteria",
     description: "An elegant evening of smooth jazz, featuring both classic standards and modern interpretations.",
-    // image: "/events/events2025-26/Jazz_Night_2025/JazzNight2025.jpg",
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
+    image: "/events/events2025-26/Jazz_Night_2025/JazzNight2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
     category: 'Open Mics' as const
   },
   {
@@ -34,8 +34,8 @@ export const upcomingEvents: Event[] = [
     time: "4:00 PM",
     location: "Music Room",
     description: "A comprehensive workshop covering music theory fundamentals and practical composition techniques.",
-    // image: "/events/events2025-26/Music_Theory_Workshop_2025/MusicTheoryWorkshop2025.jpg",
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
+    image: "/events/events2025-26/Music_Theory_Workshop_2025/MusicTheoryWorkshop2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
     category: 'Workshops' as const
   }
 ].map((item, index) => ({

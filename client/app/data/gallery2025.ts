@@ -37,8 +37,8 @@ export const galleryItems: GalleryItem[] = [
   // 2025 gallery items will be added here
   {
     category: "performances",
-    // image: "/NoThumbnail.jpg",
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/NoThumbnail.jpg?alt=media&token=207d52dc-f14d-4ad0-a9cb-f5016454d32e",
+    image: "/NoThumbnail.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/NoThumbnail.jpg?alt=media&token=207d52dc-f14d-4ad0-a9cb-f5016454d32e",
     title: "Stage Set-Up",
     type: 'image' as const,
     event: "Winter Concert (Club Performance)",

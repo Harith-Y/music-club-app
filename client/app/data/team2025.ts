@@ -5,16 +5,16 @@ export const coreMembers2025: TeamMember[] = [
     id: 1,
     name: 'Dikshant', 
     role: 'Percussionist', 
-    // image: '/crew/Team2025/Dikshant.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDikshant.jpg?alt=media&token=441986e3-e99e-4997-92e6-7155079c892e", 
+    image: '/crew/Team2025/Dikshant.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDikshant.jpg?alt=media&token=441986e3-e99e-4997-92e6-7155079c892e", 
     bio: 'Multi-instrumental percussionist specializing in experimental rhythms and cinematic sound design.' 
   },
   { 
     id: 2, 
     name: 'Shriya', 
     role: 'Vocalist', 
-    // image: '/crew/Team2025/Shriya.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FShriya.jpg?alt=media&token=0d5e5e06-8990-4a59-9c41-2873e8156ac4", 
+    image: '/crew/Team2025/Shriya.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FShriya.jpg?alt=media&token=0d5e5e06-8990-4a59-9c41-2873e8156ac4", 
     bio: 'Versatile vocalist with a unique blend of Carnatic and Western techniques, excelling in improvisation.' 
   }
 ];
@@ -24,24 +24,24 @@ export const leads2025: TeamMember[] = [
     id: 1, 
     name: 'Meera R', 
     role: 'Vocal and Design Lead', 
-    // image: '/crew/Team2025/MeeraR.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraR.jpg?alt=media&token=130f7570-4d77-43c8-b1ad-dc1695eeb0cc",
+    image: '/crew/Team2025/MeeraR.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraR.jpg?alt=media&token=130f7570-4d77-43c8-b1ad-dc1695eeb0cc",
     bio: 'Vocalist and creative designer managing social media content and outreach with external bands.' 
   },
   { 
     id: 2, 
     name: 'David J Sharon', 
     role: 'Technical and Sound Lead', 
-    // image: '/crew/Team2025/DJ.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDJ.jpg?alt=media&token=7818b2f8-bde3-40c5-9e2d-e0a283e19b3d",
+    image: '/crew/Team2025/DJ.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDJ.jpg?alt=media&token=7818b2f8-bde3-40c5-9e2d-e0a283e19b3d",
     bio: 'Beatboxer and FL Studio expert. Handles music production, mixing, and creates original compositions.' 
   },
   { 
     id: 3, 
     name: 'Omkar', 
     role: 'Guitar and Logistics Lead', 
-    // image: '/crew/Team2025/Omkar.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FOmkar.jpg?alt=media&token=baaf4c3d-2fb6-4e63-8293-2cbf72a4c308",
+    image: '/crew/Team2025/Omkar.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FOmkar.jpg?alt=media&token=baaf4c3d-2fb6-4e63-8293-2cbf72a4c308",
     bio: 'Guitarist managing event operations. Ensures smooth execution of club events and performances.' 
   }
 ];
@@ -68,32 +68,32 @@ export const mentors2025: TeamMember[] = [
     id: 1, 
     name: 'Meera K', 
     role: 'Acapella Expert', 
-    // image: '/crew/Team2025/MeeraK.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraK.jpg?alt=media&token=d828d410-3448-4052-8420-2d68b17aebe2",
+    image: '/crew/Team2025/MeeraK.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraK.jpg?alt=media&token=d828d410-3448-4052-8420-2d68b17aebe2",
     bio: 'Classical vocalist with a passion for teaching and mentoring.' 
   },
   { 
     id: 2, 
     name: 'Nivedh Biju', 
     role: 'Former Club Core', 
-    // image: '/crew/Team2025/Nivedh.png', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FNivedh.png?alt=media&token=c7bc00dc-f769-4613-9a1c-b35d7e5ee171",
+    image: '/crew/Team2025/Nivedh.png', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FNivedh.png?alt=media&token=c7bc00dc-f769-4613-9a1c-b35d7e5ee171",
     bio: 'Pianist with a unique approach to classical and modern repertoire.' 
   },
   { 
     id: 3, 
     name: 'Kshitij Singh', 
     role: 'Former Club Core', 
-    // image: '/crew/Team2025/Kshitij.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FKshitij.jpg?alt=media&token=5dd288b9-6f44-4171-b0bb-f0e3ae460365",
+    image: '/crew/Team2025/Kshitij.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FKshitij.jpg?alt=media&token=5dd288b9-6f44-4171-b0bb-f0e3ae460365",
     bio: 'Guitarist known for innovative techniques and fusion arrangements.' 
   },
   { 
     id: 4, 
     name: 'Rikitha Ravi', 
     role: 'Former Club Core', 
-    // image: '/crew/Team2025/Rikitha.jpg', 
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FRikitha.jpg?alt=media&token=286a46d6-3342-4315-ac44-aa1a8698e17b",
+    image: '/crew/Team2025/Rikitha.jpg', 
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FRikitha.jpg?alt=media&token=286a46d6-3342-4315-ac44-aa1a8698e17b",
     bio: 'Classical vocalist with extensive experience in both traditional and contemporary music.' 
   },
 ]; 
@@ -103,8 +103,8 @@ export const externalMentors2025: TeamMember[] = [
     id: 1, 
     name: 'Harith', 
     role: 'Pianist', 
-    // image: '/crew/Team2025/Harith.jpg',
-    image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FHarith.jpg?alt=media&token=20098526-ab7d-40b9-8615-399087353767",
+    image: '/crew/Team2025/Harith.jpg',
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FHarith.jpg?alt=media&token=20098526-ab7d-40b9-8615-399087353767",
     bio: 'Award-winning pianist mastering classical and contemporary styles with innovative arrangements.' 
   }
 ]; 
