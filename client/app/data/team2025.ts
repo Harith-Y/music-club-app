@@ -47,12 +47,53 @@ export const leads2025: TeamMember[] = [
 ];
 
 export const coordinators2025: TeamMember[] = [
-  { id: 1, name: 'New Coordinator 1', role: 'Coordinator', image: '/crew/Team2025/coord1.jpg', bio: 'Innovative music producer with expertise in electronic music and sound engineering.' },
-  { id: 2, name: 'New Coordinator 2', role: 'Coordinator', image: '/crew/Team2025/coord2.jpg', bio: 'Rhythm specialist with mastery in both traditional and modern percussion techniques.' },
-  { id: 3, name: 'New Coordinator 3', role: 'Coordinator', image: '/crew/Team2025/coord3.jpg', bio: 'Composer and arranger with a focus on blending classical and contemporary music styles.' },
-  { id: 4, name: 'New Coordinator 4', role: 'Coordinator', image: '/crew/Team2025/coord4.jpg', bio: 'Bass virtuoso with a deep understanding of groove and harmony in modern music.' },
-  { id: 5, name: 'New Coordinator 5', role: 'Coordinator', image: '/crew/Team2025/coord5.jpg', bio: 'Singer-songwriter with a distinctive voice and talent for crafting memorable melodies.' },
-  { id: 6, name: 'New Coordinator 6', role: 'Coordinator', image: '/crew/Team2025/coord6.jpg', bio: 'Multi-instrumentalist with a passion for creating unique soundscapes and arrangements.' },
+  { id: 1, name: 'Gokul Krishna',
+    role: 'Pianist',
+    image: '/crew/Team2025/Gokul Krishna.jpg',
+    bio: 'Innovative Music Producer and a Professional Pianist with expertise in electronic music.'
+  },
+  { id: 2,
+    name: 'Priyansu',
+    role: 'Vocalist',
+    image: '/crew/Team2025/Priyansu.jpg',
+    bio: 'Classical Vocalist with mastery in both traditional and modern vocal techniques.'
+  },
+  { id: 3, 
+    name: 'Aayushya',
+    role: 'Guitarist',
+    image: '/crew/Team2025/Aayushya.jpg',
+    bio: 'Skilled Acoustic Guitarist with a natural ability to create smooth, melodic rhythms, bringing warmth and depth.'
+  },
+  { id: 4,
+    name: 'Dhriti J N',
+    role: 'Guitarist & Graphic Designer',
+    image: '/crew/Team2025/Dhriti J N.jpg',
+    bio: 'Guitarist & Graphic Designer with a deep understanding of groove and harmony in modern music.'
+  },
+  { id: 5,
+    name: 'Yashas',
+    role: 'Percussionist',
+    image: '/crew/Team2025/Yashas.jpg',
+    bio: 'A dynamic drummer, skilled at laying down powerful rhythms and adding intricate beats that drive the energy of any performance..'
+  },
+  { id: 6,
+    name: 'Anuj',
+    role: 'Guitarist',
+    image: '/crew/Team2025/Anuj.jpg',
+    bio: 'Talented Electric Guitarist, known for his sharp riffs and smooth solos that bring energy and edge.'
+  },
+  { id: 7,
+    name: 'Harini',
+    role: 'Vocalist',
+    image: '/crew/Team2025/Harini.jpg',
+    bio: 'Classical Vocalist with a breathtaking range, effortlessly soaring to the highest pitches with clarity and control.'
+  },
+  { id: 8,
+    name: 'Piyush Mishra',
+    role: 'Guitarist & Graphic Designer',
+    image: '/crew/Team2025/Piyush Mishra.jpg',
+    bio: 'Skilled Electric Guitarist and Graphic Designer, with an eye for visual creativity and a knack for crafting dynamic soundscapes through mixing.'
+  },
 ];
 
 export const crew2025: TeamMember[] = [
