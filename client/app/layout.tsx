@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: 'Music Club - IIITDM Kancheepuram',
   description: 'Official website of the Music Club at IIITDM Kancheepuram, Chennai, India',
   icons: {
-    icon: '/Logo.ico',
+    icon: '/music_club_logo.png',
   },
 };
 

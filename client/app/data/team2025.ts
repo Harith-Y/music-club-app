@@ -74,7 +74,7 @@ export const coordinators2025: TeamMember[] = [
     name: 'Yashas',
     role: 'Percussionist',
     image: '/crew/Team2025/Yashas.jpg',
-    bio: 'A dynamic drummer, skilled at laying down powerful rhythms and adding intricate beats that drive the energy of any performance..'
+    bio: 'A dynamic drummer, skilled at laying down powerful rhythms and adding intricate beats that drive the energy of any performance.'
   },
   { id: 6,
     name: 'Anuj',
@@ -92,7 +92,7 @@ export const coordinators2025: TeamMember[] = [
     name: 'Piyush Mishra',
     role: 'Guitarist & Graphic Designer',
     image: '/crew/Team2025/Piyush Mishra.jpg',
-    bio: 'Skilled Electric Guitarist and Graphic Designer, with an eye for visual creativity and a knack for crafting dynamic soundscapes through mixing.'
+    bio: 'Skilled Electric Guitarist and Graphic Designer, with a knack for crafting dynamic soundscapes through mixing.'
   },
 ];
 

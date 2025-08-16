@@ -47,11 +47,11 @@ const Navbar = () => {
               className="h-20 w-auto"
             />
             <Image
-              src="/logo/Logo_NoBG.png"
+              src="/logo/Music_Club_Logo_2025-26_NoBG.png"
               alt="Music Club Logo"
-              width={40}
-              height={40}
-              className="w-10 h-10"
+              width={60}
+              height={60}
+              className="w-19 h-19"
             />
             <span className="text-xl font-bold text-white">Music Club</span>
           </Link>
