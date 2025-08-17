@@ -1,9 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { TeamMember } from '../../data/team';
 
 interface MemberCardProps {
@@ -11,8 +10,6 @@ interface MemberCardProps {
 }
 
 const MemberCard = ({ member }: MemberCardProps) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-  
   return (
     <motion.div
       whileHover={{ y: -5 }}
@@ -37,36 +34,7 @@ const MemberCard = ({ member }: MemberCardProps) => {
           <p className="text-primary-400 font-medium">{member.role}</p>
         </div>
         
-        <div className="space-y-2">
-          <p className={`text-gray-400 text-sm leading-relaxed transition-all duration-300 ${
-            isExpanded ? '' : 'overflow-hidden'
-          }`} style={{
-            display: isExpanded ? 'block' : '-webkit-box',
-            WebkitLineClamp: isExpanded ? 'none' : '4',
-            WebkitBoxOrient: isExpanded ? 'unset' : 'vertical',
-            overflow: isExpanded ? 'visible' : 'hidden'
-          }}>
-            {member.bio}
-          </p>
-          {member.bio.length > 100 && (
-            <button
-              onClick={() => setIsExpanded(!isExpanded)}
-              className="text-primary-400 hover:text-primary-300 text-xs font-medium flex items-center gap-1 transition-colors duration-300"
-            >
-              {isExpanded ? (
-                <>
-                  <FaChevronUp className="w-3 h-3" />
-                  Show Less
-                </>
-              ) : (
-                <>
-                  <FaChevronDown className="w-3 h-3" />
-                  Read More
-                </>
-              )}
-            </button>
-          )}
-        </div>
+        <p className="text-gray-400 text-sm leading-relaxed">{member.bio}</p>
         
         {/* Social Links */}
         <div className="flex justify-center space-x-4 pt-2">
