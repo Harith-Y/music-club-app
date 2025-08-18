@@ -92,7 +92,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/musicclub.iiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaInstagram />
               </a>
-              <a href="https://www.youtube.com/@iiitdmmusicclub2549" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <a href="https://www.youtube.com/@musicclubiiitdm" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaYoutube />
               </a>
               <a href="https://www.facebook.com/profile.php?id=61575171101823" target="_blank" rel="noopener noreferrer" className="social-icon">

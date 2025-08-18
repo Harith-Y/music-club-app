@@ -45,6 +45,16 @@ export const galleryItems: GalleryItem[] = [
     id: 0,
     order: 0
   },
+  {
+    category: "performances",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    title: "Independence Day Performance",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/hhS_ZfFmpTQ",
+    event: "Independence Day (Club Performance)",
+    id: 1,
+    order: 1
+  },
 ].map((item, index) => ({
   ...item,
   order: index,
