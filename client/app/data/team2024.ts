@@ -110,7 +110,7 @@ export const crew2024: TeamMember[] = [
   { 
     id: 3, 
     name: 'Adi Khera', 
-    role: 'Bassist', 
+    role: 'Guitarist', 
     image: '/crew/Team2024/Adi.jpg', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2024%2FAdi.jpg?alt=media&token=a118994c-df83-4e7b-ad84-c7b9e31d67af",
     bio: 'Groove-oriented musician with expertise in guitar, drawing from a rich jazz background.' 
