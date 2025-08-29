@@ -1,6 +1,18 @@
 import { Event } from './events2024';
 
-export const pastEvents: Event[] = [];
+export const pastEvents: Event[] = [
+  {
+    id: 1,
+    title: "Independence Day (Club Performance)",
+    date: "August 15, 2025",
+    time: "8:30 AM",
+    location: "Main Gate",
+    description: "Patriotic performance to celebrate the Nation's Independence.",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    category: "Performances",
+    galleryRoute: "/2025events/independence_day-2025",
+  }
+];
 
 export const upcomingEvents: Event[] = [
   {
@@ -38,17 +50,7 @@ export const upcomingEvents: Event[] = [
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
     category: 'Workshops' as const
   },
-  {
-    id: 3,
-    title: "Independence Day (Club Performance)",
-    date: "August 15, 2025",
-    time: "8:30 AM",
-    location: "Main Gate",
-    description: "Patriotic performance to celebrate the Nation's Independence.",
-    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
-    category: "Performances",
-    galleryRoute: "/2025events/independence_day-2025",
-  }
+  
 ].map((item, index) => ({
   ...item,
   order: index,
