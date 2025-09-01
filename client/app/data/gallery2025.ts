@@ -55,6 +55,16 @@ export const galleryItems: GalleryItem[] = [
     id: 1,
     order: 1
   },
+    {
+    category: "performances",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
+    title: "Garag Garag Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/262dRYmsPc0",
+    event: "Ganesh Chaturthi (Club Performance)",
+    id: 2,
+    order: 2
+  },
 ].map((item, index) => ({
   ...item,
   order: index,

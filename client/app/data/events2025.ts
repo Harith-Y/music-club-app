@@ -15,6 +15,7 @@ export const upcomingEvents: Event[] = [
     category: 'Performances' as const,
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     galleryRoute: "/2025events/winter_concert-2025",
+    order: 2
   },
   {
     id: 1,
@@ -25,7 +26,8 @@ export const upcomingEvents: Event[] = [
     description: "An elegant evening of smooth jazz, featuring both classic standards and modern interpretations.",
     image: "/events/events2025-26/Jazz_Night_2025/JazzNight2025.jpg",
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
-    category: 'Open Mics' as const
+    category: 'Open Mics' as const,
+    order: 1
   },
   {
     id: 0,
@@ -36,7 +38,8 @@ export const upcomingEvents: Event[] = [
     description: "A comprehensive workshop covering music theory fundamentals and practical composition techniques.",
     image: "/events/events2025-26/Music_Theory_Workshop_2025/MusicTheoryWorkshop2025.jpg",
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
-    category: 'Workshops' as const
+    category: 'Workshops' as const,
+    order: 0
   },
   {
     id: 3,
@@ -48,6 +51,20 @@ export const upcomingEvents: Event[] = [
     image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
     category: "Performances",
     galleryRoute: "/2025events/independence_day-2025",
+    order: 3
+  },
+
+  {
+    id: 4,
+    title: "Ganesh Chaturthi (Club Performance)",
+    date: "August 27, 2025",
+    time: "2:00 PM",
+    location: "Ashwatha Hostel",
+    description: "Performance to celebrate the feastival of Lord Ganesha.",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
+    category: "Performances",
+    galleryRoute: "/2025events/ganesh_chaturthi-2025",
+    order: 4
   }
 ].map((item, index) => ({
   ...item,
