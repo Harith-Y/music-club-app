@@ -1,6 +1,18 @@
 import { Event } from './events2024';
 
-export const pastEvents: Event[] = [];
+export const pastEvents: Event[] = [
+  {
+    id: 1,
+    title: "Independence Day (Club Performance)",
+    date: "August 15, 2025",
+    time: "8:30 AM",
+    location: "Main Gate",
+    description: "Patriotic performance to celebrate the Nation's Independence.",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    category: "Performances",
+    galleryRoute: "/2025events/independence_day-2025",
+  }
+];
 
 export const upcomingEvents: Event[] = [
   {
@@ -41,6 +53,7 @@ export const upcomingEvents: Event[] = [
     category: 'Workshops' as const,
     order: 0
   },
+<<<<<<< HEAD
   {
     id: 3,
     title: "Independence Day (Club Performance)",
@@ -66,6 +79,9 @@ export const upcomingEvents: Event[] = [
     galleryRoute: "/2025events/ganesh_chaturthi-2025",
     order: 4
   }
+=======
+  
+>>>>>>> 984323bb7006e1113c6ed17d60bd6b2a92b5a627
 ].map((item, index) => ({
   ...item,
   order: index,
