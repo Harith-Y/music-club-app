@@ -2,6 +2,18 @@ import { Event } from './events2024';
 
 export const pastEvents: Event[] = [
   {
+    id: 2,
+    title: "Ganesh Chaturthi (Club Performance)",
+    date: "August 27, 2025",
+    time: "2:00 PM",
+    location: "Ashwatha Hostel",
+    description: "Performance to celebrate the feastival of Lord Ganesha.",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
+    category: "Performances",
+    galleryRoute: "/2025events/ganesh_chaturthi-2025",
+    order: 2
+  },
+  {
     id: 1,
     title: "Independence Day (Club Performance)",
     date: "August 15, 2025",
@@ -11,7 +23,8 @@ export const pastEvents: Event[] = [
     image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
     category: "Performances",
     galleryRoute: "/2025events/independence_day-2025",
-  }
+    order: 1
+  }  
 ];
 
 export const upcomingEvents: Event[] = [
@@ -53,32 +66,6 @@ export const upcomingEvents: Event[] = [
     category: 'Workshops' as const,
     order: 0
   },
-  {
-    id: 3,
-    title: "Independence Day (Club Performance)",
-    date: "August 15, 2025",
-    time: "8:30 AM",
-    location: "Main Gate",
-    description: "Patriotic performance to celebrate the Nation's Independence.",
-    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
-    category: "Performances",
-    galleryRoute: "/2025events/independence_day-2025",
-    order: 3
-  },
-
-  {
-    id: 4,
-    title: "Ganesh Chaturthi (Club Performance)",
-    date: "August 27, 2025",
-    time: "2:00 PM",
-    location: "Ashwatha Hostel",
-    description: "Performance to celebrate the feastival of Lord Ganesha.",
-    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
-    category: "Performances",
-    galleryRoute: "/2025events/ganesh_chaturthi-2025",
-    order: 4
-  }
-
 ].map((item, index) => ({
   ...item,
   order: index,
