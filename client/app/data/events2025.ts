@@ -53,7 +53,6 @@ export const upcomingEvents: Event[] = [
     category: 'Workshops' as const,
     order: 0
   },
-<<<<<<< HEAD
   {
     id: 3,
     title: "Independence Day (Club Performance)",
@@ -79,9 +78,7 @@ export const upcomingEvents: Event[] = [
     galleryRoute: "/2025events/ganesh_chaturthi-2025",
     order: 4
   }
-=======
-  
->>>>>>> 984323bb7006e1113c6ed17d60bd6b2a92b5a627
+
 ].map((item, index) => ({
   ...item,
   order: index,
