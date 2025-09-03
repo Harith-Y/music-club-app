@@ -82,10 +82,32 @@ export const galleryItems: GalleryItem[] = [
     image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi_2.jpg",
     title: "Atach Bayee Cover",
     type: 'video' as const,
-    videoUrl: "https://www.youtube.com/embed/F1sBihLBPB4",
+    videoUrl: "https://www.youtube.com/embed/UcxsdDxzbBI",
     event: "Ganesh Chaturthi (Club Performance)",
     id: 4,
     order: 4
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi_2.jpg",
+    title: "Teri Deewnai Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/zhYIK5OMXaI",
+    event: "Ganesh Chaturthi (Club Performance)",
+    id: 5,
+    order: 5
+  },
+
+  {
+    category: "jams",
+    image: "/gallery/gallery2024-25/Team2025-26/Music Club.jpg",
+    title: "Garaj Garaj Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/VeJ8v_iVLAg",
+    event: "",
+    id: 6,
+    order: 6
   },
 ].map((item, index) => ({
   ...item,
