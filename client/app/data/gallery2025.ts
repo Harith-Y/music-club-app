@@ -55,15 +55,59 @@ export const galleryItems: GalleryItem[] = [
     id: 1,
     order: 1
   },
-    {
+
+  {
     category: "performances",
     image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
-    title: "Garag Garag Cover",
+    title: "Garaj Garaj Rock Cover",
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/262dRYmsPc0",
     event: "Ganesh Chaturthi (Club Performance)",
     id: 2,
     order: 2
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
+    title: "Phulpakharu Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/JXOr_CA6Wm4",
+    event: "Ganesh Chaturthi (Club Performance)",
+    id: 3,
+    order: 3
+  },
+  {
+    category: "performances",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi_2.jpg",
+    title: "Atach Bayee Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/UcxsdDxzbBI",
+    event: "Ganesh Chaturthi (Club Performance)",
+    id: 4,
+    order: 4
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi_2.jpg",
+    title: "Teri Deewnai Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/zhYIK5OMXaI",
+    event: "Ganesh Chaturthi (Club Performance)",
+    id: 5,
+    order: 5
+  },
+
+  {
+    category: "jams",
+    image: "/gallery/gallery2024-25/Team2025-26/Music Club.jpg",
+    title: "Garaj Garaj Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/VeJ8v_iVLAg",
+    event: "",
+    id: 6,
+    order: 6
   },
 ].map((item, index) => ({
   ...item,
