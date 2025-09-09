@@ -35,26 +35,16 @@ export function insertGalleryItem(items: GalleryItem[], newItem: Omit<GalleryIte
 
 export const galleryItems: GalleryItem[] = [
   // 2025 gallery items will be added here
-  {
-    category: "performances",
-    image: "/NoThumbnail.jpg",
-    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/NoThumbnail.jpg?alt=media&token=207d52dc-f14d-4ad0-a9cb-f5016454d32e",
-    title: "Stage Set-Up",
-    type: 'image' as const,
-    event: "Winter Concert (Club Performance)",
-    id: 0,
-    order: 0
-  },
-  {
-    category: "performances",
-    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
-    title: "Independence Day Performance",
-    type: 'video' as const,
-    videoUrl: "https://www.youtube.com/embed/hhS_ZfFmpTQ",
-    event: "Independence Day (Club Performance)",
-    id: 1,
-    order: 1
-  },
+  // {
+  //   category: "performances",
+  //   image: "/NoThumbnail.jpg",
+  //   // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/NoThumbnail.jpg?alt=media&token=207d52dc-f14d-4ad0-a9cb-f5016454d32e",
+  //   title: "Stage Set-Up",
+  //   type: 'image' as const,
+  //   event: "Winter Concert (Club Performance)",
+  //   id: 0,
+  //   order: 0
+  // },
 
   {
     category: "performances",
@@ -91,7 +81,7 @@ export const galleryItems: GalleryItem[] = [
   {
     category: "performances",
     image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi_2.jpg",
-    title: "Teri Deewnai Cover",
+    title: "Teri Deewani Cover",
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/zhYIK5OMXaI",
     event: "Ganesh Chaturthi (Club Performance)",
@@ -109,6 +99,16 @@ export const galleryItems: GalleryItem[] = [
     id: 6,
     order: 6
   },
+  {
+    category: "performances",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    title: "Independence Day Performance",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/hhS_ZfFmpTQ",
+    event: "Independence Day (Club Performance)",
+    id: 1,
+    order: 1
+  }
 ].map((item, index) => ({
   ...item,
   order: index,

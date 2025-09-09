@@ -3,6 +3,20 @@ import { Event } from './events2024';
 export const pastEvents: Event[] = [
   {
     id: 2,
+    title: "Blastroduction",
+    date: "September 8, 2025",
+    time: "4:00 PM",
+    location: "H05",
+    description: "A spectacular showcase introducing the Music Club's talent to the institute, featuring our finest performers and diverse musical styles.",
+    image: "/events/events2025-26/Blastroduction_2025/Blastroduction2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
+    category: 'Performances' as const,
+    galleryRoute: "/2025events/blastroduction-2025",
+    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    order: 2
+  },
+  {
+    id: 2,
     title: "Ganesh Chaturthi (Club Performance)",
     date: "August 27, 2025",
     time: "2:00 PM",
@@ -28,18 +42,31 @@ export const pastEvents: Event[] = [
 ];
 
 export const upcomingEvents: Event[] = [
+  // {
+  //   id: 2,
+  //   title: "Winter Concert (Club Performance)",
+  //   date: "October 5, 2025",
+  //   time: "6:00 PM",
+  //   location: "H05",
+  //   description: "A grand musical finale to the year, featuring performances from all club sections.",
+  //   image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
+  //   // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
+  //   category: 'Performances' as const,
+  //   // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  //   galleryRoute: "/2025events/winter_concert-2025",
+  //   order: 2
+  // },
   {
     id: 2,
-    title: "Winter Concert (Club Performance)",
-    date: "October 5, 2025",
-    time: "6:00 PM",
-    location: "H05",
-    description: "A grand musical finale to the year, featuring performances from all club sections.",
-    image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
-    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
-    category: 'Performances' as const,
-    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    galleryRoute: "/2025events/winter_concert-2025",
+    title: "1st Open Mic Night",
+    date: "September 9, 2025",
+    time: "7:45 PM",
+    location: "Music Room",
+    description: "The inaugural open mic night, setting the stage for future musical collaborations.",
+    image: "/events/events2025-26/Open_Mic_September_2025/OpenMicSeptember9.jpg",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfoGXRgP_tri8WNY1ISP3GE28etFzXQdqGSbWqAsaK05qXMQg/viewform",
+    category: "Open Mics",
+    galleryRoute: "/2025events/open_mic-sep-2025",
     order: 2
   },
   {
@@ -56,20 +83,7 @@ export const upcomingEvents: Event[] = [
     galleryRoute: "/2025events/onam-2025",
     order: 1
   },
-  {
-    id: 0,
-    title: "Blastroduction",
-    date: "September 8, 2025",
-    time: "4:00 PM",
-    location: "H05",
-    description: "A spectacular showcase introducing the Music Club's talent to the institute, featuring our finest performers and diverse musical styles.",
-    image: "/events/events2025-26/Blastroduction_2025/Blastroduction2025.jpg",
-    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
-    category: 'Performances' as const,
-    galleryRoute: "/2025events/blastroduction-2025",
-    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    order: 0
-  },
+  
 ].map((item, index) => ({
   ...item,
   order: index,
