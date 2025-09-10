@@ -3,17 +3,17 @@ import { TeamMember } from './team';
 export const coreMembers2025: TeamMember[] = [
   { 
     id: 1,
-    name: 'Dikshant', 
-    role: 'Percussionist', 
-    image: '/crew/Team2025/Dikshant.jpg', 
+    name: '', 
+    role: '', 
+    image: '/crew/Team2025/Dikshant.png', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDikshant.jpg?alt=media&token=441986e3-e99e-4997-92e6-7155079c892e", 
     bio: 'Multi-instrumental percussionist specializing in experimental rhythms and cinematic sound design.' 
   },
   { 
     id: 2, 
-    name: 'Shriya', 
-    role: 'Vocalist', 
-    image: '/crew/Team2025/Shriya.jpg', 
+    name: '', 
+    role: '', 
+    image: '/crew/Team2025/Shriya.png', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FShriya.jpg?alt=media&token=0d5e5e06-8990-4a59-9c41-2873e8156ac4", 
     bio: 'Versatile vocalist with a unique blend of Carnatic and Western techniques, excelling in improvisation.' 
   }
@@ -22,76 +22,76 @@ export const coreMembers2025: TeamMember[] = [
 export const leads2025: TeamMember[] = [
   { 
     id: 1, 
-    name: 'Meera R', 
-    role: 'Vocal and Design Lead', 
-    image: '/crew/Team2025/MeeraR.jpg', 
+    name: '', 
+    role: '', 
+    image: '/crew/Team2025/Meera R.png', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FMeeraR.jpg?alt=media&token=130f7570-4d77-43c8-b1ad-dc1695eeb0cc",
     bio: 'Vocalist and creative designer managing social media content and outreach with external bands.' 
   },
   { 
     id: 2, 
-    name: 'David J Sharon', 
-    role: 'Technical and Sound Lead', 
-    image: '/crew/Team2025/DJ.jpg', 
+    name: '', 
+    role: '', 
+    image: '/crew/Team2025/Sharon David J.png', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FDJ.jpg?alt=media&token=7818b2f8-bde3-40c5-9e2d-e0a283e19b3d",
     bio: 'Beatboxer and FL Studio expert. Handles music production, mixing, and creates original compositions.' 
   },
   { 
     id: 3, 
-    name: 'Omkar', 
-    role: 'Guitar and Logistics Lead', 
-    image: '/crew/Team2025/Omkar.jpg', 
+    name: '', 
+    role: '', 
+    image: '/crew/Team2025/Omkar.png', 
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Crew%2FTeam2025%2FOmkar.jpg?alt=media&token=baaf4c3d-2fb6-4e63-8293-2cbf72a4c308",
     bio: 'Guitarist managing event operations. Ensures smooth execution of club events and performances.' 
   }
 ];
 
 export const coordinators2025: TeamMember[] = [
-  { id: 1, name: 'Gokul Krishna',
-    role: 'Pianist',
-    image: '/crew/Team2025/Gokul Krishna.jpg',
+  { id: 1, name: '',
+    role: '',
+    image: '/crew/Team2025/Gokul Krishna.png',
     bio: 'Innovative Music Producer and a Professional Pianist with expertise in electronic music.'
   },
   { id: 2,
-    name: 'Priyansu',
-    role: 'Vocalist',
-    image: '/crew/Team2025/Priyansu.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Priyansu.png',
     bio: 'Classical Vocalist with mastery in both traditional and modern vocal techniques.'
   },
   { id: 3, 
-    name: 'Aayushya',
-    role: 'Guitarist',
-    image: '/crew/Team2025/Aayushya.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Aayushya.png',
     bio: 'Skilled Acoustic Guitarist with a natural ability to create smooth, melodic rhythms, bringing warmth and depth.'
   },
   { id: 4,
-    name: 'Dhriti J N',
-    role: 'Guitarist & Graphic Designer',
-    image: '/crew/Team2025/Dhriti J N.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Dhriti J N.png',
     bio: 'Guitarist & Graphic Designer with a deep understanding of groove and harmony in modern music.'
   },
   { id: 5,
-    name: 'Yashas',
-    role: 'Percussionist',
-    image: '/crew/Team2025/Yashas.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Yashas.png',
     bio: 'A dynamic drummer, skilled at laying down powerful rhythms and adding intricate beats that drive the energy of any performance.'
   },
   { id: 6,
-    name: 'Anuj',
-    role: 'Guitarist',
-    image: '/crew/Team2025/Anuj.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Anuj.png',
     bio: 'Talented Electric Guitarist, known for his sharp riffs and smooth solos that bring energy and edge.'
   },
   { id: 7,
-    name: 'Harini',
-    role: 'Vocalist',
-    image: '/crew/Team2025/Harini.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Harini.png',
     bio: 'Classical Vocalist with a breathtaking range, effortlessly soaring to the highest pitches with clarity and control.'
   },
   { id: 8,
-    name: 'Piyush Mishra',
-    role: 'Guitarist & Graphic Designer',
-    image: '/crew/Team2025/Piyush Mishra.jpg',
+    name: '',
+    role: '',
+    image: '/crew/Team2025/Piyush Mishra.png',
     bio: 'Skilled Electric Guitarist and Graphic Designer, with a knack for crafting dynamic soundscapes through mixing.'
   },
 ];

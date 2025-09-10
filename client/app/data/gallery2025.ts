@@ -99,12 +99,35 @@ export const galleryItems: GalleryItem[] = [
     id: 6,
     order: 6
   },
+
   {
     category: "performances",
     image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
-    title: "Independence Day Performance",
+    title: "Rang De Basanti Rock Cover",
     type: 'video' as const,
-    videoUrl: "https://www.youtube.com/embed/hhS_ZfFmpTQ",
+    videoUrl: "https://www.youtube.com/embed/qh1ehMfgvKA",
+    event: "Independence Day (Club Performance)",
+    id: 7,
+    order: 7
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    title: "Teri Mitti Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/6ToECouP3Oo",
+    event: "Independence Day (Club Performance)",
+    id: 8,
+    order: 8
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    title: "Challa Rock Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/fL-jYC7M5IM",
     event: "Independence Day (Club Performance)",
     id: 1,
     order: 1

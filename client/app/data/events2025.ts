@@ -2,7 +2,7 @@ import { Event } from './events2024';
 
 export const pastEvents: Event[] = [
   {
-    id: 2,
+    id: 3,
     title: "Blastroduction",
     date: "September 8, 2025",
     time: "4:00 PM",
