@@ -2,7 +2,20 @@ import { Event } from './events2024';
 
 export const pastEvents: Event[] = [
   {
-    id: 2,
+    id: 4,
+    title: "1st Open Mic Night",
+    date: "September 9, 2025",
+    time: "7:45 PM",
+    location: "Music Room",
+    description: "The inaugural open mic night, setting the stage for future musical collaborations.",
+    image: "/events/events2025-26/Open_Mic_September_2025/OpenMicSeptember9.jpg",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfoGXRgP_tri8WNY1ISP3GE28etFzXQdqGSbWqAsaK05qXMQg/viewform",
+    category: "Open Mics",
+    galleryRoute: "/2025events/open_mic-sep-2025",
+    order: 4
+  },
+  {
+    id: 3,
     title: "Blastroduction",
     date: "September 8, 2025",
     time: "4:00 PM",
@@ -13,7 +26,7 @@ export const pastEvents: Event[] = [
     category: 'Performances' as const,
     galleryRoute: "/2025events/blastroduction-2025",
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    order: 2
+    order: 3
   },
   {
     id: 2,
@@ -56,23 +69,11 @@ export const upcomingEvents: Event[] = [
   //   galleryRoute: "/2025events/winter_concert-2025",
   //   order: 2
   // },
-  {
-    id: 2,
-    title: "1st Open Mic Night",
-    date: "September 9, 2025",
-    time: "7:45 PM",
-    location: "Music Room",
-    description: "The inaugural open mic night, setting the stage for future musical collaborations.",
-    image: "/events/events2025-26/Open_Mic_September_2025/OpenMicSeptember9.jpg",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfoGXRgP_tri8WNY1ISP3GE28etFzXQdqGSbWqAsaK05qXMQg/viewform",
-    category: "Open Mics",
-    galleryRoute: "/2025events/open_mic-sep-2025",
-    order: 2
-  },
+  
   {
     id: 1,
     title: "Onam (Club Performance)",
-    date: "September 10, 2025",
+    date: "September 14, 2025",
     time: "8:00 PM",
     location: "Ashwatha Hostel",
     description: "Performance to celebrate the feastival of Onam.",
