@@ -73,7 +73,7 @@ const AboutSection = () => {
           >
             <Image
               // src="https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Music_Room.jpg?alt=media&token=ee095ede-9085-4d22-8b7b-e570b549fff1"
-              src="/Music_Room.jpg"
+              src="/Music Room.jpg"
               alt="Music Club Activities"
               fill
               style={{ objectFit: 'cover' }}

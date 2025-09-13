@@ -47,7 +47,7 @@ export const pastEvents: Event[] = [
     time: "8:30 AM",
     location: "Main Gate",
     description: "Patriotic performance to celebrate the Nation's Independence.",
-    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025.png",
+    image: "/events/events2025-26/Independence_Day_2025/Independence Day2025_1.png",
     category: "Performances",
     galleryRoute: "/2025events/independence_day-2025",
     order: 1
