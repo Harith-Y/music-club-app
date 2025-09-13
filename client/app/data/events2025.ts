@@ -8,7 +8,7 @@ export const pastEvents: Event[] = [
     time: "7:45 PM",
     location: "Music Room",
     description: "The inaugural open mic night, setting the stage for future musical collaborations.",
-    image: "/events/events2025-26/Open_Mic_September_2025/OpenMicSeptember9.jpg",
+    image: "/events/events2025-26/Open_Mic_September_2025/OpenMicSeptember9.png",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfoGXRgP_tri8WNY1ISP3GE28etFzXQdqGSbWqAsaK05qXMQg/viewform",
     category: "Open Mics",
     galleryRoute: "/2025events/open_mic-sep-2025",
