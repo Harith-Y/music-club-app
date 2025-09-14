@@ -16,14 +16,14 @@ export const pastEvents: Event[] = [
   },
   {
     id: 3,
-    title: "Blastroduction",
+    title: "Blastroduction (Club Performance)",
     date: "September 8, 2025",
     time: "4:00 PM",
     location: "H05",
     description: "A spectacular showcase introducing the Music Club's talent to the institute, featuring our finest performers and diverse musical styles.",
     image: "/events/events2025-26/Blastroduction_2025/Blastroduction2025.jpg",
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FMusic_Theory_Workshop_2025%2FMusicTheoryWorkshop2025.jpg?alt=media&token=9c98c712-183c-46f3-8909-93ced4f77cdf",
-    category: 'Performances' as const,
+    category: "Performances",
     galleryRoute: "/2025events/blastroduction-2025",
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     order: 3
