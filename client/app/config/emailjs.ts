@@ -27,7 +27,7 @@ export const EMAILJS_CONFIG = {
 } as const;
 
 // Template variables that will be sent to EmailJS
-export interface EmailJSTemplateParams {
+export interface EmailJSTemplateParams extends Record<string, unknown> {
   from_name: string;
   from_email: string;
   subject: string;
