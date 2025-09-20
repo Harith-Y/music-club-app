@@ -4,6 +4,8 @@ import { FaMapMarkerAlt, FaEnvelope, FaUsers } from 'react-icons/fa';
 import AnimatedSection from '../../components/layout/AnimatedSection';
 import SocialIcon from '../../components/ui/SocialIcon';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { EMAILJS_CONFIG, EmailJSTemplateParams } from '../../config/emailjs';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -29,20 +31,24 @@ const ContactSection = () => {
     setErrorMessage('');
 
     try {
-      const response = await fetch('https://us-central1-music-club-app-802a6.cloudfunctions.net/submitContactForm', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      // Prepare template parameters
+      const templateParams: EmailJSTemplateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        to_email: EMAILJS_CONFIG.TO_EMAIL,
+      };
 
-      const data = await response.json();
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        templateParams,
+        EMAILJS_CONFIG.PUBLIC_KEY
+      );
 
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to send message');
-      }
-
+      console.log('Email sent successfully:', result);
       setStatus('success');
       setFormData({
         name: '',
@@ -51,8 +57,9 @@ const ContactSection = () => {
         message: ''
       });
     } catch (error) {
+      console.error('Error sending email:', error);
       setStatus('error');
-      setErrorMessage(error instanceof Error ? error.message : 'An error occurred');
+      setErrorMessage(error instanceof Error ? error.message : 'An error occurred while sending the message');
     }
   };
 
