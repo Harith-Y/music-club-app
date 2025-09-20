@@ -6,7 +6,7 @@ import { FaInstagram, FaYoutube, FaTree, FaEnvelope, FaMapMarkerAlt, FaPhone, Fa
 
 const Footer = () => {
   const pathname = usePathname();
-  const isTeamPage = pathname === '/2024team' || pathname === '/2025team';
+  const isHomePage = pathname === '/';
 
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-6">
@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href={isTeamPage ? "/#about" : "#about"} 
+                  href={isHomePage ? "#about" : "/#about"} 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   About Us
@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
-                  href={isTeamPage ? "/#contact" : "#contact"} 
+                  href={isHomePage ? "#contact" : "/#contact"} 
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Contact
