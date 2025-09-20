@@ -17,19 +17,19 @@ const transporter = nodemailer.createTransport({
 });
 
 // HTTP endpoint to handle contact form submissions
-export const submitContactForm = functions.https.onRequest(async (req, res) => {
-  // Enable CORS
+export const submitContactForm = functions.https.onRequest(async (req: functions.Request, res: functions.Response) => {
+  // Enable CORS for all responses
   res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   
   if (req.method === 'OPTIONS') {
-    res.set('Access-Control-Allow-Methods', 'POST');
-    res.set('Access-Control-Allow-Headers', 'Content-Type');
     res.status(204).send('');
     return;
   }
 
   if (req.method !== 'POST') {
-    res.status(405).send('Method Not Allowed');
+    res.status(405).json({ error: 'Method Not Allowed' });
     return;
   }
 
