@@ -69,7 +69,7 @@ const HeroSection = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
           >
             <Link 
-              href="events" 
+              href="2025events" 
               className="btn-primary bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             >
               Upcoming Events
