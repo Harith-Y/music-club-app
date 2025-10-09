@@ -2,6 +2,20 @@ import { Event } from './events2024';
 
 export const pastEvents: Event[] = [
   {
+    id: 5,
+    title: "Onam (Club Performance)",
+    date: "September 14, 2025",
+    time: "8:00 PM",
+    location: "Ashwatha Hostel",
+    description: "Performance to celebrate the feastival of Onam.",
+    image: "/events/events2025-26/Onam_2025/Onam2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
+    category: 'Performances' as const,
+    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    galleryRoute: "/2025events/onam-2025",
+    order: 5
+  },
+  {
     id: 4,
     title: "1st Open Mic Night",
     date: "September 9, 2025",
@@ -72,16 +86,16 @@ export const upcomingEvents: Event[] = [
   
   {
     id: 1,
-    title: "Onam (Club Performance)",
-    date: "September 14, 2025",
+    title: "Meraki (Club Performance)",
+    date: "October 12, 2025",
     time: "8:00 PM",
-    location: "Ashwatha Hostel",
-    description: "Performance to celebrate the feastival of Onam.",
-    image: "/events/events2025-26/Onam_2025/Onam2025.jpg",
+    location: "Open Air Theatre",
+    description: "Performance of the semester!",
+    image: "/events/events2025-26/Meraki_2025/Meraki2025.jpg",
     // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
     category: 'Performances' as const,
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    galleryRoute: "/2025events/onam-2025",
+    galleryRoute: "/2025events/meraki-2025",
     order: 1
   },
   
