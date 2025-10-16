@@ -97,6 +97,19 @@ export const upcomingEvents: Event[] = [
   //   galleryRoute: "/2025events/winter_concert-2025",
   //   order: 2
   // },
+  {
+    id: 1,
+    title: "Republic Day (Club Performance)",
+    date: "January 26, 2026",
+    time: "7:00 AM",
+    location: "Open Air Theatre",
+    description: "Patriotic melodies and cultural performances to celebrate our nation's spirit.",
+    image: "/events/events2024-25/Republic_Day_2025/RepublicDay2025.jpg", // Update this later @David
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2024-25%2FRepublic_Day_2025%2FRepublicDay2025.jpg?alt=media&token=279f0048-2663-4f8b-b084-892d048ce298",
+    category: "Performances",
+    galleryRoute: "/2024events/republic_day-2025", // Update this later @David
+    order: 1
+  },
   
 ].map((item, index) => ({
   ...item,
