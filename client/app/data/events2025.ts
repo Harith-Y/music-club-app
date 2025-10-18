@@ -2,6 +2,34 @@ import { Event } from './events2024';
 
 export const pastEvents: Event[] = [
   {
+    id: 6,
+    title: "Meraki (Club Performance)",
+    date: "October 12, 2025",
+    time: "8:00 PM",
+    location: "Open Air Theatre",
+    description: "Performance of the semester!",
+    image: "/events/events2025-26/Meraki_2025/Meraki2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
+    category: 'Performances' as const,
+    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    galleryRoute: "/2025events/meraki-2025",
+    order: 6
+  },
+  {
+    id: 5,
+    title: "Onam (Club Performance)",
+    date: "September 14, 2025",
+    time: "8:00 PM",
+    location: "Ashwatha Hostel",
+    description: "Performance to celebrate the feastival of Onam.",
+    image: "/events/events2025-26/Onam_2025/Onam2025.jpg",
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FJazz_Night_2025%2FJazzNight2025.jpg?alt=media&token=34cee50b-78b9-4fbc-a083-238610b2a008",
+    category: 'Performances' as const,
+    // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    galleryRoute: "/2025events/onam-2025",
+    order: 5
+  },
+  {
     id: 4,
     title: "1st Open Mic Night",
     date: "September 9, 2025",
@@ -55,6 +83,7 @@ export const pastEvents: Event[] = [
 ];
 
 export const upcomingEvents: Event[] = [
+<<<<<<< HEAD
   {
     id: 2,
     title: "Winter Concert (Club Performance)",
@@ -68,6 +97,34 @@ export const upcomingEvents: Event[] = [
     // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     galleryRoute: "/2025events/winter_concert-2025",
     order: 2
+=======
+  // {
+  //   id: 2,
+  //   title: "Winter Concert (Club Performance)",
+  //   date: "October 5, 2025",
+  //   time: "6:00 PM",
+  //   location: "H05",
+  //   description: "A grand musical finale to the year, featuring performances from all club sections.",
+  //   image: "/events/events2025-26/Winter_Concert_2025/WinterConcert2025.jpg",
+  //   // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2025-26%2FWinter_Concert_2025%2FWinterConcert2025.jpg?alt=media&token=47e09df5-f77f-479e-a0e2-c8e69a575edc",
+  //   category: 'Performances' as const,
+  //   // youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  //   galleryRoute: "/2025events/winter_concert-2025",
+  //   order: 2
+  // },
+  {
+    id: 1,
+    title: "Republic Day (Club Performance)",
+    date: "January 26, 2026",
+    time: "7:00 AM",
+    location: "Open Air Theatre",
+    description: "Patriotic melodies and cultural performances to celebrate our nation's spirit.",
+    image: "/events/events2024-25/Republic_Day_2025/RepublicDay2025.jpg", // Update this later @David
+    // image: "https://firebasestorage.googleapis.com/v0/b/music-club-app-802a6.firebasestorage.app/o/Events%2FEvents2024-25%2FRepublic_Day_2025%2FRepublicDay2025.jpg?alt=media&token=279f0048-2663-4f8b-b084-892d048ce298",
+    category: "Performances",
+    galleryRoute: "/2024events/republic_day-2025", // Update this later @David
+    order: 1
+>>>>>>> 56258780ad6b8071230aec9b8066e2f6959ff908
   },
   
   // {
