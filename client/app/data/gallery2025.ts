@@ -131,7 +131,29 @@ export const galleryItems: GalleryItem[] = [
     event: "Independence Day (Club Performance)",
     id: 1,
     order: 1
-  }
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
+    title: "Zinda Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/l1fRImnl7Jo",
+    event: "Blastroduction (Club Performance)",
+    id: 9,
+    order: 9
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
+    title: "Maatae Vinadhuga Rock Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/8YeY7iXA6Oc",
+    event: "Blastroduction (Club Performance)",
+    id: 10,
+    order: 10
+  },
 ].map((item, index) => ({
   ...item,
   order: index,
