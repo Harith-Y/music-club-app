@@ -45,7 +45,30 @@ export const galleryItems: GalleryItem[] = [
   //   id: 0,
   //   order: 0
   // },
+  
 
+  {
+    category: "performances",
+    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
+    title: "Maatae Vinadhuga Rock Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/8YeY7iXA6Oc",
+    event: "Blastroduction (Club Performance)",
+    id: 10,
+    order: 10
+  },
+
+  {
+    category: "performances",
+    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
+    title: "Zinda Cover",
+    type: 'video' as const,
+    videoUrl: "https://www.youtube.com/embed/l1fRImnl7Jo",
+    event: "Blastroduction (Club Performance)",
+    id: 9,
+    order: 9
+  },
+  
   {
     category: "performances",
     image: "/events/events2025-26/Ganesh_Chaturthi_2025/Ganesh Chaturthi.jpg",
@@ -53,8 +76,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/262dRYmsPc0",
     event: "Ganesh Chaturthi (Club Performance)",
-    id: 2,
-    order: 2
+    id: 8,
+    order: 8
   },
 
   {
@@ -64,8 +87,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/JXOr_CA6Wm4",
     event: "Ganesh Chaturthi (Club Performance)",
-    id: 3,
-    order: 3
+    id: 7,
+    order: 7
   },
   {
     category: "performances",
@@ -74,8 +97,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/UcxsdDxzbBI",
     event: "Ganesh Chaturthi (Club Performance)",
-    id: 4,
-    order: 4
+    id: 6,
+    order: 6
   },
 
   {
@@ -96,8 +119,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/VeJ8v_iVLAg",
     event: "",
-    id: 6,
-    order: 6
+    id: 4,
+    order: 4
   },
 
   {
@@ -107,8 +130,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/qh1ehMfgvKA",
     event: "Independence Day (Club Performance)",
-    id: 7,
-    order: 7
+    id: 3,
+    order: 3
   },
 
   {
@@ -118,8 +141,8 @@ export const galleryItems: GalleryItem[] = [
     type: 'video' as const,
     videoUrl: "https://www.youtube.com/embed/6ToECouP3Oo",
     event: "Independence Day (Club Performance)",
-    id: 8,
-    order: 8
+    id: 2,
+    order: 2
   },
 
   {
@@ -131,29 +154,7 @@ export const galleryItems: GalleryItem[] = [
     event: "Independence Day (Club Performance)",
     id: 1,
     order: 1
-  },
-
-  {
-    category: "performances",
-    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
-    title: "Zinda Cover",
-    type: 'video' as const,
-    videoUrl: "https://www.youtube.com/embed/l1fRImnl7Jo",
-    event: "Blastroduction (Club Performance)",
-    id: 9,
-    order: 9
-  },
-
-  {
-    category: "performances",
-    image: "/events/events2025-26/Blastroduction_2025/Blastroduction_1.JPG",
-    title: "Maatae Vinadhuga Rock Cover",
-    type: 'video' as const,
-    videoUrl: "https://www.youtube.com/embed/8YeY7iXA6Oc",
-    event: "Blastroduction (Club Performance)",
-    id: 10,
-    order: 10
-  },
+  }
 ].map((item, index) => ({
   ...item,
   order: index,
